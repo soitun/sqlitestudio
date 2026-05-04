@@ -28,9 +28,14 @@ class GUI_API_EXPORT ExecFromFileDialog : public QDialog
 
     private:
         void init();
+        void storeStdConfig();
+        void readStdConfig();
 
         Ui::ExecFromFileDialog *ui;
         DbListModel* dbListModel = nullptr;
+
+    public slots:
+        void accept();
 
     private slots:
         void browseForInputFile();

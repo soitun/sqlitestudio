@@ -45,6 +45,7 @@
 - ADDED: #4623 Form View row number is now an editable input, allowing to jump to arbitraty row number within currently loaded page of data.
 - ADDED: #4539 Added the Open In Editor button to DDL preview dialog.
 - ADDED: #5290 Execute From File Dialog now supports 3 execution modes, allowing SQLite CLI dot commands in the executed file.
+- ADDED: #4873 Execute From File Dialog remembers its settings for another use.
 - ADDED: #4225 Foreign Key constraint configuration dialogs now warns about using foreign column that is neither PRIMARY KEY nor UNIQUE.
 - ADDED: #5085 Added 'Cut' entry to context menu of data Grid View.
 - ADDED: #4709 Added option in configuration to sort data by single-click on a header. Ehnanced data header tooltips to include this information there.

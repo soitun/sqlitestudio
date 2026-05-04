@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>400</width>
-    <height>399</height>
+    <height>428</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -91,7 +91,7 @@
          <item>
           <widget class="QRadioButton" name="strictModeRadio">
            <property name="toolTip">
-            <string>Any content that is not valid SQL will cause a statement to fail.</string>
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Any content that is not valid SQL will cause a statement to fail.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
            <property name="text">
             <string>Strict (only SQL content allowed)</string>
@@ -101,7 +101,7 @@
          <item>
           <widget class="QRadioButton" name="permModeRadio">
            <property name="toolTip">
-            <string>Allows dot commands (used by official SQLite CLI application) in the file.</string>
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
            <property name="text">
             <string>Permissive (dot commands ignored)</string>
@@ -111,7 +111,7 @@
          <item>
           <widget class="QRadioButton" name="extModeRadio">
            <property name="toolTip">
-            <string>Allows dot commands (used by official SQLite CLI application) in the file and even executes some of them (i.e. .print and .read). All other dot commands are ignored.</string>
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file and even executes some of them (i.e. .print and .read). All other dot commands are ignored.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
            <property name="text">
             <string>Extended (dot commands executed)</string>

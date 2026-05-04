@@ -1,5 +1,6 @@
 #include "execfromfiledialog.h"
 #include "dblistmodel.h"
+#include "services/config.h"
 #include "ui_execfromfiledialog.h"
 #include "common/utils.h"
 #include "uiconfig.h"
@@ -7,6 +8,12 @@
 #include <QFileDialog>
 #include <QDialogButtonBox>
 #include <QPushButton>
+
+static const QString EXEC_SQL_FILE_DIALOG_CFG_GROUP = "ExecFromFileDialog";
+static const QString EXEC_SQL_FILE_DIALOG_CFG_CODEC = "codec";
+static const QString EXEC_SQL_FILE_DIALOG_CFG_FILE = "inputFileName";
+static const QString EXEC_SQL_FILE_DIALOG_CFG_IGNORE_ERR = "ignoreErrors";
+static const QString EXEC_SQL_FILE_DIALOG_CFG_MODE = "mode";
 
 ExecFromFileDialog::ExecFromFileDialog(QWidget *parent) :
     QDialog(parent),
@@ -79,6 +86,60 @@ void ExecFromFileDialog::init()
 
     ui->encodingCombo->addItems(textCodecNames());
     ui->encodingCombo->setCurrentText(defaultCodecName());
+
+    readStdConfig();
+}
+
+void ExecFromFileDialog::storeStdConfig()
+{
+    CFG->begin();
+    CFG->set(EXEC_SQL_FILE_DIALOG_CFG_GROUP, EXEC_SQL_FILE_DIALOG_CFG_CODEC, ui->encodingCombo->currentText());
+    CFG->set(EXEC_SQL_FILE_DIALOG_CFG_GROUP, EXEC_SQL_FILE_DIALOG_CFG_FILE, ui->fileEdit->text());
+    CFG->set(EXEC_SQL_FILE_DIALOG_CFG_GROUP, EXEC_SQL_FILE_DIALOG_CFG_IGNORE_ERR, ui->skipErrorsCheck->isChecked());
+    CFG->set(EXEC_SQL_FILE_DIALOG_CFG_GROUP, EXEC_SQL_FILE_DIALOG_CFG_MODE, static_cast<int>(getExecutionMode()));
+    CFG->commit();
+}
+
+void ExecFromFileDialog::readStdConfig()
+{
+    int mode = CFG->get(EXEC_SQL_FILE_DIALOG_CFG_GROUP, EXEC_SQL_FILE_DIALOG_CFG_MODE, -1).toInt();
+    switch (static_cast<SqlFileExecutor::ExecutionMode>(mode))
+    {
+        case SqlFileExecutor::STRICT_MODE:
+            ui->strictModeRadio->setChecked(true);
+            break;
+        case SqlFileExecutor::PERMISSIVE:
+            ui->permModeRadio->setChecked(true);
+            break;
+        case SqlFileExecutor::EXTENDED:
+            ui->extModeRadio->setChecked(true);
+            break;
+        default:
+            break;
+    }
+
+    ui->fileEdit->setText(CFG->get(EXEC_SQL_FILE_DIALOG_CFG_GROUP, EXEC_SQL_FILE_DIALOG_CFG_FILE, QString()).toString());
+    ui->skipErrorsCheck->setChecked(CFG->get(EXEC_SQL_FILE_DIALOG_CFG_GROUP, EXEC_SQL_FILE_DIALOG_CFG_IGNORE_ERR, false).toBool());
+
+    QString codec = CFG->get(EXEC_SQL_FILE_DIALOG_CFG_GROUP, EXEC_SQL_FILE_DIALOG_CFG_CODEC).toString();
+    QString defaultCodec = defaultCodecName();
+    if (codec.isNull())
+        codec = defaultCodec;
+
+    int codecIdx = ui->encodingCombo->findText(codec);
+    if (codecIdx == -1 && codec != defaultCodec)
+    {
+        codec = defaultCodec;
+        codecIdx = ui->encodingCombo->findText(codec);
+    }
+    if (codecIdx > -1)
+        ui->encodingCombo->setCurrentIndex(codecIdx);
+}
+
+void ExecFromFileDialog::accept()
+{
+    storeStdConfig();
+    QDialog::accept();
 }
 
 void ExecFromFileDialog::browseForInputFile()
