@@ -339,7 +339,7 @@ QString CompleterWindow::getStatusMsg(const QModelIndex& index)
         case ExpectedToken::NUMBER:
             return tr("Number", "completer statusbar");
         case ExpectedToken::BLOB:
-            return tr("Binary data", "completer statusbar").arg(value);
+            return tr("Binary data", "completer statusbar");
         case ExpectedToken::COLLATION:
             return tr("Collation: %1", "completer statusbar").arg(value);
         case ExpectedToken::PRAGMA:

@@ -117,6 +117,7 @@ void ImportDialog::readStdConfig()
 void ImportDialog::init()
 {
     ui->setupUi(this);
+    setWindowIcon(ICONS.IMPORT);
     limitDialogWidth(this);
     DialogSizeHandler::applyFor(this);
 

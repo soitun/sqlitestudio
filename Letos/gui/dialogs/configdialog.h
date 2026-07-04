@@ -72,6 +72,7 @@ class GUI_API_EXPORT ConfigDialog : public QDialog
     private:
         void init();
         void load();
+        void initCategoriesTree();
         void initPageMap();
         void initInternalCustomConfigWidgets();
         void initFormatterPlugins();
@@ -87,6 +88,8 @@ class GUI_API_EXPORT ConfigDialog : public QDialog
         void initTooltips();
         void initColors();
         void initLookAndFeelPage();
+        void initScale();
+        void initIconSets();
         void applyStyle(QWidget* widget, QStyle* style);
         QTreeWidgetItem* getPluginsCategoryItem() const;
         QTreeWidgetItem* getPluginsCategoryItem(PluginType* type) const;
@@ -116,6 +119,7 @@ class GUI_API_EXPORT ConfigDialog : public QDialog
         void defineDefaultStyleForRendererCombo(QComboBox* combo);
         void defineAltStyleForRendererCombo(QComboBox* combo, int idx);
         void applyRendererComboStyle(QComboBox* combo, int idx);
+        void saveIconSet();
         void rollbackPluginConfigs();
         void rollbackColorsConfig();
         void commitPluginConfigs();
@@ -201,6 +205,7 @@ class GUI_API_EXPORT ConfigDialog : public QDialog
         void notifyPluginsAboutModification(QWidget*, CfgEntry* key, const QVariant& value);
         void resetCodeSyntaxColors();
         void resetShortcuts();
+        void updateIconSetPreview();
 
     public slots:
         void accept();

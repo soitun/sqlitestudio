@@ -3,6 +3,7 @@
 #include "mainwindow.h"
 #include "tipofthedaydialog.h"
 #include "services/notifymanager.h"
+#include "iconmanager.h"
 #include "statusfield.h"
 #include <QAction>
 #include <QFile>
@@ -15,7 +16,8 @@ bool TipOfTheDayPlugin::init()
 {
     SQLS_INIT_RESOURCE(tipoftheday);
 
-    openTotdAction = new QAction(QIcon(":/icons/tipoftheday.svg"), tr("Tip of the Day..."), this);
+    QIcon totdIcon = ICONMANAGER->getIcon("tipoftheday", ":/icons/tipoftheday.svg");
+    openTotdAction = new QAction(totdIcon, tr("Tip of the Day..."), this);
     connect(openTotdAction, SIGNAL(triggered()), this, SLOT(openTotdDialog()));
 
     QAction* aboutAction = MAINWINDOW->getAction(MainWindow::ABOUT);
@@ -104,7 +106,7 @@ QList<TipOfTheDayPlugin::Tip> TipOfTheDayPlugin::parseTipsMd(const QString& mdCo
     QStringList tipLines;
     QString summary;
     QStringList lines = mdContent.trimmed().split("\n");
-    for (const QString& line : lines)
+    for (QString& line : lines)
     {
         if (line.startsWith("## "))
         {

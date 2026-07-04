@@ -344,7 +344,11 @@ bool FunctionsEditorModel::setData(const QModelIndex& index, const QVariant& val
 void FunctionsEditorModel::init()
 {
     for (ScriptingPlugin*& plugin : PLUGINS->getLoadedPlugins<ScriptingPlugin>())
-        langToIcon[plugin->getLanguage()] = QIcon(plugin->getIconPath());
+    {
+        QString path = plugin->getIconPath();
+        QString name = QFileInfo(path).baseName();
+        langToIcon[plugin->getLanguage()] = ICONMANAGER->getIcon(name, path);
+    }
 }
 
 QList<FunctionsEditorModel::UniqueFunctionName> FunctionsEditorModel::getUniqueFunctionNames() const

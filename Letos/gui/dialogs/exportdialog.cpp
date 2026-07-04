@@ -58,6 +58,7 @@ ExportDialog::~ExportDialog()
 void ExportDialog::init()
 {
     ui->setupUi(this);
+    setWindowIcon(ICONS.EXPORT);
     limitDialogWidth(this);
     DialogSizeHandler::applyFor(this);
 

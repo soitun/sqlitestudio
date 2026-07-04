@@ -187,7 +187,7 @@ void ErdWindow::createActions()
     ui->toolBar->addAction(actionMap[REDO]);
     ui->toolBar->addSeparator();
     createAction(NEW_TABLE, ICONS.TABLE_ADD, tr("Create a table"), this, SLOT(newTableToggled(bool)), ui->toolBar, ui->view);
-    createAction(ADD_CONNECTION, ICONS.CONSTRAINT_FOREIGN_KEY, tr("Add a foreign key", "ERD editor"), this, SLOT(addConnectionToggled(bool)), ui->toolBar, ui->view);
+    createAction(ADD_CONNECTION, ICONS.CONSTRAINT_FOREIGN_KEY_ADD, tr("Add a foreign key", "ERD editor"), this, SLOT(addConnectionToggled(bool)), ui->toolBar, ui->view);
     ui->toolBar->addSeparator();
     createAction(DELETE_SELECTED, ICONS.DELETE_SELECTED, tr("Delete selected items", "ERD editor"), ui->view, SLOT(deleteSelectedItem()), ui->toolBar, ui->view);
     ui->toolBar->addSeparator();

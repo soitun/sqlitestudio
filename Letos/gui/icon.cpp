@@ -33,7 +33,6 @@ Icon::Icon(const QString& name) :
 
 Icon::~Icon()
 {
-    safe_delete(iconHandle);
     safe_delete(movieHandle);
 }
 
@@ -54,14 +53,14 @@ void Icon::load()
             copyFrom->load();
 
         // Get base icon
-        QIcon* icon = copyFrom->toQIconPtr();
-        if (!icon)
+        QIcon icon = copyFrom->toQIcon();
+        if (icon.isNull())
         {
             qWarning() << "No QIcon in icon to copy from, while copying icon named" << copyFrom->name;
             return;
         }
 
-        iconHandle = new QIcon(*icon);
+        iconHandle = icon;
     }
     else
     {
@@ -69,7 +68,7 @@ void Icon::load()
         if (!filePath.isNull())
         {
             if (IconManager::getInstance()->isMovie(fileName))
-                movieHandle = IconManager::getInstance()->getMovie(fileName);
+                movieHandle = IconManager::getInstance()->getMoviePtr(fileName);
             else
                 iconHandle = IconManager::getInstance()->getIcon(fileName);
         }
@@ -115,7 +114,7 @@ QByteArray Icon::toPixmapBytes() const
     }
 
     QBuffer buffer(&byteArray);
-    iconHandle->pixmap(16, 16).save(&buffer, "PNG");
+    iconHandle.pixmap(16, 16).save(&buffer, "PNG");
     return byteArray;
 }
 
@@ -130,23 +129,18 @@ QString Icon::toUrl() const
     return filePath;
 }
 
-QIcon* Icon::toQIconPtr() const
+QIcon Icon::toQIcon() const
 {
     if (aliased)
-        return aliased->toQIconPtr();
+        return aliased->toQIcon();
 
     if (!loaded)
     {
         qCritical() << "Referring to an icon that was not yet loaded:" << name;
-        return nullptr;
+        return QIcon();
     }
 
     return iconHandle;
-}
-
-QIcon Icon::toQIcon() const
-{
-    return *toQIconPtr();
 }
 
 Icon* Icon::toIconPtr()
@@ -157,13 +151,13 @@ Icon* Icon::toIconPtr()
 QPixmap Icon::toQPixmap() const
 {
     qreal dpiRatio = QGuiApplication::primaryScreen()->devicePixelRatio();
-    return toQIconPtr()->pixmap(QSize(16, 16), dpiRatio);
+    return toQIcon().pixmap(QSize(16, 16), dpiRatio);
 }
 
 QPixmap Icon::toQPixmap(int pixSize) const
 {
     qreal dpiRatio = QGuiApplication::primaryScreen()->devicePixelRatio();
-    return toQIconPtr()->pixmap(QSize(pixSize, pixSize), dpiRatio);
+    return toQIcon().pixmap(QSize(pixSize, pixSize), dpiRatio);
 }
 
 QMovie* Icon::toQMoviePtr() const
@@ -224,7 +218,7 @@ bool Icon::isNull() const
     if (aliased)
         return aliased->isNull();
 
-    return (!iconHandle || iconHandle->isNull()) && !movieHandle;
+    return iconHandle.isNull() && !movieHandle;
 }
 
 bool Icon::isMovie() const
@@ -257,11 +251,6 @@ Icon::operator QVariant() const
 Icon::operator QMovie*() const
 {
     return toQMoviePtr();
-}
-
-Icon::operator QIcon*() const
-{
-    return toQIconPtr();
 }
 
 Icon::operator QPixmap() const

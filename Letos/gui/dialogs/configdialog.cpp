@@ -182,7 +182,7 @@ QWidget* ConfigDialog::openAtSettingCategory(const QString& categoryKey)
 
     QList<QTreeWidgetItem*> allCategItems = ui->categoriesTree->findItems("", Qt::MatchContains|Qt::MatchRecursive);
     QTreeWidgetItem* matchedCategItem = nullptr;
-    for (QTreeWidgetItem* item : allCategItems)
+    for (QTreeWidgetItem*& item : allCategItems)
     {
         if (item->statusTip(0) == categoryKey)
             matchedCategItem = item;
@@ -332,16 +332,10 @@ void ConfigDialog::init()
                 "}"
                 );
 
-    ui->categoriesTree->setCurrentItem(ui->categoriesTree->topLevelItem(0));
-    ui->categoriesTree->setIconSize(QSize(24, 24));
-    ui->categoriesTree->setItemDelegate(new ConfigDialogItemMainDelegate());
+    initCategoriesTree();
 
     configMapper = new ConfigMapper(CfgMain::getPersistableInstances());
     connectMapperSignals(configMapper);
-
-    ui->categoriesFilter->setClearButtonEnabled(true);
-    UserInputFilter* filter = new UserInputFilter(ui->categoriesFilter, this, SLOT(applyFilter(QString)));
-    filter->setDelay(500);
 
     ui->stackedWidget->setCurrentWidget(ui->generalPage);
     initPageMap();
@@ -356,6 +350,8 @@ void ConfigDialog::init()
     initTooltips();
     initColors();
     initLookAndFeelPage();
+    initScale();
+    initIconSets();
 
     connect(ui->categoriesTree, SIGNAL(currentItemChanged(QTreeWidgetItem*,QTreeWidgetItem*)), this, SLOT(switchPage(QTreeWidgetItem*)));
     connect(ui->previewTabs, SIGNAL(currentChanged(int)), this, SLOT(updateStylePreview()));
@@ -382,17 +378,6 @@ void ConfigDialog::init()
     ui->activeStyleCombo->addItems(styles);
     ui->activeStyleCombo->setCurrentText(STYLE->name());
 
-    int currentScaleInt = Config::getSettings()->value(MainWindow::UI_SCALE_SETTING).toInt();
-    for (int scaleInt : {50, 75, 100, 125, 150, 175, 200, 250, 300})
-    {
-        ui->uiScaleCombo->addItem(QString::number(scaleInt) + "%", scaleInt);
-        if (scaleInt == currentScaleInt)
-            ui->uiScaleCombo->setCurrentIndex(ui->uiScaleCombo->count() - 1);
-    }
-    if (ui->uiScaleCombo->currentIndex() < 0 || currentScaleInt <= 0)
-        ui->uiScaleCombo->setCurrentText("100%");
-
-    connect(ui->uiScaleCombo, SIGNAL(currentTextChanged(QString)), this, SLOT(markModified()));
     connect(ui->stackedWidget, SIGNAL(currentChanged(int)), this, SLOT(pageSwitched()));
 
     ui->hideBuiltInPluginsCheck->setChecked(true);
@@ -424,6 +409,41 @@ void ConfigDialog::load()
     setModified(false);
 }
 
+void ConfigDialog::initCategoriesTree()
+{
+    ui->categoriesTree->setCurrentItem(ui->categoriesTree->topLevelItem(0));
+    ui->categoriesTree->setIconSize(QSize(24, 24));
+    ui->categoriesTree->setItemDelegate(new ConfigDialogItemMainDelegate());
+
+    QHash<QString, const Icon*> pageToIcon = {
+        {"generalPage", ICONS.CONFIG_GENERAL},
+        {"shortcutsPage", ICONS.CONFIG_KEYS},
+        {"lookAndFeelPage", ICONS.CONFIG_LOOK_AND_FEEL},
+        {"stylePage", ICONS.CONFIG_STYLE},
+        {"fontsPage", ICONS.CONFIG_FONT},
+        {"codeColorsPage", ICONS.CONFIG_COLORS},
+        {"sqlEditorPage", ICONS.OPEN_SQL_EDITOR},
+        {"databaseListPage", ICONS.CONFIG_DB_LIST},
+        {"dataBrowsingPage", ICONS.TABLE},
+        {"dataEditorsPage", ICONS.CONFIG_DATA_EDITORS},
+        {"dataRenderersPage", ICONS.CONFIG_DATA_RENDERERS},
+        {"pluginsPage", ICONS.PLUGIN},
+        {"formatterPluginsPage", ICONS.FORMAT_SQL},
+    };
+
+    // Iterate over all items in the categories tree and set icon for each item:
+    for (QTreeWidgetItem* item : getAllCategoryItems())
+    {
+        const Icon* icon = pageToIcon.value(item->statusTip(0));
+        if (icon)
+            item->setIcon(0, icon->toQIcon());
+    }
+
+    ui->categoriesFilter->setClearButtonEnabled(true);
+    UserInputFilter* filter = new UserInputFilter(ui->categoriesFilter, this, SLOT(applyFilter(QString)));
+    filter->setDelay(500);
+}
+
 void ConfigDialog::save()
 {
     if (MainWindow::getInstance()->currentStyle().compare(ui->activeStyleCombo->currentText(), Qt::CaseInsensitive) != 0)
@@ -451,6 +471,7 @@ void ConfigDialog::save()
     CFG->beginMassSave();
     CFG_CORE.General.LoadedPlugins.set(loadedPlugins);
     configMapper->saveFromWidget(ui->stackedWidget, true);
+    saveIconSet();
     commitPluginConfigs();
     commitColorsConfig();
     CFG->commitMassSave();
@@ -792,6 +813,16 @@ void ConfigDialog::addRendererDataType(const QString& typeStr)
     ui->dataRenderersTable->setCurrentCell(row, 0);
     ui->dataRenderersTable->scrollTo(ui->dataRenderersTable->currentIndex());
     markModified();
+}
+
+void ConfigDialog::saveIconSet()
+{
+    QString selectedIconSet = ui->iconSetCombo->currentData().toString();
+    if (selectedIconSet == CFG_UI.General.IconSet.get())
+        return;
+
+    CFG_UI.General.IconSet.set(selectedIconSet);
+    notifyInfo(tr("Restart the application to apply the new icon set."));
 }
 
 void ConfigDialog::rollbackPluginConfigs()
@@ -1347,6 +1378,39 @@ void ConfigDialog::resetShortcuts()
     this->markModified();
 }
 
+void ConfigDialog::updateIconSetPreview()
+{
+    QString iconSetKey = ui->iconSetCombo->currentData().toString();
+    IconManager::IconSetMetadata iconSet = ICONMANAGER->getIconSet(iconSetKey);
+    ui->iconSetAuthorEdit->setText(iconSet.author);
+    ui->iconSetLicenseEdit->setText(iconSet.license);
+    ui->iconSetUrlEdit->setText(QString("<a href='%1'>%1</a>").arg(iconSet.url));
+    ui->iconSetDescriptionEdit->setReadOnly(false);
+    ui->iconSetDescriptionEdit->setPlainText(iconSet.description);
+    ui->iconSetDescriptionEdit->setReadOnly(true);
+
+    QList<QIcon> icons = iconSet.sampleIcons;
+    for (auto& label : {
+         ui->iconSetIcon1,
+         ui->iconSetIcon2,
+         ui->iconSetIcon3,
+         ui->iconSetIcon4,
+         ui->iconSetIcon5,
+         ui->iconSetIcon6,
+         ui->iconSetIcon7,
+         ui->iconSetIcon8
+    })
+    {
+        if (!icons.isEmpty())
+        {
+            QIcon icon = icons.takeFirst();
+            label->setPixmap(icon.pixmap(32, 32));
+        }
+        else
+            label->setPixmap(QPixmap());
+    }
+}
+
 void ConfigDialog::resetShortcut(CfgEntry* entry, QKeySequenceEdit* seqEdit)
 {
     entry->reset();
@@ -1527,6 +1591,52 @@ void ConfigDialog::initLookAndFeelPage()
         int percInt = perc.toInt();
         ui->tbIconSizeCombo->addItem(QString("%1%").arg(perc), percInt);
     }
+
+    ui->dockLayoutHorizontal->setIcon(ICONS.DOCK_LAYOUT_HORIZONTAL);
+    ui->dockLayoutVertical->setIcon(ICONS.DOCK_LAYOUT_VERTICAL);
+}
+
+void ConfigDialog::initScale()
+{
+    int currentScaleInt = Config::getSettings()->value(MainWindow::UI_SCALE_SETTING).toInt();
+    for (int scaleInt : {50, 75, 100, 125, 150, 175, 200, 250, 300})
+    {
+        ui->uiScaleCombo->addItem(QString::number(scaleInt) + "%", scaleInt);
+        if (scaleInt == currentScaleInt)
+            ui->uiScaleCombo->setCurrentIndex(ui->uiScaleCombo->count() - 1);
+    }
+    if (ui->uiScaleCombo->currentIndex() < 0 || currentScaleInt <= 0)
+        ui->uiScaleCombo->setCurrentText("100%");
+
+    connect(ui->uiScaleCombo, SIGNAL(currentTextChanged(QString)), this, SLOT(markModified()));
+}
+
+void ConfigDialog::initIconSets()
+{
+    connect(ui->iconSetCombo, SIGNAL(currentIndexChanged(int)), this, SLOT(updateIconSetPreview()));
+
+    auto& iconSets = ICONMANAGER->getAvailableIconSets();
+
+    // Default iconset always first
+    QString iconSetNameToSet = iconSets[""].name;
+    ui->iconSetCombo->addItem(iconSetNameToSet, "");
+
+    QString currIconSet = CFG_UI.General.IconSet.get();
+    QHashIterator it(iconSets);
+    for (auto it = iconSets.begin(); it != iconSets.end(); ++it)
+    {
+        if (it.key() == "") // default iconset already handled
+            continue;
+
+        QString name = it.value().name;
+        ui->iconSetCombo->addItem(name, it.key());
+        if (it.key() == currIconSet)
+            iconSetNameToSet = name;
+    }
+
+    ui->iconSetCombo->setCurrentText(iconSetNameToSet);
+
+    connect(ui->iconSetCombo, SIGNAL(currentIndexChanged(int)), this, SLOT(markModified()));
 }
 
 void ConfigDialog::updatePluginCategoriesVisibility(QTreeWidgetItem* categoryItem)

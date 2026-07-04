@@ -112,6 +112,7 @@ class GUI_API_EXPORT StatusField : public QDockWidget
         void reset();
         void fontChanged(const QVariant& variant);
         void fontSizeChangeRequested(int delta);
+        void updateIconSize();
 
     public slots:
         void fadeOutOldMessages();

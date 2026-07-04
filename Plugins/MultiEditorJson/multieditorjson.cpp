@@ -27,7 +27,7 @@ MultiEditorJson::MultiEditorJson()
     prettifyAction = toolbar->addAction(ICONS.FORMAT_SQL, tr("Prettify"), this, SLOT(onPrettify()));
     prettifyAction->setToolTip(tr("Format JSON with indentation"));
     
-    condenseAction = toolbar->addAction(ICONS.ERASE, tr("Condense"), this, SLOT(onCondense()));
+    condenseAction = toolbar->addAction(ICONS.MINIFY, tr("Condense"), this, SLOT(onCondense()));
     condenseAction->setToolTip(tr("Remove whitespace and format on single line"));
     
     toolbar->addSeparator();

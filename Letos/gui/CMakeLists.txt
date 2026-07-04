@@ -383,6 +383,18 @@ if(NOT WITH_SHARED_RES)
     )
 endif()
 
+foreach(qrc_file IN LISTS QRC_EXTRA_ICONSETS)
+    if(NOT EXISTS "${qrc_file}")
+        message(FATAL_ERROR "QRC file does not exist: ${qrc_file}")
+    endif()
+
+    if(NOT qrc_file MATCHES "\\.qrc$")
+        message(FATAL_ERROR "Resource file is not a .qrc file: ${qrc_file}")
+    endif()
+
+    qt_add_resources(PROJECT_SOURCES "${qrc_file}")
+endforeach()
+
 qt_wrap_ui(PROJECT_SOURCES
     common/fontedit.ui
     completer/completerwindow.ui

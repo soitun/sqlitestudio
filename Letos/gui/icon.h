@@ -36,7 +36,6 @@ class GUI_API_EXPORT Icon
         QByteArray toBase64() const;
         QByteArray toPixmapBytes() const;
         QString toUrl() const;
-        QIcon* toQIconPtr() const;
         QIcon toQIcon() const;
         Icon* toIconPtr();
         QPixmap toQPixmap() const;
@@ -46,7 +45,6 @@ class GUI_API_EXPORT Icon
 
         operator Icon*();
         operator QIcon() const;
-        operator QIcon*() const;
         operator QPixmap() const;
         operator QMovie*() const;
         operator QVariant() const;
@@ -67,7 +65,7 @@ class GUI_API_EXPORT Icon
         Icon* copyFrom = nullptr;
         Icon* aliased = nullptr;
         QMovie* movieHandle = nullptr;
-        QIcon* iconHandle = nullptr;
+        QIcon iconHandle;
 
         static QHash<QString,Icon*> instances;
 };

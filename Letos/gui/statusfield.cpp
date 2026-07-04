@@ -46,6 +46,7 @@ StatusField::StatusField(QWidget *parent) :
     fadeOutTimer.setSingleShot(true);
     fadeOutTimer.start();
 
+    updateIconSize();
     readRecentMessages();
 }
 
@@ -237,6 +238,7 @@ void StatusField::fontChanged(const QVariant& variant)
         for (int col = 1; col <= 2; col++)
             ui->tableWidget->item(row, col)->setFont(font);
     }
+    updateIconSize();
 }
 
 void StatusField::changeFontSize(int factor)
@@ -301,6 +303,13 @@ void StatusField::fontSizeChangeRequested(int delta)
     changeFontSize(delta >= 0 ? 1 : -1);
 }
 
+void StatusField::updateIconSize()
+{
+    QFontMetrics fm(CFG_UI.Fonts.StatusField.get());
+    int iconSize = fm.height();
+    ui->tableWidget->setIconSize(QSize(iconSize, iconSize));
+}
+
 void StatusField::fadeOutOldMessages()
 {
     if (isFadeOutBlocked())
@@ -339,22 +348,42 @@ void StatusField::HtmlDelegate::paint(QPainter *painter, const QStyleOptionViewI
     style->drawControl(QStyle::CE_ItemViewItem, &opt, painter, opt.widget);
 
     QTextDocument doc;
-    prepareDoc(doc, index, option);
+    prepareDoc(doc, index, opt);
+    doc.setTextWidth(opt.rect.width());
 
-    painter->translate(opt.rect.topLeft());
-    QRect clip(0, 0, opt.rect.width(), opt.rect.height());
-    doc.drawContents(painter, clip);
+    QSizeF size = doc.size();
+    const qreal y = opt.rect.top() + (opt.rect.height() - size.height()) / 2.0;
+    painter->translate(opt.rect.left(), y);
+
+    doc.drawContents(painter);
 
     painter->restore();
 }
 
 QSize StatusField::HtmlDelegate::sizeHint(const QStyleOptionViewItem &option, const QModelIndex &index) const
 {
+    QStyleOptionViewItem opt(option);
+    initStyleOption(&opt, index);
+
+    int width = opt.rect.width();
+    if (width <= 0)
+    {
+        if (auto view = qobject_cast<const QTableView*>(opt.widget))
+            width = view->columnWidth(index.column());
+    }
+
     QTextDocument doc;
-    doc.setHtml(index.data(Qt::DisplayRole).toString());
-    doc.setDefaultFont(option.font);
-    doc.setTextWidth(option.rect.width());
-    return QSize(doc.idealWidth(), doc.size().height());
+    prepareDoc(doc, index, opt);
+
+    doc.setDocumentMargin(0);
+    doc.setTextWidth(width);
+
+    QSize base = QStyledItemDelegate::sizeHint(opt, index);
+
+    return QSize(
+        qCeil(doc.idealWidth()),
+        qMax(base.height(), qCeil(doc.size().height()) + 4)
+    );
 }
 
 bool StatusField::HtmlDelegate::editorEvent(QEvent *event, QAbstractItemModel *model, const QStyleOptionViewItem &option, const QModelIndex &index)

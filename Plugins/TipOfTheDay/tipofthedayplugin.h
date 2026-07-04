@@ -7,6 +7,8 @@
 #include "plugins/uiconfiguredplugin.h"
 #include "config_builder.h"
 
+#include <QIcon>
+
 
 class QAction;
 
@@ -55,6 +57,7 @@ class TIPOFTHEDAY_EXPORT TipOfTheDayPlugin : public GenericPlugin, public Genera
         QAction* openTotdAction = nullptr;
         QNetworkAccessManager* netManager = nullptr;
         QList<Tip> tips;
+        QIcon totdIcon;
 
     private slots:
         void openTotdDialog();

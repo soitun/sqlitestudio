@@ -72,10 +72,6 @@
           <property name="text">
            <string/>
           </property>
-          <property name="icon">
-           <iconset resource="../icons.qrc">
-            <normaloff>:/icons/img/directory_open.svg</normaloff>:/icons/img/directory_open.svg</iconset>
-          </property>
          </widget>
         </item>
        </layout>
@@ -206,9 +202,7 @@
    </item>
   </layout>
  </widget>
- <resources>
-  <include location="../icons.qrc"/>
- </resources>
+ <resources/>
  <connections>
   <connection>
    <sender>buttonBox</sender>

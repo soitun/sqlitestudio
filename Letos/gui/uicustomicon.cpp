@@ -22,9 +22,9 @@ const char* UiCustomIcon::getPropertyName() const
 void UiCustomIcon::handle(QWidget* widget, const QVariant& value)
 {
     QString iconName = value.toString();
-    QIcon* icon = ICONMANAGER->getIcon(iconName);
-    if (!icon)
+    QIcon icon = ICONMANAGER->getIcon(iconName);
+    if (icon.isNull())
         return;
 
-    TRY_ICON_WITH(QAbstractButton, widget, setIcon, *icon);
+    TRY_ICON_WITH(QAbstractButton, widget, setIcon, icon);
 }
