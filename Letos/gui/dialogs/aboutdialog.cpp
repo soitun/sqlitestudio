@@ -74,6 +74,9 @@ void AboutDialog::init(InitialMode initialMode)
     buildIndex();
 
     ui->licenseEdit->setHtml(licenseContents);
+    ui->licenseEdit->setWordWrapMode(QTextOption::WordWrap);
+    ui->licenseEdit->setReadOnly(true);
+    ui->licenseEdit->setTextInteractionFlags(Qt::TextBrowserInteraction);
     indexContents.clear();
     licenseContents.clear();
 
@@ -90,10 +93,11 @@ void AboutDialog::init(InitialMode initialMode)
 
 void AboutDialog::buildIndex()
 {
-    static const QString entryTpl = QStringLiteral("<li>%1</li>");
+    static const QString entryTpl = QStringLiteral("<li><a href='#chapter%1'>%2</a></li>");
     QStringList entries;
+    int row = 1;
     for (QString& idx : indexContents)
-        entries += entryTpl.arg(idx);
+        entries += entryTpl.arg(QString::number(row++), idx);
 
     licenseContents.prepend(tr("<h3>Table of contents:</h3><ol>%2</ol>").arg(entries.join("")));
 }
@@ -105,8 +109,8 @@ void AboutDialog::addLicense(int row, const QString& title, const QString& conte
     QString escapedTitle = title.toHtmlEscaped();
     QString finalTitle = violation.isNull() ? escapedTitle : violatedTpl.arg(escapedTitle, violation);
     QString rowNum = QString::number(row);
-    licenseContents += "<h3>" + rowNum + ". " + finalTitle + "</h3>";
-    licenseContents += "<pre>" + contents.toHtmlEscaped() + "</pre>";
+    licenseContents += QString("<a name='chapter%1'><h2>%1. %2</h2></a>").arg(rowNum, finalTitle);
+    licenseContents += QString("<pre>%1</pre>").arg(contents.toHtmlEscaped());
     indexContents += finalTitle;
 }
 

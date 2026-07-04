@@ -2185,7 +2185,7 @@ QVariant SqlQueryModel::headerData(int section, Qt::Orientation orientation, int
             if (sort.column == section)
             {
                 bool desc = sort.order == QueryExecutor::Sort::DESC;
-                return *(getIconForIdx(idx, desc).toQIconPtr());
+                return getIconForIdx(idx, desc).toQIcon();
             }
             idx++;
         }

@@ -188,8 +188,8 @@ void DbAndroid::showJarMessage()
 
 void DbAndroid::createJarAction()
 {
-    QIcon* i = ICONMANAGER->getIcon("android");
-    jarAction = MAINWINDOW->getToolsMenu()->addAction(*(i), tr("Get Android connector JAR file"));
+    QIcon i = ICONMANAGER->getIcon("android");
+    jarAction = MAINWINDOW->getToolsMenu()->addAction(i, tr("Get Android connector JAR file"));
     connect(jarAction, SIGNAL(triggered()), this, SLOT(getJar()));
 }
 

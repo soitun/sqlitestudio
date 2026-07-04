@@ -24,6 +24,8 @@ option(WITH_UPDATER "Enable update manager" ${WITH_PORTABLE})
 option(WITH_SUPPORT_REMINDERS "Enable occasional support reminders" ON)
 option(WITH_SHARED_RES "Install resources as separate files (distro packaging only)" OFF)
 
+set(QRC_EXTRA_ICONSETS "" CACHE STRING "Additional icon sets as .qrc files, separated by semicolons")
+
 if(NOT WITH_CLI AND NOT WITH_GUI)
     message(FATAL_ERROR "At least one of WITH_CLI or WITH_GUI must be enabled")
 endif()

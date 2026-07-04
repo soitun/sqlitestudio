@@ -1,4 +1,5 @@
 #include "printing.h"
+#include "iconmanager.h"
 #include "printingexport.h"
 #include "mainwindow.h"
 #include "windows/editorwindow.h"
@@ -31,7 +32,7 @@ bool Printing::init()
     printingConfig->exportTriggers = false;
     printingConfig->codec = defaultCodecName();
 
-    QIcon printerIcon(":/icons/printer.svg");
+    QIcon printerIcon = ICONMANAGER->getIcon("printer", ":/icons/printer.svg");
     printDataAction = new ExtActionPrototype(printerIcon, tr("Print data"), this);
     separatorAction = new ExtActionPrototype(this);
     printQueryAction = new ExtActionPrototype(printerIcon, tr("Print query"), this);

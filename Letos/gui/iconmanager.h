@@ -7,6 +7,8 @@
 #include <QHash>
 #include <QIcon>
 #include <QVariant>
+#include <QFileInfo>
+#include <QDir>
 
 class QMovie;
 class PluginType;
@@ -65,8 +67,17 @@ class GUI_API_EXPORT IconManager : public QObject
             DEF_ICON(COMPLETER_PRAGMA,                  "completer_pragma")
             DEF_ICON(COMPLETER_STRING,                  "completer_string")
             DEF_ICON(CONFIGURE,                         "configure")
+            DEF_ICON(CONFIG_COLORS,                     "config_colors")
+            DEF_ICON(CONFIG_DATA_EDITORS,               "config_data_editors")
+            DEF_ICON(CONFIG_DATA_RENDERERS,             "config_data_renderers")
+            DEF_ICON(CONFIG_DB_LIST,                    "config_dblist")
             DEF_ICON(CONFIG_EXPORT,                     "config_export")
+            DEF_ICON(CONFIG_FONT,                       "config_font")
+            DEF_ICON(CONFIG_GENERAL,                    "config_general")
             DEF_ICON(CONFIG_IMPORT,                     "config_import")
+            DEF_ICON(CONFIG_KEYS,                       "config_keys")
+            DEF_ICON(CONFIG_LOOK_AND_FEEL,              "config_look_and_feel")
+            DEF_ICON(CONFIG_STYLE,                      "config_style")
             DEF_ICON(CONSTRAINT_CHECK,                  "check")
             DEF_ICON(CONSTRAINT_CHECK_ADD,              "check_plus")
             DEF_ICON(CONSTRAINT_COLLATION,              "collation")
@@ -121,6 +132,8 @@ class GUI_API_EXPORT IconManager : public QObject
             DEF_ICON(DIRECTORY_EDIT,                    "directory_edit")
             DEF_ICON(DIRECTORY_OPEN,                    "directory_open")
             DEF_ICON(DIRECTORY_OPEN_WITH_DB,            "directory_open_with_db")
+            DEF_ICON(DOCK_LAYOUT_HORIZONTAL,            "dock_layout_horizontal")
+            DEF_ICON(DOCK_LAYOUT_VERTICAL,              "dock_layout_vertical")
             DEF_ICON(DONATE,                            "donate")
             DEF_ICON(ERASE,                             "erase")
             DEF_ICON(ERASE_TABLE_DATA,                  "erase_table_data")
@@ -176,6 +189,7 @@ class GUI_API_EXPORT IconManager : public QObject
             DEF_ICON(LINK,                              "link")
             DEF_ICO3(LIST_ITEM_OTHER,                   COMPLETER_NO_VALUE)
             DEF_ICON(LOADING,                           "loading")
+            DEF_ICON(MINIFY,                            "minify")
             DEF_ICON(MOVE_DOWN,                         "move_down")
             DEF_ICON(MOVE_UP,                           "move_up")
             DEF_ICO3(NEW_COLLATION,                     INSERT_ROW)
@@ -191,6 +205,7 @@ class GUI_API_EXPORT IconManager : public QObject
             DEF_ICON(PAGE_PREV,                         "page_prev")
             DEF_ICO3(MOVE_LEFT,                         PAGE_PREV)
             DEF_ICO3(MOVE_RIGHT,                        PAGE_NEXT)
+            DEF_ICON(PLUGIN,                            "plugin")
             DEF_ICON(PLUS,                              "plus")
             DEF_ICON(QUIT,                              "quit")
             DEF_ICON(RELOAD,                            "reload")
@@ -317,34 +332,65 @@ class GUI_API_EXPORT IconManager : public QObject
             DEF_ICON(ZOOM_OUT,                          "zoom_out")
         )
 
+        struct IconSetMetadata
+        {
+            QString dirPath;
+            QString name;
+            QString author;
+            QString license;
+            QString url;
+            QString description;
+            QList<QIcon> sampleIcons;
+        };
+
         static IconManager* getInstance();
 
         QString getFilePathForName(const QString& name);
         bool isMovie(const QString& name);
-        QMovie* getMovie(const QString& name);
-        QIcon* getIcon(const QString& name);
+        QMovie* getMoviePtr(const QString& name);
+
+        /**
+         * @brief Provides icon from either currently selected iconset or default iconset.
+         * @param name Name of the icon (icon file base name, i.e. excluding dot and extension).
+         * @param fallbackPath Optional full path to the icon file to use if the icon is not found in the current iconset.
+         *        If not provided, will return a null QIcon. Useful if plugin uses it's own icons.
+         * @return QIcon object for the requested icon, or a null QIcon if not found and no fallback path is provided.
+         */
+        QIcon getIcon(const QString& name, const QString& fallbackPath = QString());
         bool isSvg(const QString& name) const;
         void init();
         QStringList getIconDirs() const;
+        const QHash<QString, IconSetMetadata>& getAvailableIconSets() const;
+        IconSetMetadata& getIconSet(const QString& key);
 
     private:
         IconManager();
+        void scanIconSets(const QString& dirPath);
+        void scanIconSet(const QString& dirPath);
         void loadRecurently(QString dirPath, const QString& prefix, bool onlyNew);
         void loadRecurently(QString dirPath, const QString& prefix, bool movie, bool onlyNew);
         void enableRescanning();
+        QString getPathForCurrentIconSet(const QFileInfo& entry) const;
+        void initIconSets();
+        void loadSampleIconsToIconSet(const QDir& dir, IconSetMetadata& iconSet);
 
         static IconManager* instance;
-        QHash<QString,QIcon*> icons;
+        QHash<QString,QIcon> icons;
+        QList<const Icon*> sampleIconSetIcons;
         QHash<QString,QMovie*> movies;
         QHash<QString,QString> paths;
         QHash<QString,bool> svgs;
         QStringList iconDirs;
         QStringList iconFileExtensions;
         QStringList movieFileExtensions;
+        QStringList iconExtensionOnlyList;
         QStringList resourceIcons;
         QStringList resourceMovies;
         QHash<QString, QStringList> pluginResourceIcons;
         QHash<QString, QStringList> pluginResourceMovies;
+        QHash<QString, IconSetMetadata> iconSets;
+        QString currentIconSet;
+        QDir currentIconSetDir;
 
     private slots:
         void rescanResources(Plugin* plugin, PluginType* pluginType);

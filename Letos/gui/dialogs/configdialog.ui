@@ -102,10 +102,6 @@
              <property name="statusTip">
               <string notr="true">generalPage</string>
              </property>
-             <property name="icon">
-              <iconset resource="../icons.qrc">
-               <normaloff>:/icons/img/config_general.svg</normaloff>:/icons/img/config_general.svg</iconset>
-             </property>
             </item>
             <item>
              <property name="text">
@@ -113,10 +109,6 @@
              </property>
              <property name="statusTip">
               <string notr="true">shortcutsPage</string>
-             </property>
-             <property name="icon">
-              <iconset resource="../icons.qrc">
-               <normaloff>:/icons/img/config_keys.svg</normaloff>:/icons/img/config_keys.svg</iconset>
              </property>
             </item>
             <item>
@@ -126,20 +118,12 @@
              <property name="statusTip">
               <string notr="true">lookAndFeelPage</string>
              </property>
-             <property name="icon">
-              <iconset resource="../icons.qrc">
-               <normaloff>:/icons/img/config_look_and_feel.svg</normaloff>:/icons/img/config_look_and_feel.svg</iconset>
-             </property>
              <item>
               <property name="text">
                <string>Style</string>
               </property>
               <property name="statusTip">
                <string notr="true">stylePage</string>
-              </property>
-              <property name="icon">
-               <iconset resource="../icons.qrc">
-                <normaloff>:/icons/img/config_style.svg</normaloff>:/icons/img/config_style.svg</iconset>
               </property>
              </item>
              <item>
@@ -149,10 +133,6 @@
               <property name="statusTip">
                <string notr="true">fontsPage</string>
               </property>
-              <property name="icon">
-               <iconset resource="../icons.qrc">
-                <normaloff>:/icons/img/config_font.svg</normaloff>:/icons/img/config_font.svg</iconset>
-              </property>
              </item>
              <item>
               <property name="text">
@@ -160,10 +140,6 @@
               </property>
               <property name="statusTip">
                <string notr="true">codeColorsPage</string>
-              </property>
-              <property name="icon">
-               <iconset resource="../icons.qrc">
-                <normaloff>:/icons/img/config_colors.svg</normaloff>:/icons/img/config_colors.svg</iconset>
               </property>
              </item>
             </item>
@@ -174,10 +150,6 @@
              <property name="statusTip">
               <string notr="true">sqlEditorPage</string>
              </property>
-             <property name="icon">
-              <iconset resource="../icons.qrc">
-               <normaloff>:/icons/img/open_sql_editor.svg</normaloff>:/icons/img/open_sql_editor.svg</iconset>
-             </property>
             </item>
             <item>
              <property name="text">
@@ -185,10 +157,6 @@
              </property>
              <property name="statusTip">
               <string notr="true">databaseListPage</string>
-             </property>
-             <property name="icon">
-              <iconset resource="../icons.qrc">
-               <normaloff>:/icons/img/config_dblist.svg</normaloff>:/icons/img/config_dblist.svg</iconset>
              </property>
             </item>
             <item>
@@ -198,20 +166,12 @@
              <property name="statusTip">
               <string notr="true">dataBrowsingPage</string>
              </property>
-             <property name="icon">
-              <iconset resource="../icons.qrc">
-               <normaloff>:/icons/img/table.svg</normaloff>:/icons/img/table.svg</iconset>
-             </property>
              <item>
               <property name="text">
                <string>Data editors</string>
               </property>
               <property name="statusTip">
                <string notr="true">dataEditorsPage</string>
-              </property>
-              <property name="icon">
-               <iconset resource="../icons.qrc">
-                <normaloff>:/icons/img/config_data_editors.svg</normaloff>:/icons/img/config_data_editors.svg</iconset>
               </property>
              </item>
              <item>
@@ -221,10 +181,6 @@
               <property name="statusTip">
                <string notr="true">dataRenderersPage</string>
               </property>
-              <property name="icon">
-               <iconset resource="../icons.qrc">
-                <normaloff>:/icons/img/config_data_renderers.svg</normaloff>:/icons/img/config_data_renderers.svg</iconset>
-              </property>
              </item>
             </item>
             <item>
@@ -233,10 +189,6 @@
              </property>
              <property name="statusTip">
               <string notr="true">pluginsPage</string>
-             </property>
-             <property name="icon">
-              <iconset resource="../icons.qrc">
-               <normaloff>:/icons/img/plugin.svg</normaloff>:/icons/img/plugin.svg</iconset>
              </property>
              <item>
               <property name="text">
@@ -487,8 +439,8 @@
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>440</width>
-                <height>871</height>
+                <width>439</width>
+                <height>854</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_34">
@@ -2585,9 +2537,9 @@
               <property name="geometry">
                <rect>
                 <x>0</x>
-                <y>0</y>
-                <width>711</width>
-                <height>538</height>
+                <y>-73</y>
+                <width>697</width>
+                <height>611</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_31">
@@ -2683,6 +2635,149 @@
                 </widget>
                </item>
                <item>
+                <widget class="QGroupBox" name="iconSetGroup">
+                 <property name="title">
+                  <string>Icon set</string>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_15">
+                  <item row="3" column="0">
+                   <widget class="QLabel" name="iconSetLicenseLabel">
+                    <property name="text">
+                     <string>License</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="iconSetChoiceLabel">
+                    <property name="text">
+                     <string>Choose icon set (requires restart)</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="1">
+                   <widget class="QWidget" name="iconSetPreviewPanel" native="true">
+                    <layout class="QGridLayout" name="gridLayout_17">
+                     <item row="0" column="5">
+                      <widget class="QLabel" name="iconSetIcon6">
+                       <property name="text">
+                        <string notr="true"/>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="0" column="1">
+                      <widget class="QLabel" name="iconSetIcon2">
+                       <property name="text">
+                        <string notr="true"/>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="0" column="4">
+                      <widget class="QLabel" name="iconSetIcon5">
+                       <property name="text">
+                        <string notr="true"/>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="0" column="3">
+                      <widget class="QLabel" name="iconSetIcon4">
+                       <property name="text">
+                        <string notr="true"/>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="0" column="2">
+                      <widget class="QLabel" name="iconSetIcon3">
+                       <property name="text">
+                        <string notr="true"/>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="0" column="7">
+                      <widget class="QLabel" name="iconSetIcon8">
+                       <property name="text">
+                        <string notr="true"/>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="0" column="0">
+                      <widget class="QLabel" name="iconSetIcon1">
+                       <property name="text">
+                        <string notr="true"/>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="0" column="6">
+                      <widget class="QLabel" name="iconSetIcon7">
+                       <property name="text">
+                        <string notr="true"/>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                  <item row="0" column="1">
+                   <widget class="QComboBox" name="iconSetCombo"/>
+                  </item>
+                  <item row="5" column="0">
+                   <widget class="QLabel" name="iconSetDescriptionLabel">
+                    <property name="text">
+                     <string>Description</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="5" column="1">
+                   <widget class="QPlainTextEdit" name="iconSetDescriptionEdit"/>
+                  </item>
+                  <item row="2" column="0">
+                   <widget class="QLabel" name="iconSetAuthorLabel">
+                    <property name="text">
+                     <string>Author</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QLabel" name="iconSetPreviewLabel">
+                    <property name="text">
+                     <string>Preview</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="4" column="0">
+                   <widget class="QLabel" name="iconSetUrlLabel">
+                    <property name="text">
+                     <string>URL</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="4" column="1">
+                   <widget class="QLabel" name="iconSetUrlEdit">
+                    <property name="text">
+                     <string notr="true"/>
+                    </property>
+                    <property name="openExternalLinks">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="3" column="1">
+                   <widget class="QLabel" name="iconSetLicenseEdit">
+                    <property name="text">
+                     <string notr="true"/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="1">
+                   <widget class="QLabel" name="iconSetAuthorEdit">
+                    <property name="text">
+                     <string notr="true"/>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
                 <widget class="QGroupBox" name="dockLayoutGroup">
                  <property name="title">
                   <string>Main window dock areas</string>
@@ -2692,10 +2787,6 @@
                    <widget class="ConfigRadioButton" name="dockLayoutVertical">
                     <property name="text">
                      <string>Left and right areas occupy corners</string>
-                    </property>
-                    <property name="icon">
-                     <iconset resource="../icons.qrc">
-                      <normaloff>:/icons/img/dock_layout_vertical.svg</normaloff>:/icons/img/dock_layout_vertical.svg</iconset>
                     </property>
                     <property name="checked">
                      <bool>true</bool>
@@ -2709,13 +2800,9 @@
                    </widget>
                   </item>
                   <item row="1" column="0">
-                   <widget class="ConfigRadioButton" name="dockLeyoutHorizontal">
+                   <widget class="ConfigRadioButton" name="dockLayoutHorizontal">
                     <property name="text">
                      <string>Top and bottom areas occupy corners</string>
-                    </property>
-                    <property name="icon">
-                     <iconset resource="../icons.qrc">
-                      <normaloff>:/icons/img/dock_layout_horizontal.svg</normaloff>:/icons/img/dock_layout_horizontal.svg</iconset>
                     </property>
                     <property name="cfg" stdset="0">
                      <string notr="true">General.DockLayout</string>
@@ -3338,9 +3425,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
   <tabstop>previewTextEdit</tabstop>
   <tabstop>fontsScrollArea</tabstop>
  </tabstops>
- <resources>
-  <include location="../icons.qrc"/>
- </resources>
+ <resources/>
  <connections>
   <connection>
    <sender>buttonBox</sender>

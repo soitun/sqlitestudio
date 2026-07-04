@@ -96,7 +96,7 @@ class ErdView : public QGraphicsView
         QGraphicsItem* clickableItemAt(const QPoint& pos);
         void spacePressed();
         void spaceReleased();
-        void applyCursor(QIcon* icon);
+        void applyCursor(const QIcon& icon);
         void startDragBySpace();
         void endDragBySpace();
         void itemsPotentiallyMoved();

@@ -149,6 +149,7 @@ CFG_UI_CATEGORIES(Ui,
         CFG_ENTRY(int,                     NumberOfRowsPerPage,         1000)
         CFG_ENTRY(bool,                    LimitRowsForManyColumns,     true)
         CFG_ENTRY(QString,                 Style,                       &Cfg::getStyleDefaultValue)
+        CFG_ENTRY(QString,                 IconSet,                     QString())
         CFG_ENTRY(Cfg::Session,            Session,                     Cfg::Session())
         CFG_ENTRY(Cfg::SplitterStates,     SplitterStates,              Cfg::SplitterStates())
         CFG_ENTRY(bool,                    AllowMultipleSessions,       false)

@@ -147,6 +147,7 @@ void DbDialog::init()
 {
     ui->setupUi(this);
     setWindowIcon(ICONS.DATABASE);
+    ui->browseOpenButton->setIcon(ICONMANAGER->getIcon("directory_open"));
     connIconTooltip = new ImmediateTooltip(ui->testConnIcon);
     ui->nameEdit->setVisible(false);
     setNameLabelText("");

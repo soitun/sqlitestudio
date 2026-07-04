@@ -461,11 +461,11 @@ void ErdView::leavingOperatingMode(Mode mode)
                 item->setAcceptedMouseButtons(Qt::AllButtons);
             break;
         case ErdView::Mode::CONNECTION_DRAFTING:
-            applyCursor(nullptr);
+            applyCursor(QIcon());
             abortDraftConnection();
             break;
         case ErdView::Mode::PLACING_NEW_ENTITY:
-            applyCursor(nullptr);
+            applyCursor(QIcon());
             emit tableInsertionAborted();
             break;
         case ErdView::Mode::AREA_SELECTING:
@@ -487,10 +487,10 @@ void ErdView::enteringOperatingMode(Mode mode)
             startDragBySpace();
             break;
         case ErdView::Mode::CONNECTION_DRAFTING:
-            applyCursor(ErdWindow::cursorFkIcon->toQIconPtr());
+            applyCursor(ErdWindow::cursorFkIcon->toQIcon());
             break;
         case ErdView::Mode::PLACING_NEW_ENTITY:
-            applyCursor(ErdWindow::cursorAddTableIcon->toQIconPtr());
+            applyCursor(ErdWindow::cursorAddTableIcon->toQIcon());
             break;
         case ErdView::Mode::AREA_SELECTING:
             setDragMode(QGraphicsView::RubberBandDrag);
@@ -574,9 +574,9 @@ void ErdView::popOperatingMode()
     }
 }
 
-void ErdView::applyCursor(QIcon* icon)
+void ErdView::applyCursor(const QIcon& icon)
 {
-    if (!icon)
+    if (icon.isNull())
     {
         viewport()->unsetCursor();
         return;
@@ -589,7 +589,7 @@ void ErdView::applyCursor(QIcon* icon)
     QSize logical(logicalSize, logicalSize);
     QSize physical = logical * dpr;
 
-    QPixmap pm = icon->pixmap(physical);
+    QPixmap pm = icon.pixmap(physical);
     pm.setDevicePixelRatio(dpr);
 
     QCursor cursor(pm, 1 * dpr, 1 * dpr);

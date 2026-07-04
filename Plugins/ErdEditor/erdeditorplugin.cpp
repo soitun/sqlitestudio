@@ -17,7 +17,8 @@ bool ErdEditorPlugin::init()
     ErdWindow::staticInit();
     instance = this;
 
-    openErdEditorAction = new QAction(QIcon(":/icons/erdeditor.svg"), tr("Open ERD editor"), this);
+    QIcon icon = ICONMANAGER->getIcon("erdeditor", ":/icons/erdeditor.svg");
+    openErdEditorAction = new QAction(icon, tr("Open ERD editor"), this);
     connect(openErdEditorAction, SIGNAL(triggered()), this, SLOT(openEditor()));
 
     QAction* functionsEditorAction = MAINWINDOW->getAction(MainWindow::OPEN_FUNCTION_EDITOR);
