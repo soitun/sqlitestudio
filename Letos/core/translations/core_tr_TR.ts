@@ -999,43 +999,43 @@ Tables, indexes, triggers and views copied to database %3 will remain.</source>
         <translation>Yapılandırma dosyası başlatılamadı. Uygulama yeniden başlatıldıktan sonra tüm yapılandırma değişiklikleri ve sorgu geçmişi kaybolacak. Şu konumlarda dosya oluşturulamıyor: %1.</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="363"/>
+        <location filename="../letos.cpp" line="365"/>
         <source>General purpose</source>
         <comment>plugin category name</comment>
         <translation>Genel amaçlı</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="364"/>
+        <location filename="../letos.cpp" line="366"/>
         <source>Database support</source>
         <comment>plugin category name</comment>
         <translation>Veritabanı desteği</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="365"/>
+        <location filename="../letos.cpp" line="367"/>
         <source>Code formatter</source>
         <comment>plugin category name</comment>
         <translation>Kod biçimleyici</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="366"/>
+        <location filename="../letos.cpp" line="368"/>
         <source>Scripting languages</source>
         <comment>plugin category name</comment>
         <translation>Betik dilleri</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="368"/>
+        <location filename="../letos.cpp" line="370"/>
         <source>Exporting</source>
         <comment>plugin category name</comment>
         <translation>Dışa aktarılıyor</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="369"/>
+        <location filename="../letos.cpp" line="371"/>
         <source>Importing</source>
         <comment>plugin category name</comment>
         <translation>İçeri aktarılıyor</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="370"/>
+        <location filename="../letos.cpp" line="372"/>
         <source>Table populating</source>
         <comment>plugin category name</comment>
         <translation>Tablo doldurma</translation>
@@ -1242,7 +1242,7 @@ Görünüm olduğu gibi kalacak.</translation>
 <context>
     <name>UpdateManager</name>
     <message>
-        <location filename="../services/updatemanager.cpp" line="99"/>
+        <location filename="../services/updatemanager.cpp" line="104"/>
         <source>Could not check for updates (%1).</source>
         <translation>Güncelleştirmeler kontrol edilemedi (%1).</translation>
     </message>

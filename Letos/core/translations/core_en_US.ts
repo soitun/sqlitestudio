@@ -999,43 +999,43 @@ Tables, indexes, triggers, and views copied to database %3 will remain.</transla
         <translation>Could not initialize configuration file. Any configuration changes and query history will be lost after application restart. Unable to create a file at the following locations: %1.</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="363"/>
+        <location filename="../letos.cpp" line="365"/>
         <source>General purpose</source>
         <comment>plugin category name</comment>
         <translation>General purpose</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="364"/>
+        <location filename="../letos.cpp" line="366"/>
         <source>Database support</source>
         <comment>plugin category name</comment>
         <translation>Database support</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="365"/>
+        <location filename="../letos.cpp" line="367"/>
         <source>Code formatter</source>
         <comment>plugin category name</comment>
         <translation>Code formatter</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="366"/>
+        <location filename="../letos.cpp" line="368"/>
         <source>Scripting languages</source>
         <comment>plugin category name</comment>
         <translation>Scripting languages</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="368"/>
+        <location filename="../letos.cpp" line="370"/>
         <source>Exporting</source>
         <comment>plugin category name</comment>
         <translation>Exporting</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="369"/>
+        <location filename="../letos.cpp" line="371"/>
         <source>Importing</source>
         <comment>plugin category name</comment>
         <translation>Importing</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="370"/>
+        <location filename="../letos.cpp" line="372"/>
         <source>Table populating</source>
         <comment>plugin category name</comment>
         <translation>Table populating</translation>

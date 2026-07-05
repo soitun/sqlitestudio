@@ -999,43 +999,43 @@ Tables, indexes, déclencheurs et vues copiés dans la base de données %3 reste
         <translation>Impossible d&apos;initialiser le fichier de configuration. Tous les changements de configuration et l&apos;historique des requêtes seront perdus après le redémarrage de l&apos;application. Impossible de créer un fichier aux emplacements suivants : %1.</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="363"/>
+        <location filename="../letos.cpp" line="365"/>
         <source>General purpose</source>
         <comment>plugin category name</comment>
         <translation>Objectif général</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="364"/>
+        <location filename="../letos.cpp" line="366"/>
         <source>Database support</source>
         <comment>plugin category name</comment>
         <translation>Support base de données</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="365"/>
+        <location filename="../letos.cpp" line="367"/>
         <source>Code formatter</source>
         <comment>plugin category name</comment>
         <translation>Format code</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="366"/>
+        <location filename="../letos.cpp" line="368"/>
         <source>Scripting languages</source>
         <comment>plugin category name</comment>
         <translation>Langages script</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="368"/>
+        <location filename="../letos.cpp" line="370"/>
         <source>Exporting</source>
         <comment>plugin category name</comment>
         <translation>Export</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="369"/>
+        <location filename="../letos.cpp" line="371"/>
         <source>Importing</source>
         <comment>plugin category name</comment>
         <translation>Import</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="370"/>
+        <location filename="../letos.cpp" line="372"/>
         <source>Table populating</source>
         <comment>plugin category name</comment>
         <translation>Peuplement de la table</translation>
@@ -1242,7 +1242,7 @@ La vue restera telle quelle.</translation>
 <context>
     <name>UpdateManager</name>
     <message>
-        <location filename="../services/updatemanager.cpp" line="99"/>
+        <location filename="../services/updatemanager.cpp" line="104"/>
         <source>Could not check for updates (%1).</source>
         <translation>Impossible de vérifier les mises à jour (%1).</translation>
     </message>

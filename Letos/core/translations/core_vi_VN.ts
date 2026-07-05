@@ -999,43 +999,43 @@ Các bảng, chỉ mục, trình kích hoạt và khung nhìn đã sao chép và
         <translation>Không thể khởi tạo tệp cấu hình. Mọi thay đổi cấu hình và lịch sử truy vấn sẽ bị mất sau khi khởi động lại ứng dụng. Không thể tạo tệp tại các vị trí sau: %1.</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="363"/>
+        <location filename="../letos.cpp" line="365"/>
         <source>General purpose</source>
         <comment>plugin category name</comment>
         <translation>Mục đích chung</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="364"/>
+        <location filename="../letos.cpp" line="366"/>
         <source>Database support</source>
         <comment>plugin category name</comment>
         <translation>Hỗ trợ cơ sở dữ liệu</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="365"/>
+        <location filename="../letos.cpp" line="367"/>
         <source>Code formatter</source>
         <comment>plugin category name</comment>
         <translation>Trình định dạng mã</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="366"/>
+        <location filename="../letos.cpp" line="368"/>
         <source>Scripting languages</source>
         <comment>plugin category name</comment>
         <translation>Ngôn ngữ scripting</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="368"/>
+        <location filename="../letos.cpp" line="370"/>
         <source>Exporting</source>
         <comment>plugin category name</comment>
         <translation>Xuất</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="369"/>
+        <location filename="../letos.cpp" line="371"/>
         <source>Importing</source>
         <comment>plugin category name</comment>
         <translation>Nhập</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="370"/>
+        <location filename="../letos.cpp" line="372"/>
         <source>Table populating</source>
         <comment>plugin category name</comment>
         <translation>Điền dữ liệu vào bảng</translation>
@@ -1242,7 +1242,7 @@ Khung nhìn sẽ được giữ nguyên.</translation>
 <context>
     <name>UpdateManager</name>
     <message>
-        <location filename="../services/updatemanager.cpp" line="99"/>
+        <location filename="../services/updatemanager.cpp" line="104"/>
         <source>Could not check for updates (%1).</source>
         <translation>Không thể kiểm tra cập nhật (%1).</translation>
     </message>

@@ -999,43 +999,43 @@ Tabellen, indexen, triggers en views die naar database %3 zijn gekopieerd, blijv
         <translation>Kon configuratiebestand niet initialiseren. Alle configuratiewijzigingen en querygeschiedenis gaan verloren na het opnieuw starten van de toepassing. Kan geen bestand maken op de volgende locaties: %1.</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="363"/>
+        <location filename="../letos.cpp" line="365"/>
         <source>General purpose</source>
         <comment>plugin category name</comment>
         <translation>Algemeen gebruik</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="364"/>
+        <location filename="../letos.cpp" line="366"/>
         <source>Database support</source>
         <comment>plugin category name</comment>
         <translation>Databaseondersteuning</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="365"/>
+        <location filename="../letos.cpp" line="367"/>
         <source>Code formatter</source>
         <comment>plugin category name</comment>
         <translation>Codeformatter</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="366"/>
+        <location filename="../letos.cpp" line="368"/>
         <source>Scripting languages</source>
         <comment>plugin category name</comment>
         <translation>Scripttalen</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="368"/>
+        <location filename="../letos.cpp" line="370"/>
         <source>Exporting</source>
         <comment>plugin category name</comment>
         <translation>Exporteren</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="369"/>
+        <location filename="../letos.cpp" line="371"/>
         <source>Importing</source>
         <comment>plugin category name</comment>
         <translation>Importeren</translation>
     </message>
     <message>
-        <location filename="../letos.cpp" line="370"/>
+        <location filename="../letos.cpp" line="372"/>
         <source>Table populating</source>
         <comment>plugin category name</comment>
         <translation>Tabel vullen</translation>
@@ -1242,7 +1242,7 @@ De view blijft zoals deze is.</translation>
 <context>
     <name>UpdateManager</name>
     <message>
-        <location filename="../services/updatemanager.cpp" line="99"/>
+        <location filename="../services/updatemanager.cpp" line="104"/>
         <source>Could not check for updates (%1).</source>
         <translation>Kon niet op updates controleren (%1).</translation>
     </message>

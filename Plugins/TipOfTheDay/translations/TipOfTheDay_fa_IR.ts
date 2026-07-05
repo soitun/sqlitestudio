@@ -63,17 +63,17 @@
 <context>
     <name>TipOfTheDayPlugin</name>
     <message>
-        <location filename="../tipofthedayplugin.cpp" line="18"/>
+        <location filename="../tipofthedayplugin.cpp" line="20"/>
         <source>Tip of the Day...</source>
         <translation>نکتهٔ روز...</translation>
     </message>
     <message>
-        <location filename="../tipofthedayplugin.cpp" line="87"/>
+        <location filename="../tipofthedayplugin.cpp" line="89"/>
         <source>Could not download tips from the internet. Letos will use locally stored tips instead.</source>
         <translation>نکته‌ها از اینترنت قابل دانلود نبودند. Letos به‌جای آن از نکته‌های ذخیره‌شده به‌صورت محلی استفاده خواهد کرد.</translation>
     </message>
     <message>
-        <location filename="../tipofthedayplugin.cpp" line="186"/>
+        <location filename="../tipofthedayplugin.cpp" line="188"/>
         <source>&lt;b&gt;Quick tip:&lt;/b&gt; %1 - &lt;a href=&quot;%2&quot;&gt;Learn more&lt;/a&gt;</source>
         <translation>&lt;b&gt;نکتهٔ سریع:&lt;/b&gt; %1 - &lt;a href=&quot;%2&quot;&gt;بیشتر بدانید&lt;/a&gt;</translation>
     </message>

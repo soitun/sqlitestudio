@@ -89,7 +89,7 @@
         <translation>Database file to open</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="152"/>
+        <location filename="../main.cpp" line="163"/>
         <source>Select configuration directory</source>
         <translation>Select configuration directory</translation>
     </message>

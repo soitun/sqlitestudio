@@ -63,17 +63,17 @@
 <context>
     <name>TipOfTheDayPlugin</name>
     <message>
-        <location filename="../tipofthedayplugin.cpp" line="18"/>
+        <location filename="../tipofthedayplugin.cpp" line="20"/>
         <source>Tip of the Day...</source>
         <translation type="unfinished">Tip of the Day...</translation>
     </message>
     <message>
-        <location filename="../tipofthedayplugin.cpp" line="86"/>
+        <location filename="../tipofthedayplugin.cpp" line="89"/>
         <source>Could not download tips from the internet. Letos will use locally stored tips instead.</source>
         <translation type="unfinished">Could not download tips from the internet. Letos will use locally stored tips instead.</translation>
     </message>
     <message>
-        <location filename="../tipofthedayplugin.cpp" line="179"/>
+        <location filename="../tipofthedayplugin.cpp" line="188"/>
         <source>&lt;b&gt;Quick tip:&lt;/b&gt; %1 - &lt;a href=&quot;%2&quot;&gt;Learn more&lt;/a&gt;</source>
         <translation type="unfinished">&lt;b&gt;Quick tip:&lt;/b&gt; %1 - &lt;a href=&quot;%2&quot;&gt;Learn more&lt;/a&gt;</translation>
     </message>

@@ -4,27 +4,27 @@
 <context>
     <name>Printing</name>
     <message>
-        <location filename="../printing.cpp" line="35"/>
+        <location filename="../printing.cpp" line="36"/>
         <source>Print data</source>
         <translation>Друкувати дані</translation>
     </message>
     <message>
-        <location filename="../printing.cpp" line="37"/>
+        <location filename="../printing.cpp" line="38"/>
         <source>Print query</source>
         <translation>Друкувати запит</translation>
     </message>
     <message>
-        <location filename="../printing.cpp" line="74"/>
+        <location filename="../printing.cpp" line="75"/>
         <source>No data to print.</source>
         <translation>Немає даних для друку.</translation>
     </message>
     <message>
-        <location filename="../printing.cpp" line="82"/>
+        <location filename="../printing.cpp" line="83"/>
         <source>Printing data.</source>
         <translation>Друкування даних.</translation>
     </message>
     <message>
-        <location filename="../printing.cpp" line="108"/>
+        <location filename="../printing.cpp" line="109"/>
         <source>Printing query.</source>
         <translation>Друкування запиту.</translation>
     </message>

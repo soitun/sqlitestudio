@@ -89,7 +89,7 @@
         <translation>Fitxer de base de dades a obrir</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="152"/>
+        <location filename="../main.cpp" line="163"/>
         <source>Select configuration directory</source>
         <translation>Seleccioneu el directori de configuració</translation>
     </message>

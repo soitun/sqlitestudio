@@ -89,7 +89,7 @@
         <translation>Databasefil, der skal åbnes</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="152"/>
+        <location filename="../main.cpp" line="163"/>
         <source>Select configuration directory</source>
         <translation>Vælg konfigurationsmappe</translation>
     </message>

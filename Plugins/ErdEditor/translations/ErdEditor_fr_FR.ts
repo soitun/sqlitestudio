@@ -126,12 +126,12 @@
 <context>
     <name>ErdEditorPlugin</name>
     <message>
-        <location filename="../erdeditorplugin.cpp" line="20"/>
+        <location filename="../erdeditorplugin.cpp" line="21"/>
         <source>Open ERD editor</source>
         <translation>Ouvrir l’éditeur ERD</translation>
     </message>
     <message>
-        <location filename="../erdeditorplugin.cpp" line="74"/>
+        <location filename="../erdeditorplugin.cpp" line="75"/>
         <source>ERD editor cannot open because the database contains %1 tables, exceeding the configured limit of %2 tables. You can increase this limit in the settings, but higher values may slow down or freeze the application.</source>
         <translation>L’éditeur ERD ne peut pas s’ouvrir, car la base de données contient %1 tables, ce qui dépasse la limite configurée de %2 tables. Vous pouvez augmenter cette limite dans les paramètres, mais des valeurs plus élevées peuvent ralentir ou bloquer l’application.</translation>
     </message>

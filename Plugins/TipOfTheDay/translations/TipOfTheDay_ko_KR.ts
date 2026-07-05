@@ -63,17 +63,17 @@
 <context>
     <name>TipOfTheDayPlugin</name>
     <message>
-        <location filename="../tipofthedayplugin.cpp" line="18"/>
+        <location filename="../tipofthedayplugin.cpp" line="20"/>
         <source>Tip of the Day...</source>
         <translation>오늘의 팁...</translation>
     </message>
     <message>
-        <location filename="../tipofthedayplugin.cpp" line="86"/>
+        <location filename="../tipofthedayplugin.cpp" line="89"/>
         <source>Could not download tips from the internet. Letos will use locally stored tips instead.</source>
         <translation>인터넷에서 팁을 다운로드할 수 없습니다. Letos는 대신 로컬에 저장된 팁을 사용합니다.</translation>
     </message>
     <message>
-        <location filename="../tipofthedayplugin.cpp" line="179"/>
+        <location filename="../tipofthedayplugin.cpp" line="188"/>
         <source>&lt;b&gt;Quick tip:&lt;/b&gt; %1 - &lt;a href=&quot;%2&quot;&gt;Learn more&lt;/a&gt;</source>
         <translation>&lt;b&gt;빠른 팁:&lt;/b&gt; %1 - &lt;a href=&quot;%2&quot;&gt;자세히 알아보기&lt;/a&gt;</translation>
     </message>

@@ -89,7 +89,7 @@
         <translation>Databázový súbor na otvorenie</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="152"/>
+        <location filename="../main.cpp" line="163"/>
         <source>Select configuration directory</source>
         <translation>Vyberte konfiguračný adresár</translation>
     </message>

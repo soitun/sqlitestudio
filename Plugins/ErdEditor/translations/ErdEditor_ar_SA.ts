@@ -126,12 +126,12 @@
 <context>
     <name>ErdEditorPlugin</name>
     <message>
-        <location filename="../erdeditorplugin.cpp" line="20"/>
+        <location filename="../erdeditorplugin.cpp" line="21"/>
         <source>Open ERD editor</source>
         <translation>فتح محرر ERD</translation>
     </message>
     <message>
-        <location filename="../erdeditorplugin.cpp" line="74"/>
+        <location filename="../erdeditorplugin.cpp" line="75"/>
         <source>ERD editor cannot open because the database contains %1 tables, exceeding the configured limit of %2 tables. You can increase this limit in the settings, but higher values may slow down or freeze the application.</source>
         <translation>لا يمكن فتح محرر ERD لأن قاعدة البيانات تحتوي على %1 جدولًا، متجاوزةً الحد المكوّن البالغ %2 جدولًا. يمكنك زيادة هذا الحد في الإعدادات، لكن القيم الأعلى قد تبطئ التطبيق أو تجمّده.</translation>
     </message>

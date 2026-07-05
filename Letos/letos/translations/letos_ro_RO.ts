@@ -89,7 +89,7 @@
         <translation>Fișierul bazei de date de deschis</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="152"/>
+        <location filename="../main.cpp" line="163"/>
         <source>Select configuration directory</source>
         <translation>Selectați directorul de configurare</translation>
     </message>

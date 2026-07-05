@@ -89,7 +89,7 @@
         <translation>فایل پایگاه داده برای باز کردن</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="161"/>
+        <location filename="../main.cpp" line="163"/>
         <source>Select configuration directory</source>
         <translation>انتخاب پوشهٔ پیکربندی</translation>
     </message>

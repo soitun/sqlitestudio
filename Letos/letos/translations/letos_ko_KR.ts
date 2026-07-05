@@ -89,7 +89,7 @@
         <translation>열 데이터베이스 파일</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="152"/>
+        <location filename="../main.cpp" line="163"/>
         <source>Select configuration directory</source>
         <translation>구성 디렉터리 선택</translation>
     </message>

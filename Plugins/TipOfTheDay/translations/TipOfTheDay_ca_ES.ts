@@ -63,17 +63,17 @@
 <context>
     <name>TipOfTheDayPlugin</name>
     <message>
-        <location filename="../tipofthedayplugin.cpp" line="18"/>
+        <location filename="../tipofthedayplugin.cpp" line="20"/>
         <source>Tip of the Day...</source>
         <translation>Consell del dia...</translation>
     </message>
     <message>
-        <location filename="../tipofthedayplugin.cpp" line="87"/>
+        <location filename="../tipofthedayplugin.cpp" line="89"/>
         <source>Could not download tips from the internet. Letos will use locally stored tips instead.</source>
         <translation>No s&apos;han pogut baixar els consells d&apos;Internet. Letos utilitzarà els consells emmagatzemats localment en el seu lloc.</translation>
     </message>
     <message>
-        <location filename="../tipofthedayplugin.cpp" line="186"/>
+        <location filename="../tipofthedayplugin.cpp" line="188"/>
         <source>&lt;b&gt;Quick tip:&lt;/b&gt; %1 - &lt;a href=&quot;%2&quot;&gt;Learn more&lt;/a&gt;</source>
         <translation>&lt;b&gt;Consell ràpid:&lt;/b&gt; %1 - &lt;a href=&quot;%2&quot;&gt;Més informació&lt;/a&gt;</translation>
     </message>
