@@ -12,6 +12,7 @@
 - BUGFIX: #5733 Fixed drop support for SQLite3 files under Windows.
 - BUGFIX: #5742 Fixed header to resize column on double-clicking its right separator.
 - BUGFIX: #5738 Fixed bright background for MDI on first app run when using MacOS or Linux with dark theme.
+- BUGFIX: #5743 Removed the Windows 11 and Windows Vista styles from the official builds, as the Qt implementations are incomplete and may lead to a confusing user experience.
 - BUGFIX: Fixed Command Palette under MacOS, so that navigating with up/down keys over results works now and margins of the results are more aesthetic.
 - BUGFIX: Fixed restoring expanded/collapsed state of folders on the database list.
 - BUGFIX: Fixed crash on pressing Ctrl while having focus in the Hex editor.

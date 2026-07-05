@@ -100,6 +100,7 @@ rm -rf lib
 rm -f *.a
 rm -f plugins/*.a
 rm -f styles/*.a
+rm -f styles/qmodernwindowsstyle.dll ;# #5743 Windows 11 & Windows Vista styles by Qt are lacking
 
 if [[ -d "$TOP_DIR/../ext" ]]; then
 	echo "Copying SQLite extensions from $TOP_DIR/../ext"
