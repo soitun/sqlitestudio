@@ -325,9 +325,9 @@ Functions can be implemented in JavaScript, Tcl, or Python. Additional programmi
 
 Custom SQL functions can be managed from the dedicated **SQL Functions Editor**.
 
-Export data in many formats
+## Export data in many formats
 
-Save query results and table data in the format you need
+> Save query results and table data in the format you need
 
 Letos can export data to a wide range of formats, including CSV, SQL, HTML, XML, JSON, and many others.
 
