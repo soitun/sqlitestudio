@@ -1597,10 +1597,25 @@ void SqlQueryView::Header::mouseDoubleClickEvent(QMouseEvent* e)
     if (e->button() == Qt::LeftButton)
     {
         int section = logicalIndexAt(e->pos());
-        if (section >= 0 && CFG_UI.General.SingleColumnClickSort.get())
-            e->accept();
-        else
-            qobject_cast<SqlQueryView*>(parentWidget())->requestColumnSorting(section);
+        if (section >= 0)
+        {
+            // Adjust column size if clicked on separator
+            int x = e->pos().x();
+            int right = sectionPosition(section) + sectionSize(section);
+            const int separatorTolerance = 4;
+            if (qAbs(x - right) <= separatorTolerance)
+            {
+                qobject_cast<SqlQueryView*>(parentWidget())->resizeColumnToContents(section);
+                e->accept();
+                return;
+            }
+
+            // Double-clicked on the section - sort the column if configured to do so
+            if (CFG_UI.General.SingleColumnClickSort.get())
+                e->accept();
+            else
+                qobject_cast<SqlQueryView*>(parentWidget())->requestColumnSorting(section);
+        }
 
         return;
     }

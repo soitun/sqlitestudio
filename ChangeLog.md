@@ -2,6 +2,7 @@
 
 ### 4.0.1
 - ADDED: #5402 User Interface scaling can be now configured for whole application from the configuration dialog (Look & Feel page).
+- ADDED: Letos can now use different icon sets. It's configurable. For now the open source repository contains only the default icon set, while official letos.org builds will include a set from Icons8 (https://icons8.com). These are proprietary icons and Icons8 team granted the license to Letos project.
 - BUGFIX: #5626 Grid View font is now used for inline editors to make the cell editing experience unified.
 - BUGFIX: #5722 Fixed crash when committing data edited in a View.
 - BUGFIX: #5728 Set cell vertical alignment in Grid View to center.
@@ -9,6 +10,7 @@
 - BUGFIX: #5693 Fixed disappearing folder/group from Db list when drag&dropping it outside of the Db list.
 - BUGFIX: #4241 ignore user's QT_PLUGIN_PATH, because it can break Letos if it's incompatible Qt path
 - BUGFIX: #5733 Fixed drop support for SQLite3 files under Windows.
+- BUGFIX: #5742 Fixed header to resize column on double-clicking its right separator.
 - BUGFIX: Fixed Command Palette under MacOS, so that navigating with up/down keys over results works now and margins of the results are more aesthetic.
 - BUGFIX: Fixed restoring expanded/collapsed state of folders on the database list.
 - BUGFIX: Fixed crash on pressing Ctrl while having focus in the Hex editor.
