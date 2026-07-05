@@ -2290,7 +2290,7 @@ void DbTree::updateLinkButtonState()
     if (CFG_UI.DbList.LinkWithMdiArea.get())
     {
         actionMap[LINK_WITH_MDI]->setIcon(ICONS.LINK);
-        actionMap[LINK_WITH_MDI]->setToolTip(
+        actionMap[LINK_WITH_MDI]->setToolTip(tr(
                     "<html>"
                     "<body>"
                     "<p>List sync enabled.</p>"
@@ -2300,12 +2300,12 @@ void DbTree::updateLinkButtonState()
                     "database object.</p>"
                     "</body>"
                     "</html"
-                    );
+                    ));
     }
     else
     {
         actionMap[LINK_WITH_MDI]->setIcon(ICONS.UNLINK);
-        actionMap[LINK_WITH_MDI]->setToolTip(
+        actionMap[LINK_WITH_MDI]->setToolTip(tr(
                     "<html>"
                     "<body>"
                     "<p>List sync disabled.</p>"
@@ -2315,7 +2315,7 @@ void DbTree::updateLinkButtonState()
                     "corresponding database object.</p>"
                     "</body>"
                     "</html"
-                    );
+                    ));
     }
 }
 
