@@ -1817,23 +1817,23 @@
     <message>
       <location filename="../dialogs/configdialog.ui" line="2575"/>
       <source>User interface</source>
-      <translation type="unfinished">User interface</translation>
+      <translation>Giao diện người dùng</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2581"/>
       <location filename="../dialogs/configdialog.ui" line="2591"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Điều chỉnh tỷ lệ giao diện ứng dụng. Các thay đổi có hiệu lực sau khi khởi động lại ứng dụng.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2584"/>
       <source>Interface scale</source>
-      <translation type="unfinished">Interface scale</translation>
+      <translation>Tỷ lệ giao diện</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2601"/>
       <source>Toolbar icon size</source>
-      <translation type="unfinished">Toolbar icon size</translation>
+      <translation>Kích thước biểu tượng thanh công cụ</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2621"/>
@@ -1848,32 +1848,32 @@
     <message>
       <location filename="../dialogs/configdialog.ui" line="2640"/>
       <source>Icon set</source>
-      <translation type="unfinished">Icon set</translation>
+      <translation>Bộ biểu tượng</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2646"/>
       <source>License</source>
-      <translation type="unfinished">License</translation>
+      <translation>Giấy phép</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2653"/>
       <source>Choose icon set (requires restart)</source>
-      <translation type="unfinished">Choose icon set (requires restart)</translation>
+      <translation>Chọn bộ biểu tượng (yêu cầu khởi động lại)</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2725"/>
       <source>Description</source>
-      <translation type="unfinished">Description</translation>
+      <translation>Mô tả</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2735"/>
       <source>Author</source>
-      <translation type="unfinished">Author</translation>
+      <translation>Tác giả</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2749"/>
       <source>URL</source>
-      <translation type="unfinished">URL</translation>
+      <translation>URL</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2783"/>
@@ -1965,12 +1965,12 @@
     <message>
       <location filename="../dialogs/configdialog.cpp" line="467"/>
       <source>The new interface scale will be applied after restarting Letos.</source>
-      <translation type="unfinished">The new interface scale will be applied after restarting Letos.</translation>
+      <translation>Tỷ lệ giao diện mới sẽ được áp dụng sau khi khởi động lại Letos.</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.cpp" line="825"/>
       <source>Restart the application to apply the new icon set.</source>
-      <translation type="unfinished">Restart the application to apply the new icon set.</translation>
+      <translation>Khởi động lại ứng dụng để áp dụng bộ biểu tượng mới.</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.cpp" line="1175"/>
@@ -3097,12 +3097,12 @@ Tất cả đối tượng từ các nhóm này sẽ được chuyển vào các
     <message>
       <location filename="../dbtree/dbtree.cpp" line="2293"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync enabled.&lt;/p&gt;&lt;p&gt;Click to disable.&lt;/p&gt;&lt;p&gt;The list follows the active window and automatically selects and reveals the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</source>
-      <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync enabled.&lt;/p&gt;&lt;p&gt;Click to disable.&lt;/p&gt;&lt;p&gt;The list follows the active window and automatically selects and reveals the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
+      <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Đồng bộ danh sách đã bật.&lt;/p&gt;&lt;p&gt;Nhấp để tắt.&lt;/p&gt;&lt;p&gt;Danh sách đi theo cửa sổ đang hoạt động và tự động chọn cũng như hiển thị đối tượng cơ sở dữ liệu tương ứng.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.cpp" line="2308"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync disabled.&lt;/p&gt;&lt;p&gt;Click to enable.&lt;/p&gt;&lt;p&gt;When enabled, the object tree will follow the active editor and automatically select the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</source>
-      <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync disabled.&lt;/p&gt;&lt;p&gt;Click to enable.&lt;/p&gt;&lt;p&gt;When enabled, the object tree will follow the active editor and automatically select the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
+      <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Đồng bộ danh sách đã tắt.&lt;/p&gt;&lt;p&gt;Nhấp để bật.&lt;/p&gt;&lt;p&gt;Khi được bật, cây đối tượng sẽ đi theo trình soạn thảo đang hoạt động và tự động chọn đối tượng cơ sở dữ liệu tương ứng.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.cpp" line="2591"/>
@@ -4414,7 +4414,7 @@ Vui lòng nhập tên mới, duy nhất, hoặc nhấn &apos;%1&apos; để hủ
     <message>
       <location filename="../iconmanager.cpp" line="295"/>
       <source>Mix of icons from various sources, including svgrepo.com and other open-source icon sets.</source>
-      <translation type="unfinished">Mix of icons from various sources, including svgrepo.com and other open-source icon sets.</translation>
+      <translation>Tập hợp các biểu tượng từ nhiều nguồn khác nhau, bao gồm svgrepo.com và các bộ biểu tượng mã nguồn mở khác.</translation>
     </message>
   </context>
   <context>
