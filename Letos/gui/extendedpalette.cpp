@@ -31,7 +31,7 @@ bool ExtendedPalette::styleChanged(QStyle *style, const QString &themeName)
 
     if (isDark)
     {
-        mdiAreaBaseBrush = stdPalette.alternateBase();
+        mdiAreaBaseBrush = stdPalette.base().color().lighter(120);
         editorLineNumberBaseBrush = stdPalette.base().color().lighter(130);
         editorLineBaseBrush = stdPalette.base().color().lighter(130);
         editorCurrentQueryBrush = stdPalette.base().color().lighter(120);
@@ -43,7 +43,7 @@ bool ExtendedPalette::styleChanged(QStyle *style, const QString &themeName)
         editorLineBaseBrush = stdPalette.base().color().darker(120);
         editorCurrentQueryBrush = stdPalette.base().color().darker(110);
         editorCommentBrush = stdPalette.base().color().darker(160);
-        mdiAreaBaseBrush = QColor(138, 138, 138);
+        mdiAreaBaseBrush = stdPalette.base().color().darker(170);
     }
 
     return true;

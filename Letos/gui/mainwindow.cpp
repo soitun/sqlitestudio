@@ -550,12 +550,27 @@ void MainWindow::saveSession(MdiWindow* currWindow)
 
 void MainWindow::restoreSession()
 {
-    auto cleanup = qScopeGuard([this]
+    bool styleSet = false;
+    auto cleanup = qScopeGuard([this, &styleSet]()
     {
         sessionRestoringFinished = true;
 #ifdef SUPPORT_REMINDERS
         checkForSupportReminder();
 #endif
+
+        if (!styleSet)
+        {
+#ifdef Q_OS_WIN
+            setStyle("fusion");
+#elif Q_OS_MACX
+            setStyle("macos");
+            THEME_TUNER->tuneCurrentTheme();
+#else
+            setStyle("fusion");
+            THEME_TUNER->tuneCurrentTheme();
+#endif
+        }
+
         if (statusField->hasMessages())
             statusField->setVisible(true);
 
@@ -573,9 +588,6 @@ void MainWindow::restoreSession()
     {
         THEME_TUNER->tuneCurrentTheme();
         restoreState(saveState()); // workaround for probable Qt bug (?), reported in #3421
-#ifdef Q_OS_WIN
-        setStyle("fusion");
-#endif
         return;
     }
 
@@ -583,14 +595,7 @@ void MainWindow::restoreSession()
     {
         QString styleName = sessionValue["style"].toString();
         setStyle(styleName);
-    }
-    else
-    {
-#ifdef Q_OS_WIN
-        setStyle("fusion");
-#else
-        THEME_TUNER->tuneCurrentTheme();
-#endif
+        styleSet = true;
     }
 
     QString styleName = currentStyle();

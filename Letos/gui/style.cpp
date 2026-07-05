@@ -30,20 +30,17 @@ const ExtendedPalette& Style::extendedPalette() const
 
 void Style::setStyle(QStyle *style, const QString &styleName)
 {
+    qDebug() << "set style" << style->name() << styleName;
     setBaseStyle(style);
 
-    if (styleName != "qt5ct-style")
-    {
-        QApplication::setPalette(initialPalette); // reset palette, cause styles don't provide
-                                                  // full palette when changed in runtime (i.e. windowsvista)
-    }
+    QApplication::setPalette(initialPalette); // reset palette, cause styles don't provide
+                                              // full palette when changed in runtime (i.e. windowsvista)
+
+    extPalette.styleChanged(style, styleName); // after palette reset, refresh extpalette again
 
     QApplication::setStyle(this);
-    if (styleName != "qt5ct-style")
-    {
-        QApplication::setPalette(standardPalette());
-        QToolTip::setPalette(standardPalette());
-    }
+    QApplication::setPalette(standardPalette());
+    QToolTip::setPalette(standardPalette());
     THEME_TUNER->tuneTheme(styleName);
     MAINWINDOW->getMdiArea()->setBackground(extPalette.mdiAreaBase());
 }
