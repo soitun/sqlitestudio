@@ -1817,23 +1817,23 @@
     <message>
       <location filename="../dialogs/configdialog.ui" line="2575"/>
       <source>User interface</source>
-      <translation type="unfinished">User interface</translation>
+      <translation>Kullanıcı arayüzü</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2581"/>
       <location filename="../dialogs/configdialog.ui" line="2591"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uygulama arayüzünün ölçeğini ayarlar. Değişiklikler uygulama yeniden başlatıldıktan sonra etkili olur.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2584"/>
       <source>Interface scale</source>
-      <translation type="unfinished">Interface scale</translation>
+      <translation>Arayüz ölçeği</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2601"/>
       <source>Toolbar icon size</source>
-      <translation type="unfinished">Toolbar icon size</translation>
+      <translation>Araç çubuğu simge boyutu</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2621"/>
@@ -1848,32 +1848,32 @@
     <message>
       <location filename="../dialogs/configdialog.ui" line="2640"/>
       <source>Icon set</source>
-      <translation type="unfinished">Icon set</translation>
+      <translation>Simge seti</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2646"/>
       <source>License</source>
-      <translation type="unfinished">License</translation>
+      <translation>Lisans</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2653"/>
       <source>Choose icon set (requires restart)</source>
-      <translation type="unfinished">Choose icon set (requires restart)</translation>
+      <translation>Simge setini seç (yeniden başlatma gerektirir)</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2725"/>
       <source>Description</source>
-      <translation type="unfinished">Description</translation>
+      <translation>Açıklama</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2735"/>
       <source>Author</source>
-      <translation type="unfinished">Author</translation>
+      <translation>Yazar</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2749"/>
       <source>URL</source>
-      <translation type="unfinished">URL</translation>
+      <translation>URL</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2783"/>
@@ -1965,12 +1965,12 @@
     <message>
       <location filename="../dialogs/configdialog.cpp" line="467"/>
       <source>The new interface scale will be applied after restarting Letos.</source>
-      <translation type="unfinished">The new interface scale will be applied after restarting Letos.</translation>
+      <translation>Yeni arayüz ölçeği Letos yeniden başlatıldıktan sonra uygulanacak.</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.cpp" line="825"/>
       <source>Restart the application to apply the new icon set.</source>
-      <translation type="unfinished">Restart the application to apply the new icon set.</translation>
+      <translation>Yeni simge setini uygulamak için uygulamayı yeniden başlatın.</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.cpp" line="1175"/>
@@ -3096,12 +3096,12 @@ Bu gruplardaki tüm nesneler ilgili üst gruplara taşınacak.</translation>
     <message>
       <location filename="../dbtree/dbtree.cpp" line="2293"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync enabled.&lt;/p&gt;&lt;p&gt;Click to disable.&lt;/p&gt;&lt;p&gt;The list follows the active window and automatically selects and reveals the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</source>
-      <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync enabled.&lt;/p&gt;&lt;p&gt;Click to disable.&lt;/p&gt;&lt;p&gt;The list follows the active window and automatically selects and reveals the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
+      <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Liste eşitleme etkin.&lt;/p&gt;&lt;p&gt;Devre dışı bırakmak için tıklayın.&lt;/p&gt;&lt;p&gt;Liste etkin pencereyi izler ve karşılık gelen veritabanı nesnesini otomatik olarak seçip gösterir.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.cpp" line="2308"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync disabled.&lt;/p&gt;&lt;p&gt;Click to enable.&lt;/p&gt;&lt;p&gt;When enabled, the object tree will follow the active editor and automatically select the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</source>
-      <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync disabled.&lt;/p&gt;&lt;p&gt;Click to enable.&lt;/p&gt;&lt;p&gt;When enabled, the object tree will follow the active editor and automatically select the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
+      <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Liste eşitleme devre dışı.&lt;/p&gt;&lt;p&gt;Etkinleştirmek için tıklayın.&lt;/p&gt;&lt;p&gt;Etkinleştirildiğinde, nesne ağacı etkin düzenleyiciyi izleyecek ve karşılık gelen veritabanı nesnesini otomatik olarak seçecektir.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.cpp" line="2591"/>
@@ -4413,7 +4413,7 @@ Lütfen yeni ve benzersiz bir ad girin veya işlemi durdurmak için &apos;%1&apo
     <message>
       <location filename="../iconmanager.cpp" line="295"/>
       <source>Mix of icons from various sources, including svgrepo.com and other open-source icon sets.</source>
-      <translation type="unfinished">Mix of icons from various sources, including svgrepo.com and other open-source icon sets.</translation>
+      <translation>svgrepo.com ve diğer açık kaynak simge setleri dahil olmak üzere çeşitli kaynaklardan simgelerin karışımı.</translation>
     </message>
   </context>
   <context>
