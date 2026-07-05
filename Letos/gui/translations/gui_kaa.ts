@@ -46,7 +46,7 @@
     <message>
       <location filename="../dialogs/aboutdialog.ui" line="30"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Free, open-source, cross-platform SQLite database manager.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Author and active maintainer:&lt;br/&gt;Paweł Salawa&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Free, open-source, cross-platform SQLite database manager.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Author and active maintainer:&lt;br/&gt;Paweł Salawa&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Biypul, ashıq derekli, kóp platformalı SQLite maǵlıwmatlar bazası basqarıwshısı.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Avtor hám belsendi qollap-quwatlawshı:&lt;br/&gt;Paweł Salawa&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../dialogs/aboutdialog.ui" line="75"/>
@@ -306,7 +306,7 @@
     <message>
       <location filename="../windows/collationseditor.ui" line="248"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implements the comparison logic directly in Letos using a scripting language. Choose this type to create fully custom sorting and comparison rules without requiring external SQLite extensions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implements the comparison logic directly in Letos using a scripting language. Choose this type to create fully custom sorting and comparison rules without requiring external SQLite extensions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Salıstırıw logikasın skript tili járdeminde tikkeley Letos ishinde ámelge asıradı. Sırtqı SQLite keńeytmelerin talap etpeysten tolıq ózgeshe sortlaw hám salıstırıw qaǵıydaların jaratıw ushın bul túrdi tańlań.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../windows/collationseditor.ui" line="251"/>
@@ -316,7 +316,7 @@
     <message>
       <location filename="../windows/collationseditor.ui" line="258"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uses a collation implemented by a SQLite extension or external library. Choose this type when the comparison logic already exists outside of Letos, for example in ICU or another SQLite extension.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uses a collation implemented by a SQLite extension or external library. Choose this type when the comparison logic already exists outside of Letos, for example in ICU or another SQLite extension.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SQLite keńeytmesi yamasa sırtqı kitapxana ámelge asırǵan salıstırıwdı paydalanadı. Salıstırıw logikası Letos sırtında, mısalı ICU da yamasa basqa SQLite keńeytmesinde álleqashan bar bolǵanda bul túrdi tańlań.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../windows/collationseditor.ui" line="261"/>
@@ -409,27 +409,27 @@
     <message>
       <location filename="../windows/collationseditormodel.cpp" line="219"/>
       <source>all databases</source>
-      <translation type="unfinished">all databases</translation>
+      <translation>barlıq maǵlıwmatlar bazaları</translation>
     </message>
     <message>
       <location filename="../windows/collationseditormodel.cpp" line="224"/>
       <source>Collation:</source>
-      <translation type="unfinished">Collation:</translation>
+      <translation>Salıstırıw:</translation>
     </message>
     <message>
       <location filename="../windows/collationseditormodel.cpp" line="225"/>
       <source>Type:</source>
-      <translation type="unfinished">Type:</translation>
+      <translation>Túri:</translation>
     </message>
     <message>
       <location filename="../windows/collationseditormodel.cpp" line="226"/>
       <source>Language:</source>
-      <translation type="unfinished">Language:</translation>
+      <translation>Til:</translation>
     </message>
     <message>
       <location filename="../windows/collationseditormodel.cpp" line="227"/>
       <source>Registered in:</source>
-      <translation type="unfinished">Registered in:</translation>
+      <translation>Dizimnen ótkerilgen jeri:</translation>
     </message>
   </context>
   <context>
@@ -957,7 +957,7 @@
     <message>
       <location filename="../commandpalette/commandpalette.cpp" line="53"/>
       <source>Search anything...</source>
-      <translation type="unfinished">Search anything...</translation>
+      <translation>Hár nárseni izlew...</translation>
     </message>
   </context>
   <context>
@@ -1628,12 +1628,12 @@
     <message>
       <location filename="../dialogs/configdialog.ui" line="524"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When editing a cell, pressing Enter accepts the value and moves to the same column in the next row.&lt;br/&gt;If disabled, the selection stays on the current cell.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When editing a cell, pressing Enter accepts the value and moves to the same column in the next row.&lt;br/&gt;If disabled, the selection stays on the current cell.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uyanı ózgertip atırǵanda Enter basılsa, mánis qabıl etiledi hám keyingi joldaǵı sol qatardıń ózine ótedi.&lt;br/&gt;Eger óshirilgen bolsa, tańlaw házirgi uyada qaladı.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="527"/>
       <source>After editing, Enter moves to the next row</source>
-      <translation type="unfinished">After editing, Enter moves to the next row</translation>
+      <translation>Ózgertkennen keyin Enter keyingi jolǵa ótedi</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="557"/>
@@ -1643,12 +1643,12 @@
     <message>
       <location filename="../dialogs/configdialog.ui" line="492"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enter menen keyingi jolǵa ótkennen keyin sol joldaǵı uyanı ózgertiwdi avtomatikalıq baslaydı.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="495"/>
       <source>Start editing after moving to the next row</source>
-      <translation type="unfinished">Start editing after moving to the next row</translation>
+      <translation>Keyingi jolǵa ótkennen keyin ózgertiwdi baslaw</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="656"/>
@@ -1708,12 +1708,12 @@
     <message>
       <location filename="../dialogs/configdialog.ui" line="1182"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ara-tura Letos joybarın qollap-quwatlaw haqqında maǵlıwmatı bar status xabarın kórsetiw. Bul esletpeler siyrek payda boladı hám olardı qálegen waqıtta óshiriwge boladı.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="1185"/>
       <source>Show occasional project support reminders</source>
-      <translation type="unfinished">Show occasional project support reminders</translation>
+      <translation>Joybardı qollap-quwatlaw esletpelerin ara-tura kórsetiw</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="1221"/>
@@ -1729,7 +1729,7 @@
     <message>
       <location filename="../dialogs/configdialog.ui" line="1250"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Eger qosılsa, redaktor eninen uzın sızıqlar qatarlanıp ótedi, sonıń ushın gorizontal jılıstırıw kerek bolmaydı.&lt;/p&gt;&lt;p&gt;Bul parametr global ádepki mánisti anıqlaydı, al bólek SQL redaktor aynaları onı jergilikli túrde almastıra aladı.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="1263"/>
@@ -1817,23 +1817,23 @@
     <message>
       <location filename="../dialogs/configdialog.ui" line="2575"/>
       <source>User interface</source>
-      <translation type="unfinished">User interface</translation>
+      <translation>Paydalanıwshı interfeysi</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2581"/>
       <location filename="../dialogs/configdialog.ui" line="2591"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Qosımsha interfeysiniń masshtabın sazlaydı. Ózgerisler qosımshanı qayta iske túsirgennen keyin kúshke enedi.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2584"/>
       <source>Interface scale</source>
-      <translation type="unfinished">Interface scale</translation>
+      <translation>Interfeys masshtabı</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2601"/>
       <source>Toolbar icon size</source>
-      <translation type="unfinished">Toolbar icon size</translation>
+      <translation>Qural paneli belgishesi ólshemi</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2621"/>
@@ -1848,32 +1848,32 @@
     <message>
       <location filename="../dialogs/configdialog.ui" line="2640"/>
       <source>Icon set</source>
-      <translation type="unfinished">Icon set</translation>
+      <translation>Belgisheler jıynaǵı</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2646"/>
       <source>License</source>
-      <translation type="unfinished">License</translation>
+      <translation>Licenziya</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2653"/>
       <source>Choose icon set (requires restart)</source>
-      <translation type="unfinished">Choose icon set (requires restart)</translation>
+      <translation>Belgisheler jıynaǵın tańlaw (qayta iske túsiriwdi talap etedi)</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2725"/>
       <source>Description</source>
-      <translation type="unfinished">Description</translation>
+      <translation>Sıpatlama</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2735"/>
       <source>Author</source>
-      <translation type="unfinished">Author</translation>
+      <translation>Avtor</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2749"/>
       <source>URL</source>
-      <translation type="unfinished">URL</translation>
+      <translation>URL</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2783"/>
@@ -1965,12 +1965,12 @@
     <message>
       <location filename="../dialogs/configdialog.cpp" line="467"/>
       <source>The new interface scale will be applied after restarting Letos.</source>
-      <translation type="unfinished">The new interface scale will be applied after restarting Letos.</translation>
+      <translation>Jańa interfeys masshtabı Letos qayta iske túsirilgennen keyin qollanıladı.</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.cpp" line="825"/>
       <source>Restart the application to apply the new icon set.</source>
-      <translation type="unfinished">Restart the application to apply the new icon set.</translation>
+      <translation>Jańa belgisheler jıynaǵın qollanıw ushın qosımshanı qayta iske túsiriń.</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.cpp" line="1175"/>
@@ -2227,20 +2227,20 @@
     <message>
       <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="52"/>
       <source>Configure hotkey: %1 (%2)</source>
-      <translation type="unfinished">Configure hotkey: %1 (%2)</translation>
+      <translation>Tez túymeni sazlaw: %1 (%2)</translation>
     </message>
     <message>
       <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="53"/>
       <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="70"/>
       <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="87"/>
       <source>Open configuration on the &quot;%1&quot; page</source>
-      <translation type="unfinished">Open configuration on the &quot;%1&quot; page</translation>
+      <translation>Konfiguraciyanı &quot;%1&quot; betinde ashıw</translation>
     </message>
     <message>
       <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="69"/>
       <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="86"/>
       <source>Configure: %1</source>
-      <translation type="unfinished">Configure: %1</translation>
+      <translation>Sazlaw: %1</translation>
     </message>
   </context>
   <context>
@@ -2263,7 +2263,7 @@
       <location filename="../dataview.cpp" line="126"/>
       <source>Filter by value in any column</source>
       <comment>data view</comment>
-      <translation type="unfinished">Filter by value in any column</translation>
+      <translation>Qálegen qatardaǵı mánis boyınsha súziw</translation>
     </message>
     <message>
       <location filename="../dataview.cpp" line="135"/>
@@ -3097,12 +3097,12 @@ Bul toparlardaǵı barlıq obyektler tiyisli ata-ana toparlarǵa kóshiriledi.</
     <message>
       <location filename="../dbtree/dbtree.cpp" line="2293"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync enabled.&lt;/p&gt;&lt;p&gt;Click to disable.&lt;/p&gt;&lt;p&gt;The list follows the active window and automatically selects and reveals the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</source>
-      <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync enabled.&lt;/p&gt;&lt;p&gt;Click to disable.&lt;/p&gt;&lt;p&gt;The list follows the active window and automatically selects and reveals the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
+      <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Dizim sinxronlawı qosılǵan.&lt;/p&gt;&lt;p&gt;Óshiriw ushın basıń.&lt;/p&gt;&lt;p&gt;Dizim belsendi aynanı baqlap baradı hám sáykes maǵlıwmatlar bazası obyektin avtomatikalıq tańlap, kórsetedi.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.cpp" line="2308"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync disabled.&lt;/p&gt;&lt;p&gt;Click to enable.&lt;/p&gt;&lt;p&gt;When enabled, the object tree will follow the active editor and automatically select the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</source>
-      <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync disabled.&lt;/p&gt;&lt;p&gt;Click to enable.&lt;/p&gt;&lt;p&gt;When enabled, the object tree will follow the active editor and automatically select the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
+      <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Dizim sinxronlawı óshirilgen.&lt;/p&gt;&lt;p&gt;Qosıw ushın basıń.&lt;/p&gt;&lt;p&gt;Qosılǵanda, obyektler teregı belsendi redaktordı baqlap baradı hám sáykes maǵlıwmatlar bazası obyektin avtomatikalıq tańlaydı.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.cpp" line="2591"/>
@@ -3408,13 +3408,13 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
       <location filename="../windows/editorwindow.cpp" line="499"/>
       <source>Focus results on the same tab</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Focus results on the same tab</translation>
+      <translation>Nátiyjelerdi sol bette fokuslaw</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="500"/>
       <source>Focus SQL editor on the same tab</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Focus SQL editor on the same tab</translation>
+      <translation>SQL redaktorın sol bette fokuslaw</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="505"/>
@@ -3431,12 +3431,12 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../windows/editorwindow.cpp" line="474"/>
       <source>Commit</source>
-      <translation type="unfinished">Commit</translation>
+      <translation>Bekitiw</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="475"/>
       <source>Rollback</source>
-      <translation type="unfinished">Rollback</translation>
+      <translation>Artqa qaytarıw</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="489"/>
@@ -3492,38 +3492,38 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
       <location filename="../windows/editorwindow.cpp" line="525"/>
       <source>Results layout: Separate tab</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Results layout: Separate tab</translation>
+      <translation>Nátiyjeler jaylasıwı: bólek bet</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="526"/>
       <source>Results layout: Below editor</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Results layout: Below editor</translation>
+      <translation>Nátiyjeler jaylasıwı: redaktordan tómen</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="527"/>
       <source>Results layout: Right of editor</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Results layout: Right of editor</translation>
+      <translation>Nátiyjeler jaylasıwı: redaktordıń oń tárepinde</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="542"/>
       <location filename="../windows/editorwindow.cpp" line="543"/>
       <source>Explain mode: %1</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Explain mode: %1</translation>
+      <translation>Túsindiriw rejimi: %1</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="563"/>
       <source>Auto-commit queries</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Auto-commit queries</translation>
+      <translation>Sorawlardı avtomatikalıq bekitiw</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="580"/>
       <source>Editor window settings</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Editor window settings</translation>
+      <translation>Redaktor aynası sazlamaları</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="628"/>
@@ -3548,17 +3548,17 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../windows/editorwindow.cpp" line="831"/>
       <source>Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</source>
-      <translation type="unfinished">Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</translation>
+      <translation>WALǵa journal_mode rejimin awıstırıw sátsiz boldı. Qol menen bekitiw rejimi qoljetimsiz. Qáte: %1</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="842"/>
       <source>Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</source>
-      <translation type="unfinished">Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</translation>
+      <translation>Jańa maǵlıwmatlar bazası baylanısın ashıw sátsiz boldı. Qol menen bekitiw rejimi qosılmaydı. Qáte: %1</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="845"/>
       <source>The joirnal_mode will be switched back to %1.</source>
-      <translation type="unfinished">The joirnal_mode will be switched back to %1.</translation>
+      <translation>Rejim journal_mode qaytadan %1 ge awıstırıladı.</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="969"/>
@@ -3589,50 +3589,50 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
       <location filename="../windows/editorwindow.cpp" line="1170"/>
       <source>Query auto-commit is now enabled in: %1</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Query auto-commit is now enabled in: %1</translation>
+      <translation>Sorawdı avtomatikalıq tastıyıqlaw endi qosıldı: %1</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="1172"/>
       <source>Query auto-commit is now disabled in: %1</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Query auto-commit is now disabled in: %1</translation>
+      <translation>Sorawdı avtomatikalıq tastıyıqlaw endi óshirildi: %1</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="1230"/>
       <location filename="../windows/editorwindow.cpp" line="1234"/>
       <source>Apply changes to the transaction</source>
-      <translation type="unfinished">Apply changes to the transaction</translation>
+      <translation>Ózgerislerdi tranzakciyaǵa qollanıw</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="1231"/>
       <location filename="../windows/editorwindow.cpp" line="1235"/>
       <source>Discard changes in data view</source>
-      <translation type="unfinished">Discard changes in data view</translation>
+      <translation>Maǵlıwmat kórinisindegi ózgerislerdi biykarlaw</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="1232"/>
       <source>Apply selected changes to the transaction</source>
-      <translation type="unfinished">Apply selected changes to the transaction</translation>
+      <translation>Tańlanǵan ózgerislerdi tranzakciyaǵa qollanıw</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="1233"/>
       <source>Discard changes in selected cells</source>
-      <translation type="unfinished">Discard changes in selected cells</translation>
+      <translation>Tańlanǵan uyalardaǵı ózgerislerdi biykarlaw</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="1274"/>
       <source>Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</source>
-      <translation type="unfinished">Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</translation>
+      <translation>Kútilip turǵan qol menen tranzakciya bar waqıtta maǵlıwmatlar bazasın ózgertip bolmaydı. Maǵlıwmatlar bazasın ózgertiwden aldın tranzakciyanı tastıyıqlań yamasa artqa qaytarıń.</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="1314"/>
       <source>Manual transaction committed successfully.</source>
-      <translation type="unfinished">Manual transaction committed successfully.</translation>
+      <translation>Qol menen tranzakciya tabıslı tastıyıqlandı.</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="1343"/>
       <source>Manual transaction rolled back.</source>
-      <translation type="unfinished">Manual transaction rolled back.</translation>
+      <translation>Qol menen tranzakciya artqa qaytarıldı.</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="1386"/>
@@ -3728,7 +3728,7 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../dialogs/execfromfiledialog.ui" line="88"/>
       <source>Execution mode</source>
-      <translation type="unfinished">Execution mode</translation>
+      <translation>Orınlaw rejimi</translation>
     </message>
     <message>
       <location filename="../dialogs/execfromfiledialog.ui" line="107"/>
@@ -4396,17 +4396,17 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../windows/functionseditormodel.cpp" line="268"/>
       <source>No</source>
-      <translation type="unfinished">No</translation>
+      <translation>Yaq</translation>
     </message>
     <message>
       <location filename="../windows/functionseditormodel.cpp" line="269"/>
       <source>Language:</source>
-      <translation type="unfinished">Language:</translation>
+      <translation>Til:</translation>
     </message>
     <message>
       <location filename="../windows/functionseditormodel.cpp" line="270"/>
       <source>Registered in:</source>
-      <translation type="unfinished">Registered in:</translation>
+      <translation>Dizimge alınǵan jeri:</translation>
     </message>
   </context>
   <context>
@@ -4414,7 +4414,7 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../iconmanager.cpp" line="295"/>
       <source>Mix of icons from various sources, including svgrepo.com and other open-source icon sets.</source>
-      <translation type="unfinished">Mix of icons from various sources, including svgrepo.com and other open-source icon sets.</translation>
+      <translation>Hár túrli dereklerden, sonıń ishinde svgrepo.com hám basqa ashıq derekli belgisheler jıynaqlarınan alınǵan belgisheler aralaspası.</translation>
     </message>
   </context>
   <context>
@@ -4422,102 +4422,102 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../dialogs/importdialog.ui" line="14"/>
       <source>Import data</source>
-      <translation type="unfinished">Import data</translation>
+      <translation>Maǵlıwmattı importlaw</translation>
     </message>
     <message>
       <location filename="../dialogs/importdialog.ui" line="171"/>
       <source>Table to import to</source>
-      <translation type="unfinished">Table to import to</translation>
+      <translation>Importlanatuǵın keste</translation>
     </message>
     <message>
       <location filename="../dialogs/importdialog.ui" line="186"/>
       <source>Table</source>
-      <translation type="unfinished">Table</translation>
+      <translation>Keste</translation>
     </message>
     <message>
       <location filename="../dialogs/importdialog.ui" line="193"/>
       <source>Database</source>
-      <translation type="unfinished">Database</translation>
+      <translation>Maǵlıwmatlar bazası</translation>
     </message>
     <message>
       <location filename="../dialogs/importdialog.ui" line="24"/>
       <source>Data source to import from</source>
-      <translation type="unfinished">Data source to import from</translation>
+      <translation>Importlanatuǵın maǵlıwmat deregi</translation>
     </message>
     <message>
       <location filename="../dialogs/importdialog.ui" line="69"/>
       <source>Data source type</source>
-      <translation type="unfinished">Data source type</translation>
+      <translation>Maǵlıwmat deregi túri</translation>
     </message>
     <message>
       <location filename="../dialogs/importdialog.ui" line="81"/>
       <source>Options</source>
-      <translation type="unfinished">Options</translation>
+      <translation>Opciyalar</translation>
     </message>
     <message>
       <location filename="../dialogs/importdialog.ui" line="115"/>
       <source>Text encoding:</source>
-      <translation type="unfinished">Text encoding:</translation>
+      <translation>Tekst kodlanıwı:</translation>
     </message>
     <message>
       <location filename="../dialogs/importdialog.ui" line="122"/>
       <source>Input file:</source>
-      <translation type="unfinished">Input file:</translation>
+      <translation>Kiris faylı:</translation>
     </message>
     <message>
       <location filename="../dialogs/importdialog.ui" line="132"/>
       <source>&lt;p&gt;If enabled, any constraint violation, or invalid data format (wrong column count), or any other problem encountered during import will be ignored and the importing will be continued.&lt;/p&gt;</source>
-      <translation type="unfinished">&lt;p&gt;If enabled, any constraint violation, or invalid data format (wrong column count), or any other problem encountered during import will be ignored and the importing will be continued.&lt;/p&gt;</translation>
+      <translation>&lt;p&gt;Eger qosılǵan bolsa, import waqtında ushırasqan hár qanday sheklew buzılıwı, jaramsız maǵlıwmat formatı (baǵanalar sanı nadurıs) yamasa basqa mashqala itibarsız qaldırıladı hám importlaw dawam etedi.&lt;/p&gt;</translation>
     </message>
     <message>
       <location filename="../dialogs/importdialog.ui" line="135"/>
       <source>Ignore errors</source>
-      <translation type="unfinished">Ignore errors</translation>
+      <translation>Qátelerdi itibarsız qaldırıw</translation>
     </message>
     <message>
       <location filename="../dialogs/importdialog.ui" line="145"/>
       <source>Data source options</source>
-      <translation type="unfinished">Data source options</translation>
+      <translation>Maǵlıwmat deregi opciyaları</translation>
     </message>
     <message>
       <location filename="../dialogs/importdialog.cpp" line="132"/>
       <source>Cancel</source>
-      <translation type="unfinished">Cancel</translation>
+      <translation>Biykar etiw</translation>
     </message>
     <message>
       <location filename="../dialogs/importdialog.cpp" line="163"/>
       <source>If you type table name that doesn&apos;t exist, it will be created.</source>
-      <translation type="unfinished">If you type table name that doesn&apos;t exist, it will be created.</translation>
+      <translation>Eger joq keste atın kirgizseńiz, ol jaratıladı.</translation>
     </message>
     <message>
       <location filename="../dialogs/importdialog.cpp" line="163"/>
       <source>Enter the table name</source>
-      <translation type="unfinished">Enter the table name</translation>
+      <translation>Keste atın kiritiń</translation>
     </message>
     <message>
       <location filename="../dialogs/importdialog.cpp" line="181"/>
       <source>Select import plugin.</source>
-      <translation type="unfinished">Select import plugin.</translation>
+      <translation>Import plaginin tańlań.</translation>
     </message>
     <message>
       <location filename="../dialogs/importdialog.cpp" line="190"/>
       <source>You must provide a file to import from.</source>
-      <translation type="unfinished">You must provide a file to import from.</translation>
+      <translation>Importlaw ushın fayl kórsetiwińiz kerek.</translation>
     </message>
     <message>
       <location filename="../dialogs/importdialog.cpp" line="197"/>
       <source>The file &apos;%1&apos; does not exist.</source>
-      <translation type="unfinished">The file &apos;%1&apos; does not exist.</translation>
+      <translation>&apos;%1&apos; faylı joq.</translation>
     </message>
     <message>
       <location filename="../dialogs/importdialog.cpp" line="203"/>
       <source>Path you provided is a directory. A regular file is required.</source>
-      <translation type="unfinished">Path you provided is a directory. A regular file is required.</translation>
+      <translation>Siz kórsetken jol katalog. Ádettegi fayl talap etiledi.</translation>
     </message>
     <message>
       <location filename="../dialogs/importdialog.cpp" line="396"/>
       <source>Pick file to import from</source>
-      <translation type="unfinished">Pick file to import from</translation>
+      <translation>Importlanatuǵın fayldı tańlań</translation>
     </message>
   </context>
   <context>
@@ -4526,127 +4526,127 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
       <location filename="../dialogs/indexdialog.ui" line="20"/>
       <location filename="../dialogs/indexdialog.ui" line="30"/>
       <source>Index</source>
-      <translation type="unfinished">Index</translation>
+      <translation>Indeks</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.ui" line="70"/>
       <source>Column</source>
-      <translation type="unfinished">Column</translation>
+      <translation>Baǵana</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.ui" line="75"/>
       <source>Sort</source>
-      <translation type="unfinished">Sort</translation>
+      <translation>Sortlaw</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.ui" line="80"/>
       <source>Collation</source>
-      <translation type="unfinished">Collation</translation>
+      <translation>Sáykeslestiriw</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.ui" line="88"/>
       <source>On table:</source>
-      <translation type="unfinished">On table:</translation>
+      <translation>Kestede:</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.ui" line="98"/>
       <source>Delete selected indexed expression</source>
-      <translation type="unfinished">Delete selected indexed expression</translation>
+      <translation>Tańlanǵan indekslengen ańlatpanı óshiriw</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.ui" line="108"/>
       <source>Moves selected index column up in the order, making it more significant in the index.</source>
-      <translation type="unfinished">Moves selected index column up in the order, making it more significant in the index.</translation>
+      <translation>Tańlanǵan indeks baǵanasın tártipte joqarıǵa jıljıtıp, onı indekste áhmiyetlirek etedi.</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.ui" line="118"/>
       <source>Moves selected index column down in the order, making it less significant in the index.</source>
-      <translation type="unfinished">Moves selected index column down in the order, making it less significant in the index.</translation>
+      <translation>Tańlanǵan indeks baǵanasın tártipte tómenge jıljıtıp, onı indekste áhmiyeti kemirek etedi.</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.ui" line="128"/>
       <source>Partial index condition</source>
-      <translation type="unfinished">Partial index condition</translation>
+      <translation>Bólek indeks shárti</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.ui" line="135"/>
       <source>Unique index</source>
-      <translation type="unfinished">Unique index</translation>
+      <translation>Unikal indeks</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.ui" line="142"/>
       <source>Index name:</source>
-      <translation type="unfinished">Index name:</translation>
+      <translation>Indeks atı:</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.ui" line="149"/>
       <source>Edit selected indexed expression</source>
-      <translation type="unfinished">Edit selected indexed expression</translation>
+      <translation>Tańlanǵan indekslengen ańlatpanı redaktorlaw</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.ui" line="169"/>
       <source>Add indexed expression</source>
-      <translation type="unfinished">Add indexed expression</translation>
+      <translation>Indekslengen ańlatpa qosıw</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.ui" line="180"/>
       <source>DDL</source>
-      <translation type="unfinished">DDL</translation>
+      <translation>DDL</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.cpp" line="73"/>
       <source>Tried to open index dialog for closed or inexisting database.</source>
-      <translation type="unfinished">Tried to open index dialog for closed or inexisting database.</translation>
+      <translation>Jabıq yamasa joq maǵlıwmatlar bazası ushın indeks dialogın ashıwǵa háreket etildi.</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.cpp" line="143"/>
       <source>Could not process index %1 correctly. Unable to open an index dialog.</source>
-      <translation type="unfinished">Could not process index %1 correctly. Unable to open an index dialog.</translation>
+      <translation>%1 indeksin durıs islew múmkin bolmadı. Indeks dialogın ashıw múmkin emes.</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.cpp" line="196"/>
       <source>Pick the table for the index.</source>
-      <translation type="unfinished">Pick the table for the index.</translation>
+      <translation>Indeks ushın kesteni tańlań.</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.cpp" line="197"/>
       <source>Select at least one column.</source>
-      <translation type="unfinished">Select at least one column.</translation>
+      <translation>Keminde bir baǵananı tańlań.</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.cpp" line="198"/>
       <source>Enter a valid condition.</source>
-      <translation type="unfinished">Enter a valid condition.</translation>
+      <translation>Jararlı shárt kiritiń.</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.cpp" line="270"/>
       <source>default</source>
       <comment>index dialog</comment>
-      <translation type="unfinished">default</translation>
+      <translation>ádepki</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.cpp" line="274"/>
       <source>Sort order</source>
       <comment>table constraints</comment>
-      <translation type="unfinished">Sort order</translation>
+      <translation>Sortlaw tártibi</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.cpp" line="768"/>
       <location filename="../dialogs/indexdialog.cpp" line="781"/>
       <source>Error</source>
       <comment>index dialog</comment>
-      <translation type="unfinished">Error</translation>
+      <translation>Qáte</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.cpp" line="769"/>
       <source>Cannot create unique index, because values in selected columns are not unique. Would you like to execute SELECT query to see problematic values?</source>
-      <translation type="unfinished">Cannot create unique index, because values in selected columns are not unique. Would you like to execute SELECT query to see problematic values?</translation>
+      <translation>Unikal indeks jaratıw múmkin emes, sebebi tańlanǵan baǵanalardaǵı mánisler unikal emes. Mashqalalı mánislerdi kóriw ushın SELECT sorawın orınlawdı qalaysız ba?</translation>
     </message>
     <message>
       <location filename="../dialogs/indexdialog.cpp" line="781"/>
       <source>An error occurred while executing SQL statements:
 %1</source>
-      <translation type="unfinished">An error occurred while executing SQL statements:
+      <translation>SQL operatorların orınlaw waqtında qáte júz berdi:
 %1</translation>
     </message>
   </context>
@@ -4655,42 +4655,42 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../dialogs/indexexprcolumndialog.ui" line="14"/>
       <source>Indexed expression</source>
-      <translation type="unfinished">Indexed expression</translation>
+      <translation>Indekslengen ańlatpa</translation>
     </message>
     <message>
       <location filename="../dialogs/indexexprcolumndialog.ui" line="20"/>
       <source>Expression to index</source>
-      <translation type="unfinished">Expression to index</translation>
+      <translation>Indekslene tuǵın ańlatpa</translation>
     </message>
     <message>
       <location filename="../dialogs/indexexprcolumndialog.cpp" line="60"/>
       <source>This expression is already indexed by the index.</source>
-      <translation type="unfinished">This expression is already indexed by the index.</translation>
+      <translation>Bul ańlatpa indeks tárepinen álleqashan indekslengen.</translation>
     </message>
     <message>
       <location filename="../dialogs/indexexprcolumndialog.cpp" line="66"/>
       <source>Column should be indexed directly, not by expression. Either extend this expression to contain something more than just column name, or abort and select this column in index dialog directly.</source>
-      <translation type="unfinished">Column should be indexed directly, not by expression. Either extend this expression to contain something more than just column name, or abort and select this column in index dialog directly.</translation>
+      <translation>Baǵana ańlatpa arqalı emes, tikkeley indeksleniwi kerek. Bul ańlatpanı tek baǵana atınan kóbirek nárse qamtıytuǵınday keńeytiń yamasa biykar etip, bul baǵananı indeks dialogında tikkeley tańlań.</translation>
     </message>
     <message>
       <location filename="../dialogs/indexexprcolumndialog.cpp" line="76"/>
       <source>Column &apos;%1&apos; does not belong to the table covered by this index. Indexed expressions can refer only to columns from the indexed table.</source>
-      <translation type="unfinished">Column &apos;%1&apos; does not belong to the table covered by this index. Indexed expressions can refer only to columns from the indexed table.</translation>
+      <translation>&apos;%1&apos; baǵanası bul indeks qamtiytuǵın kestege tiyisli emes. Indekslengen ańlatpalar tek indekslengen kesteniń baǵanalarına silteme jasay aladı.</translation>
     </message>
     <message>
       <location filename="../dialogs/indexexprcolumndialog.cpp" line="84"/>
       <source>It&apos;s forbidden to use &apos;SELECT&apos; statements in indexed expressions.</source>
-      <translation type="unfinished">It&apos;s forbidden to use &apos;SELECT&apos; statements in indexed expressions.</translation>
+      <translation>Indekslengen ańlatpalarda &apos;SELECT&apos; operatorların qollanıw qadaǵan.</translation>
     </message>
     <message>
       <location filename="../dialogs/indexexprcolumndialog.cpp" line="105"/>
       <source>Enter an indexed expression.</source>
-      <translation type="unfinished">Enter an indexed expression.</translation>
+      <translation>Indekslengen ańlatpanı kiritiń.</translation>
     </message>
     <message>
       <location filename="../dialogs/indexexprcolumndialog.cpp" line="119"/>
       <source>Invalid expression.</source>
-      <translation type="unfinished">Invalid expression.</translation>
+      <translation>Jaramsız ańlatpa.</translation>
     </message>
   </context>
   <context>
@@ -4698,12 +4698,12 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../dialogs/languagedialog.ui" line="14"/>
       <source>Language</source>
-      <translation type="unfinished">Language</translation>
+      <translation>Til</translation>
     </message>
     <message>
       <location filename="../dialogs/languagedialog.ui" line="20"/>
       <source>Please choose language:</source>
-      <translation type="unfinished">Please choose language:</translation>
+      <translation>Tildi tańlań:</translation>
     </message>
   </context>
   <context>
@@ -4711,431 +4711,431 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../mainwindow.ui" line="81"/>
       <source>Database toolbar</source>
-      <translation type="unfinished">Database toolbar</translation>
+      <translation>Maǵlıwmatlar bazası ásbaplar paneli</translation>
     </message>
     <message>
       <location filename="../mainwindow.ui" line="92"/>
       <source>Structure toolbar</source>
-      <translation type="unfinished">Structure toolbar</translation>
+      <translation>Struktura ásbaplar paneli</translation>
     </message>
     <message>
       <location filename="../mainwindow.ui" line="103"/>
       <source>Tools</source>
-      <translation type="unfinished">Tools</translation>
+      <translation>Ásbaplar</translation>
     </message>
     <message>
       <location filename="../mainwindow.ui" line="120"/>
       <source>Window list</source>
-      <translation type="unfinished">Window list</translation>
+      <translation>Aynalar dizimi</translation>
     </message>
     <message>
       <location filename="../mainwindow.ui" line="134"/>
       <source>View toolbar</source>
-      <translation type="unfinished">View toolbar</translation>
+      <translation>Kórinis ásbaplar paneli</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="145"/>
       <source>Configuration widgets</source>
-      <translation type="unfinished">Configuration widgets</translation>
+      <translation>Konfiguraciya widgetleri</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="146"/>
       <source>Syntax highlighting engines</source>
-      <translation type="unfinished">Syntax highlighting engines</translation>
+      <translation>Sintaksisti ayqınlaw engine'leri</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="147"/>
       <source>Data editors</source>
-      <translation type="unfinished">Data editors</translation>
+      <translation>Maǵlıwmat redaktorları</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="160"/>
       <source>Running in debug mode. Press %1 or use &apos;Help / Open debug console&apos; menu entry to open the debug console.</source>
-      <translation type="unfinished">Running in debug mode. Press %1 or use &apos;Help / Open debug console&apos; menu entry to open the debug console.</translation>
+      <translation>Debug rejiminde islep tur. Debug konsolın ashıw ushın %1 basıń yamasa &apos;Járdem / Debug konsolın ashıw&apos; menyu bándin qollanıń.</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="162"/>
       <source>Running in debug mode. Debug messages are printed to the standard output.</source>
-      <translation type="unfinished">Running in debug mode. Debug messages are printed to the standard output.</translation>
+      <translation>Debug rejiminde islep tur. Debug xabarları standart shıǵısqa basıp shıǵarıladı.</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="272"/>
       <source>You need to restart application to make the language change take effect.</source>
-      <translation type="unfinished">You need to restart application to make the language change take effect.</translation>
+      <translation>Til ózgerisi kúshke eniwi ushın qosımshanı qayta iske qosıw kerek.</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="317"/>
       <source>Open SQL &amp;editor</source>
-      <translation type="unfinished">Open SQL &amp;editor</translation>
+      <translation>SQL &amp;redaktorın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="361"/>
       <source>Open DDL &amp;history</source>
-      <translation type="unfinished">Open DDL &amp;history</translation>
+      <translation>DDL &amp;tarıyxın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="318"/>
       <source>Open SQL &amp;functions editor</source>
-      <translation type="unfinished">Open SQL &amp;functions editor</translation>
+      <translation>SQL &amp;funkciyaları redaktorın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="319"/>
       <source>Open code &amp;snippets editor</source>
-      <translation type="unfinished">Open code &amp;snippets editor</translation>
+      <translation>Kod &amp;úzindileri redaktorın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="320"/>
       <source>Open &amp;collations editor</source>
-      <translation type="unfinished">Open &amp;collations editor</translation>
+      <translation>&amp;Sáykeslestiriwler redaktorın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="321"/>
       <source>Open ex&amp;tension manager</source>
-      <translation type="unfinished">Open ex&amp;tension manager</translation>
+      <translation>Keńey&amp;tpe basqarıwshısın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="323"/>
       <source>&amp;Import</source>
-      <translation type="unfinished">&amp;Import</translation>
+      <translation>&amp;Importlaw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="324"/>
       <source>E&amp;xport</source>
-      <translation type="unfinished">E&amp;xport</translation>
+      <translation>E&amp;ksport</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="325"/>
       <source>Open confi&amp;guration dialog</source>
-      <translation type="unfinished">Open confi&amp;guration dialog</translation>
+      <translation>Konfi&amp;guraciya dialogın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="327"/>
       <source>&amp;Tile windows</source>
-      <translation type="unfinished">&amp;Tile windows</translation>
+      <translation>Aynalardı &amp;plitka túrinde jaylastırıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="328"/>
       <source>Tile windows &amp;horizontally</source>
-      <translation type="unfinished">Tile windows &amp;horizontally</translation>
+      <translation>Aynalardı &amp;gorizontal jaylastırıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="329"/>
       <source>Tile windows &amp;vertically</source>
-      <translation type="unfinished">Tile windows &amp;vertically</translation>
+      <translation>Aynalardı &amp;vertikal jaylastırıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="330"/>
       <source>&amp;Cascade windows</source>
-      <translation type="unfinished">&amp;Cascade windows</translation>
+      <translation>Aynalardı &amp;kaskad túrinde jaylastırıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="332"/>
       <source>Next window</source>
-      <translation type="unfinished">Next window</translation>
+      <translation>Keyingi ayna</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="331"/>
       <source>Previous window</source>
-      <translation type="unfinished">Previous window</translation>
+      <translation>Aldınǵı ayna</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="335"/>
       <source>Hide status field</source>
-      <translation type="unfinished">Hide status field</translation>
+      <translation>Status maydanın jasırıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="339"/>
       <source>Close &amp;all windows</source>
-      <translation type="unfinished">Close &amp;all windows</translation>
+      <translation>&amp;Barlıq aynalardı jabıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="342"/>
       <source>Re&amp;store recently closed window</source>
-      <translation type="unfinished">Re&amp;store recently closed window</translation>
+      <translation>Jańa jabılǵan aynanı &amp;qayta tiklew</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="337"/>
       <source>Close current &amp;window</source>
-      <translation type="unfinished">Close current &amp;window</translation>
+      <translation>Házirgi &amp;aynanı jabıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="148"/>
       <source>Data renderers</source>
-      <translation type="unfinished">Data renderers</translation>
+      <translation>Maǵlıwmat kórsetiwshileri</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="338"/>
       <source>Close &amp;other windows</source>
-      <translation type="unfinished">Close &amp;other windows</translation>
+      <translation>&amp;Basqa aynalardı jabıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="340"/>
       <source>Close windows on the &amp;left</source>
-      <translation type="unfinished">Close windows on the &amp;left</translation>
+      <translation>&amp;Sheptegi aynalardı jabıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="341"/>
       <source>Close windows on the &amp;right</source>
-      <translation type="unfinished">Close windows on the &amp;right</translation>
+      <translation>&amp;Ońdaǵı aynalardı jabıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="343"/>
       <source>Re&amp;name selected window</source>
-      <translation type="unfinished">Re&amp;name selected window</translation>
+      <translation>Tańlanǵan aynanıń &amp;atın ózgertiw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="346"/>
       <source>Open Debug Console</source>
-      <translation type="unfinished">Open Debug Console</translation>
+      <translation>Debug konsolın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="347"/>
       <source>Open CSS Console</source>
-      <translation type="unfinished">Open CSS Console</translation>
+      <translation>CSS konsolın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="348"/>
       <source>Report a &amp;bug</source>
-      <translation type="unfinished">Report a &amp;bug</translation>
+      <translation>&amp;Qáte haqqında xabar beriw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="349"/>
       <source>D&amp;onate</source>
-      <translation type="unfinished">D&amp;onate</translation>
+      <translation>Qayır-&amp;sadaqa beriw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="350"/>
       <source>Propose a new &amp;feature</source>
-      <translation type="unfinished">Propose a new &amp;feature</translation>
+      <translation>Jańa &amp;múmkinshilik usınıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="351"/>
       <source>&amp;About</source>
-      <translation type="unfinished">&amp;About</translation>
+      <translation>&amp;Baǵdarlama haqqında</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="352"/>
       <source>&amp;Licenses</source>
-      <translation type="unfinished">&amp;Licenses</translation>
+      <translation>&amp;Licenziyalar</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="353"/>
       <source>Open home &amp;page</source>
-      <translation type="unfinished">Open home &amp;page</translation>
+      <translation>Bas &amp;betti ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="354"/>
       <source>User &amp;Manual</source>
-      <translation type="unfinished">User &amp;Manual</translation>
+      <translation>Paydalanıwshı &amp;qollanbası</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="355"/>
       <source>SQLite &amp;documentation</source>
-      <translation type="unfinished">SQLite &amp;documentation</translation>
+      <translation>SQLite &amp;hújjetleri</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="356"/>
       <source>Bugs and feature &amp;requests</source>
-      <translation type="unfinished">Bugs and feature &amp;requests</translation>
+      <translation>Qáteler hám múmkinshilik &amp;sorawları</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="357"/>
       <source>Quit</source>
-      <translation type="unfinished">Quit</translation>
+      <translation>Shıǵıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="359"/>
       <source>Check for &amp;updates</source>
-      <translation type="unfinished">Check for &amp;updates</translation>
+      <translation>&amp;Jańalanıwlardı tekseriw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="390"/>
       <source>&amp;Database</source>
       <comment>menubar</comment>
-      <translation type="unfinished">&amp;Database</translation>
+      <translation>&amp;Maǵlıwmatlar bazası</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="415"/>
       <source>&amp;Structure</source>
       <comment>menubar</comment>
-      <translation type="unfinished">&amp;Structure</translation>
+      <translation>&amp;Struktura</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="771"/>
       <source>&amp;View</source>
       <comment>menubar</comment>
-      <translation type="unfinished">&amp;View</translation>
+      <translation>&amp;Kórinis</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="1455"/>
       <source>The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</source>
-      <translation type="unfinished">The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</translation>
+      <translation>Túsirilgen fayl SQLite 2 maǵlıwmatlar bazasına uqsaydı, bul Letos versiyasında ol qollap-quwatlanbaydı. SQLite 2 ni qollap-quwatlaǵan sońǵı versiya 3.2.1 edi.</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="441"/>
       <source>Window list</source>
       <comment>menubar view menu</comment>
-      <translation type="unfinished">Window list</translation>
+      <translation>Aynalar dizimi</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="333"/>
       <source>Move window earlier</source>
-      <translation type="unfinished">Move window earlier</translation>
+      <translation>Aynanı aldınıraq jıljıtıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="334"/>
       <source>Move window later</source>
-      <translation type="unfinished">Move window later</translation>
+      <translation>Aynanı keyinirek jıljıtıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="345"/>
       <source>Open Command Palette</source>
-      <translation type="unfinished">Open Command Palette</translation>
+      <translation>Buyrıqlar palitrasın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="362"/>
       <source>Export configuration</source>
-      <translation type="unfinished">Export configuration</translation>
+      <translation>Konfiguraciyanı eksportlaw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="363"/>
       <source>Import configuration</source>
-      <translation type="unfinished">Import configuration</translation>
+      <translation>Konfiguraciyanı importlaw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="382"/>
       <source>arrange</source>
       <comment>command palette entry</comment>
-      <translation type="unfinished">arrange</translation>
+      <translation>tártiplestiriw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="471"/>
       <source>&amp;Tools</source>
       <comment>menubar</comment>
-      <translation type="unfinished">&amp;Tools</translation>
+      <translation>&amp;Ásbaplar</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="491"/>
       <source>&amp;Help</source>
-      <translation type="unfinished">&amp;Help</translation>
+      <translation>&amp;Járdem</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="708"/>
       <source>Could not set style: %1</source>
       <comment>main window</comment>
-      <translation type="unfinished">Could not set style: %1</translation>
+      <translation>Stildi ornatıw múmkin bolmadı: %1</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="945"/>
       <source>Cannot export, because no export plugin is loaded.</source>
-      <translation type="unfinished">Cannot export, because no export plugin is loaded.</translation>
+      <translation>Eksportlaw múmkin emes, sebebi hesh qanday eksport plagini júklenbegen.</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="962"/>
       <source>Cannot import, because no import plugin is loaded.</source>
-      <translation type="unfinished">Cannot import, because no import plugin is loaded.</translation>
+      <translation>Importlaw múmkin emes, sebebi hesh qanday import plagini júklenbegen.</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="1005"/>
       <source>Rename window</source>
-      <translation type="unfinished">Rename window</translation>
+      <translation>Aynanıń atın ózgertiw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="1005"/>
       <source>Enter new name for the window:</source>
-      <translation type="unfinished">Enter new name for the window:</translation>
+      <translation>Ayna ushın jańa at kiritiń:</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="1115"/>
       <source>New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</source>
-      <translation type="unfinished">New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</translation>
+      <translation>Jańa jańalanıwlar bar. &lt;a href=&quot;%1&quot;&gt;Tolıq maǵlıwmat ushın bul jerge basıń&lt;/a&gt;.</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="1121"/>
       <source>You&apos;re running the most recent version. No updates are available.</source>
-      <translation type="unfinished">You&apos;re running the most recent version. No updates are available.</translation>
+      <translation>Siz eń sońǵı versiyanı isletip atırsız. Jańalanıwlar joq.</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="1176"/>
       <source>Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</source>
-      <translation type="unfinished">Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</translation>
+      <translation>Letos biypul hám ashıq derekli. Eger ol jumısıńızǵa járdem berse, &lt;a href=&quot;%1&quot;&gt;joybardı qollap-quwatlawdı&lt;/a&gt; qarap kóriń.</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="1261"/>
       <source>Toolbar &amp;icons</source>
       <comment>menubar</comment>
-      <translation type="unfinished">Toolbar &amp;icons</translation>
+      <translation>Ásbaplar paneli &amp;belgileri</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="1268"/>
       <source>Size: %1%</source>
       <comment>toolbar icons</comment>
-      <translation type="unfinished">Size: %1%</translation>
+      <translation>Ólshemi: %1%</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="1356"/>
       <source>Drop files to open them</source>
-      <translation type="unfinished">Drop files to open them</translation>
+      <translation>Fayllardı ashıw ushın olardı túsiriń</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="1458"/>
       <source>The dropped file type is unsupported: %1 (%2)</source>
-      <translation type="unfinished">The dropped file type is unsupported: %1 (%2)</translation>
+      <translation>Túsirilgen fayl túri qollap-quwatlanbaydı: %1 (%2)</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="1468"/>
       <source>SQLite 3 database - add to database list and open</source>
-      <translation type="unfinished">SQLite 3 database - add to database list and open</translation>
+      <translation>SQLite 3 maǵlıwmatlar bazası - dizimge qosıp ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="1470"/>
       <source>It may be an encrypted SQLite 3 database. You can try to open it.</source>
-      <translation type="unfinished">It may be an encrypted SQLite 3 database. You can try to open it.</translation>
+      <translation>Bul shifrlengen SQLite 3 maǵlıwmatlar bazası bolıwı múmkin. Onı ashıp kóriwińiz múmkin.</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="1472"/>
       <source>Empty file, but also empty SQLite 3 database - open as database</source>
-      <translation type="unfinished">Empty file, but also empty SQLite 3 database - open as database</translation>
+      <translation>Bos fayl, biraq bos SQLite 3 maǵlıwmatlar bazası da - maǵlıwmatlar bazası sıpatında ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="1474"/>
       <source>SQL file - open in SQL Editor</source>
-      <translation type="unfinished">SQL file - open in SQL Editor</translation>
+      <translation>SQL faylı - SQL redaktorında ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="1476"/>
       <source>Text file - open in SQL Editor</source>
-      <translation type="unfinished">Text file - open in SQL Editor</translation>
+      <translation>Tekst faylı - SQL redaktorında ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="1478"/>
       <source>CSV file - import using Import Dialog</source>
-      <translation type="unfinished">CSV file - import using Import Dialog</translation>
+      <translation>CSV faylı - Import dialogı arqalı importlaw</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="1480"/>
       <source>SQLite 2 database - not supported anymore</source>
-      <translation type="unfinished">SQLite 2 database - not supported anymore</translation>
+      <translation>SQLite 2 maǵlıwmatlar bazası - endi qollap-quwatlanbaydı</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="1482"/>
       <source>Unsupported file type</source>
-      <translation type="unfinished">Unsupported file type</translation>
+      <translation>Qollap-quwatlanbaytuǵın fayl túri</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="1581"/>
       <source>Database passed in command line parameters (%1) was already on the list under name: %2</source>
-      <translation type="unfinished">Database passed in command line parameters (%1) was already on the list under name: %2</translation>
+      <translation>Komanda qatarı parametrlerinde berilgen maǵlıwmatlar bazası (%1) dizimde álleqashan mına at penen bar edi: %2</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="1588"/>
       <source>Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</source>
-      <translation type="unfinished">Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</translation>
+      <translation>Komanda qatarı parametrlerinde berilgen maǵlıwmatlar bazası (%1) dizimge waqtınsha mına at penen qosıldı: %2</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="1593"/>
       <source>Could not add database %1 to list.</source>
-      <translation type="unfinished">Could not add database %1 to list.</translation>
+      <translation>%1 maǵlıwmatlar bazasın dizimge qosıw múmkin bolmadı.</translation>
     </message>
   </context>
   <context>
@@ -5143,47 +5143,47 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="14"/>
       <source>Pending transaction</source>
-      <translation type="unfinished">Pending transaction</translation>
+      <translation>Kútilip turǵan tranzakciya</translation>
     </message>
     <message>
       <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="20"/>
       <source>Roll Back Transaction</source>
-      <translation type="unfinished">Roll Back Transaction</translation>
+      <translation>Tranzakciyanı artqa qaytarıw</translation>
     </message>
     <message>
       <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="23"/>
       <source>Discard changes made within the transaction and proceed</source>
-      <translation type="unfinished">Discard changes made within the transaction and proceed</translation>
+      <translation>Tranzakciya ishinde jasalǵan ózgerislerdi biykarlap dawam etiw</translation>
     </message>
     <message>
       <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="30"/>
       <source>Commit Transaction</source>
-      <translation type="unfinished">Commit Transaction</translation>
+      <translation>Tranzakciyanı bekitiw</translation>
     </message>
     <message>
       <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="33"/>
       <source>Save transaction changes and proceed</source>
-      <translation type="unfinished">Save transaction changes and proceed</translation>
+      <translation>Tranzakciya ózgerislerin saqlap dawam etiw</translation>
     </message>
     <message>
       <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="40"/>
       <source>Cancel</source>
-      <translation type="unfinished">Cancel</translation>
+      <translation>Biykarlaw</translation>
     </message>
     <message>
       <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="43"/>
       <source>Keep the transaction open and stay with the current database</source>
-      <translation type="unfinished">Keep the transaction open and stay with the current database</translation>
+      <translation>Tranzakciyanı ashıq qaldırıp, házirgi maǵlıwmatlar bazasında qalıw</translation>
     </message>
     <message>
       <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="50"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;What would you like to do with this transaction?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;What would you like to do with this transaction?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Bul tranzakciya menen ne islewińizdi qáleysiz?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="64"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;The current database connection (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) has an active manual transaction with pending changes that have not been committed yet.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;The current database connection (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) has an active manual transaction with pending changes that have not been committed yet.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Házirgi maǵlıwmatlar bazası baylanısı (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) ele tastıyıqlanbaǵan kútilip turǵan ózgerisleri bar belsendi qol menen tranzakciyaǵa iye.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
   </context>
   <context>
@@ -5191,37 +5191,37 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../dialogs/manualcommitwalmodedialog.ui" line="14"/>
       <source>WAL mode for manual commits</source>
-      <translation type="unfinished">WAL mode for manual commits</translation>
+      <translation>Qol menen tastıyıqlawlar ushın WAL rejimi</translation>
     </message>
     <message>
       <location filename="../dialogs/manualcommitwalmodedialog.ui" line="20"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;This database (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) is not currently using WAL (Write-Ahead Logging) journal mode.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Manual commit mode requires WAL mode to be enabled.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;WAL mode allows other connections and parts of the application to continue reading the database while a write transaction is open. Without WAL mode, an open transaction could block schema refreshes, data browsing and other database operations.&lt;/p&gt;&lt;p&gt;Please note:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;WAL mode affects the database file itself and will be used by all future connections to this database until changed again with &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite still allows only one active write transaction at a time, even in WAL mode.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Read more about WAL at &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;This database (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) is not currently using WAL (Write-Ahead Logging) journal mode.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Manual commit mode requires WAL mode to be enabled.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;WAL mode allows other connections and parts of the application to continue reading the database while a write transaction is open. Without WAL mode, an open transaction could block schema refreshes, data browsing and other database operations.&lt;/p&gt;&lt;p&gt;Please note:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;WAL mode affects the database file itself and will be used by all future connections to this database until changed again with &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite still allows only one active write transaction at a time, even in WAL mode.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Read more about WAL at &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Bul maǵlıwmatlar bazası (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) házir WAL (Write-Ahead Logging) jurnal rejimin qollanbayapti.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Qol menen tastıyıqlaw rejimi WAL rejimin qosıwdı talap etedi.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;WAL rejimi jazıw tranzakciyası ashıq bolǵanda basqa baylanıslarǵa hám qosımshanıń bólimlerine maǵlıwmatlar bazasın oqıwdı dawam etiwge múmkinshilik beredi. WAL rejimi bolmasa, ashıq tranzakciya sxemanı jańalawdı, maǵlıwmatlardı kóriwdi hám basqa maǵlıwmatlar bazası ámellerin bloklawı múmkin.&lt;/p&gt;&lt;p&gt;Esletpe:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;WAL rejimi maǵlıwmatlar bazası faylınıń ózine tásir etedi hám &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt; arqalı qaytadan ózgertilgenge shekem bul maǵlıwmatlar bazasına barlıq keleshektegi baylanıslar tárepinen qollanıladı.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite WAL rejiminde de bir waqıtta tek bir belsendi jazıw tranzakciyasına ruqsat beredi.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;WAL haqqında kóbirek oqıń: &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../dialogs/manualcommitwalmodedialog.ui" line="43"/>
       <source>Keep current journal mode</source>
-      <translation type="unfinished">Keep current journal mode</translation>
+      <translation>Házirgi jurnal rejimin saqlaw</translation>
     </message>
     <message>
       <location filename="../dialogs/manualcommitwalmodedialog.ui" line="46"/>
       <source>and use auto-commits</source>
-      <translation type="unfinished">and use auto-commits</translation>
+      <translation>hám avtomatikalıq tastıyıqlawlardı qollanıw</translation>
     </message>
     <message>
       <location filename="../dialogs/manualcommitwalmodedialog.ui" line="53"/>
       <source>Enable WAL mode</source>
-      <translation type="unfinished">Enable WAL mode</translation>
+      <translation>WAL rejimin qosıw</translation>
     </message>
     <message>
       <location filename="../dialogs/manualcommitwalmodedialog.ui" line="56"/>
       <source>and use manual commits</source>
-      <translation type="unfinished">and use manual commits</translation>
+      <translation>hám qol menen tastıyıqlawlardı qollanıw</translation>
     </message>
     <message>
       <location filename="../dialogs/manualcommitwalmodedialog.ui" line="63"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Do you want to enable WAL mode and continue?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Do you want to enable WAL mode and continue?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;WAL rejimin qosıp, dawam etiwdi qáleysiz be?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
   </context>
   <context>
@@ -5229,17 +5229,17 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../mdiwindow.cpp" line="204"/>
       <source>Uncommitted changes</source>
-      <translation type="unfinished">Uncommitted changes</translation>
+      <translation>Tastıyıqlanbaǵan ózgerisler</translation>
     </message>
     <message>
       <location filename="../mdiwindow.cpp" line="209"/>
       <source>Close anyway</source>
-      <translation type="unfinished">Close anyway</translation>
+      <translation>Báribir jabıw</translation>
     </message>
     <message>
       <location filename="../mdiwindow.cpp" line="211"/>
       <source>Don&apos;t close</source>
-      <translation type="unfinished">Don&apos;t close</translation>
+      <translation>Jappaw</translation>
     </message>
   </context>
   <context>
@@ -5249,119 +5249,119 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
       <location filename="../multieditor/multieditor.cpp" line="590"/>
       <source>Null value</source>
       <comment>multieditor</comment>
-      <translation type="unfinished">Null value</translation>
+      <translation>Null mánisi</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditor.cpp" line="80"/>
       <source>Save this value to a file</source>
-      <translation type="unfinished">Save this value to a file</translation>
+      <translation>Bul mánisti faylǵa saqlaw</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditor.cpp" line="83"/>
       <source>Load this value from a file</source>
-      <translation type="unfinished">Load this value from a file</translation>
+      <translation>Bul mánisti fayldan júklew</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditor.cpp" line="94"/>
       <source>Configure editors for this data type</source>
-      <translation type="unfinished">Configure editors for this data type</translation>
+      <translation>Bul maǵlıwmat túri ushın redaktorlardı sazlaw</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditor.cpp" line="102"/>
       <source>Open another tab</source>
-      <translation type="unfinished">Open another tab</translation>
+      <translation>Basqa betti ashıw</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditor.cpp" line="118"/>
       <source>Reset value</source>
-      <translation type="unfinished">Reset value</translation>
+      <translation>Mánisti qayta ornatıw</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditor.cpp" line="376"/>
       <source>Foreign Key</source>
-      <translation type="unfinished">Foreign Key</translation>
+      <translation>Sırtqı gilt</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditor.cpp" line="434"/>
       <source>All files (*)</source>
-      <translation type="unfinished">All files (*)</translation>
+      <translation>Barlıq fayllar (*)</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditor.cpp" line="436"/>
       <source>Text files (*.txt *.log *.csv *.tsv *.md *.json *.xml *.yaml *.yml)</source>
-      <translation type="unfinished">Text files (*.txt *.log *.csv *.tsv *.md *.json *.xml *.yaml *.yml)</translation>
+      <translation>Tekst faylları (*.txt *.log *.csv *.tsv *.md *.json *.xml *.yaml *.yml)</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditor.cpp" line="438"/>
       <source>SQL files (*.sql)</source>
-      <translation type="unfinished">SQL files (*.sql)</translation>
+      <translation>SQL faylları (*.sql)</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditor.cpp" line="440"/>
       <source>Binary data (*.bin *.dat *.raw)</source>
-      <translation type="unfinished">Binary data (*.bin *.dat *.raw)</translation>
+      <translation>Binar maǵlıwmat (*.bin *.dat *.raw)</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditor.cpp" line="442"/>
       <source>Images (*.jpeg *.jpg *.png *.bmp *.gif *.tiff *.jp2 *.svg *.tga *.icns *.webp *.wbmp *.mng)</source>
-      <translation type="unfinished">Images (*.jpeg *.jpg *.png *.bmp *.gif *.tiff *.jp2 *.svg *.tga *.icns *.webp *.wbmp *.mng)</translation>
+      <translation>Súwretler (*.jpeg *.jpg *.png *.bmp *.gif *.tiff *.jp2 *.svg *.tga *.icns *.webp *.wbmp *.mng)</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditor.cpp" line="444"/>
       <source>Archives (*.zip *.7z *.rar *.tar *.gz *.bz2 *.xz)</source>
-      <translation type="unfinished">Archives (*.zip *.7z *.rar *.tar *.gz *.bz2 *.xz)</translation>
+      <translation>Arxivler (*.zip *.7z *.rar *.tar *.gz *.bz2 *.xz)</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditor.cpp" line="446"/>
       <source>Documents (*.pdf *.rtf *.doc *.docx *.odt *.xls *.xlsx *.ods)</source>
-      <translation type="unfinished">Documents (*.pdf *.rtf *.doc *.docx *.odt *.xls *.xlsx *.ods)</translation>
+      <translation>Hújjetler (*.pdf *.rtf *.doc *.docx *.odt *.xls *.xlsx *.ods)</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditor.cpp" line="448"/>
       <source>Executables (*.exe *.dll *.so *.dylib)</source>
-      <translation type="unfinished">Executables (*.exe *.dll *.so *.dylib)</translation>
+      <translation>Orınlanatuǵın fayllar (*.exe *.dll *.so *.dylib)</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditor.cpp" line="472"/>
       <source>Data editor plugin &apos;%1&apos; not loaded, while it is defined for editing &apos;%2&apos; data type.</source>
-      <translation type="unfinished">Data editor plugin &apos;%1&apos; not loaded, while it is defined for editing &apos;%2&apos; data type.</translation>
+      <translation>&apos;%1&apos; maǵlıwmat redaktorı plagini júklenbegen, biraq ol &apos;%2&apos; maǵlıwmat túrin redaktorlaw ushın anıqlanǵan.</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditor.cpp" line="578"/>
       <source>Deleted</source>
       <comment>multieditor</comment>
-      <translation type="unfinished">Deleted</translation>
+      <translation>Óshirildi</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditor.cpp" line="580"/>
       <source>Read only</source>
       <comment>multieditor</comment>
-      <translation type="unfinished">Read only</translation>
+      <translation>Tek oqıw ushın</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditor.cpp" line="694"/>
       <source>Open</source>
-      <translation type="unfinished">Open</translation>
+      <translation>Ashıw</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditor.cpp" line="703"/>
       <source>Could not open file %1 for reading.</source>
-      <translation type="unfinished">Could not open file %1 for reading.</translation>
+      <translation>%1 faylın oqıw ushın ashıw múmkin bolmadı.</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditor.cpp" line="719"/>
       <source>Save</source>
-      <translation type="unfinished">Save</translation>
+      <translation>Saqlaw</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditor.cpp" line="728"/>
       <source>Could not open file %1 for writting.</source>
-      <translation type="unfinished">Could not open file %1 for writting.</translation>
+      <translation>%1 faylın jazıw ushın ashıw múmkin bolmadı.</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditor.cpp" line="778"/>
       <source>Could not write data into the file %1</source>
-      <translation type="unfinished">Could not write data into the file %1</translation>
+      <translation>Maǵlıwmattı %1 faylına jazıw múmkin bolmadı</translation>
     </message>
   </context>
   <context>
@@ -5369,7 +5369,7 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../multieditor/multieditorbool.cpp" line="227"/>
       <source>Boolean</source>
-      <translation type="unfinished">Boolean</translation>
+      <translation>Bulev</translation>
     </message>
   </context>
   <context>
@@ -5377,7 +5377,7 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../multieditor/multieditordate.cpp" line="89"/>
       <source>Date</source>
-      <translation type="unfinished">Date</translation>
+      <translation>Sáne</translation>
     </message>
   </context>
   <context>
@@ -5385,7 +5385,7 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../multieditor/multieditordatetime.cpp" line="276"/>
       <source>Date &amp; time</source>
-      <translation type="unfinished">Date &amp; time</translation>
+      <translation>Sáne hám waqıt</translation>
     </message>
   </context>
   <context>
@@ -5393,7 +5393,7 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../multieditor/multieditorfk.cpp" line="25"/>
       <source>Selected value preview</source>
-      <translation type="unfinished">Selected value preview</translation>
+      <translation>Tańlanǵan mánisti aldınnan kóriw</translation>
     </message>
   </context>
   <context>
@@ -5401,7 +5401,7 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../multieditor/multieditorhex.cpp" line="107"/>
       <source>Hex</source>
-      <translation type="unfinished">Hex</translation>
+      <translation>On altılıq</translation>
     </message>
   </context>
   <context>
@@ -5410,7 +5410,7 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
       <location filename="../multieditor/multieditornumeric.cpp" line="112"/>
       <source>Number</source>
       <comment>numeric multi editor tab name</comment>
-      <translation type="unfinished">Number</translation>
+      <translation>San</translation>
     </message>
   </context>
   <context>
@@ -5418,37 +5418,37 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../multieditor/multieditortext.cpp" line="126"/>
       <source>Tab changes focus</source>
-      <translation type="unfinished">Tab changes focus</translation>
+      <translation>Tab fokustı ózgertedi</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditortext.cpp" line="127"/>
       <source>Cut</source>
-      <translation type="unfinished">Cut</translation>
+      <translation>Kesip alıw</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditortext.cpp" line="128"/>
       <source>Copy</source>
-      <translation type="unfinished">Copy</translation>
+      <translation>Kóshiriw</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditortext.cpp" line="129"/>
       <source>Paste</source>
-      <translation type="unfinished">Paste</translation>
+      <translation>Qoyıw</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditortext.cpp" line="130"/>
       <source>Delete</source>
-      <translation type="unfinished">Delete</translation>
+      <translation>Óshiriw</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditortext.cpp" line="131"/>
       <source>Undo</source>
-      <translation type="unfinished">Undo</translation>
+      <translation>Biykar etiw</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditortext.cpp" line="132"/>
       <source>Redo</source>
-      <translation type="unfinished">Redo</translation>
+      <translation>Qayta islew</translation>
     </message>
   </context>
   <context>
@@ -5456,7 +5456,7 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../multieditor/multieditortext.cpp" line="309"/>
       <source>Text</source>
-      <translation type="unfinished">Text</translation>
+      <translation>Tekst</translation>
     </message>
   </context>
   <context>
@@ -5464,7 +5464,7 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../multieditor/multieditortime.cpp" line="92"/>
       <source>Time</source>
-      <translation type="unfinished">Time</translation>
+      <translation>Waqıt</translation>
     </message>
   </context>
   <context>
@@ -5472,59 +5472,59 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../dialogs/newconstraintdialog.ui" line="20"/>
       <source>New constraint</source>
-      <translation type="unfinished">New constraint</translation>
+      <translation>Jańa sheklew</translation>
     </message>
     <message>
       <location filename="../dialogs/newconstraintdialog.cpp" line="104"/>
       <location filename="../dialogs/newconstraintdialog.cpp" line="112"/>
       <source>Primary Key</source>
       <comment>new constraint dialog</comment>
-      <translation type="unfinished">Primary Key</translation>
+      <translation>Bas gilt</translation>
     </message>
     <message>
       <location filename="../dialogs/newconstraintdialog.cpp" line="105"/>
       <location filename="../dialogs/newconstraintdialog.cpp" line="113"/>
       <source>Foreign Key</source>
       <comment>new constraint dialog</comment>
-      <translation type="unfinished">Foreign Key</translation>
+      <translation>Sırtqı gilt</translation>
     </message>
     <message>
       <location filename="../dialogs/newconstraintdialog.cpp" line="106"/>
       <location filename="../dialogs/newconstraintdialog.cpp" line="114"/>
       <source>Unique</source>
       <comment>new constraint dialog</comment>
-      <translation type="unfinished">Unique</translation>
+      <translation>Unikal</translation>
     </message>
     <message>
       <location filename="../dialogs/newconstraintdialog.cpp" line="107"/>
       <location filename="../dialogs/newconstraintdialog.cpp" line="115"/>
       <source>Check</source>
       <comment>new constraint dialog</comment>
-      <translation type="unfinished">Check</translation>
+      <translation>Tekseriw</translation>
     </message>
     <message>
       <location filename="../dialogs/newconstraintdialog.cpp" line="116"/>
       <source>Not NULL</source>
       <comment>new constraint dialog</comment>
-      <translation type="unfinished">Not NULL</translation>
+      <translation>NULL emes</translation>
     </message>
     <message>
       <location filename="../dialogs/newconstraintdialog.cpp" line="117"/>
       <source>Collate</source>
       <comment>new constraint dialog</comment>
-      <translation type="unfinished">Collate</translation>
+      <translation>Sarıplaw tártibi</translation>
     </message>
     <message>
       <location filename="../dialogs/newconstraintdialog.cpp" line="118"/>
       <source>Generated</source>
       <comment>new constraint dialog</comment>
-      <translation type="unfinished">Generated</translation>
+      <translation>Generaciyalanǵan</translation>
     </message>
     <message>
       <location filename="../dialogs/newconstraintdialog.cpp" line="119"/>
       <source>Default</source>
       <comment>new constraint dialog</comment>
-      <translation type="unfinished">Default</translation>
+      <translation>Ádepki</translation>
     </message>
   </context>
   <context>
@@ -5532,47 +5532,47 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../dialogs/newversiondialog.ui" line="20"/>
       <source>Letos updates</source>
-      <translation type="unfinished">Letos updates</translation>
+      <translation>Letos jańalanıwları</translation>
     </message>
     <message>
       <location filename="../dialogs/newversiondialog.ui" line="31"/>
       <source>New version is available!</source>
-      <translation type="unfinished">New version is available!</translation>
+      <translation>Jańa versiya bar!</translation>
     </message>
     <message>
       <location filename="../dialogs/newversiondialog.ui" line="57"/>
       <source>Download new version!</source>
-      <translation type="unfinished">Download new version!</translation>
+      <translation>Jańa versiyanı júklep alıń!</translation>
     </message>
     <message>
       <location filename="../dialogs/newversiondialog.ui" line="70"/>
       <source>New version package will be downloaded. It will be up to you to install it whenever you&apos;re ready.</source>
-      <translation type="unfinished">New version package will be downloaded. It will be up to you to install it whenever you&apos;re ready.</translation>
+      <translation>Jańa versiya paketi júklep alınadı. Onı qashan ornatıw sizdiń ıqtıyarıńızda.</translation>
     </message>
     <message>
       <location filename="../dialogs/newversiondialog.ui" line="77"/>
       <source>Open Letos home page.</source>
-      <translation type="unfinished">Open Letos home page.</translation>
+      <translation>Letos bas betin ashıw.</translation>
     </message>
     <message>
       <location filename="../dialogs/newversiondialog.ui" line="90"/>
       <source>Read release notes &amp;&amp; download package yourself.</source>
-      <translation type="unfinished">Read release notes &amp;&amp; download package yourself.</translation>
+      <translation>Shıǵarılıw esletpelerin oqıń &amp;&amp; paketti ózińiz júklep alıń.</translation>
     </message>
     <message>
       <location filename="../dialogs/newversiondialog.ui" line="110"/>
       <source>Just close this window.</source>
-      <translation type="unfinished">Just close this window.</translation>
+      <translation>Tek bul aynanı jabıń.</translation>
     </message>
     <message>
       <location filename="../dialogs/newversiondialog.ui" line="120"/>
       <source>Check for updates on startup</source>
-      <translation type="unfinished">Check for updates on startup</translation>
+      <translation>Iske qosılǵanda jańalanıwlardı tekseriw</translation>
     </message>
     <message>
       <location filename="../dialogs/newversiondialog.ui" line="97"/>
       <source>Not now.</source>
-      <translation type="unfinished">Not now.</translation>
+      <translation>Házir emes.</translation>
     </message>
   </context>
   <context>
@@ -5580,7 +5580,7 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../common/passwordtogglehelper.cpp" line="11"/>
       <source>Show / hide password</source>
-      <translation type="unfinished">Show / hide password</translation>
+      <translation>Paroldı kórsetiw / jasırıw</translation>
     </message>
   </context>
   <context>
@@ -5588,12 +5588,12 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../dialogs/populateconfigdialog.ui" line="14"/>
       <source>Populating configuration</source>
-      <translation type="unfinished">Populating configuration</translation>
+      <translation>Tolıtıw konfiguraciyası</translation>
     </message>
     <message>
       <location filename="../dialogs/populateconfigdialog.cpp" line="57"/>
       <source>Configuring &lt;b&gt;%1&lt;/b&gt; for column &lt;b&gt;%2&lt;/b&gt;</source>
-      <translation type="unfinished">Configuring &lt;b&gt;%1&lt;/b&gt; for column &lt;b&gt;%2&lt;/b&gt;</translation>
+      <translation>&lt;b&gt;%1&lt;/b&gt; di &lt;b&gt;%2&lt;/b&gt; baǵanası ushın sazlaw</translation>
     </message>
   </context>
   <context>
@@ -5601,73 +5601,73 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../dialogs/populatedialog.ui" line="14"/>
       <source>Populate table</source>
-      <translation type="unfinished">Populate table</translation>
+      <translation>Kesteni toltırıw</translation>
     </message>
     <message>
       <location filename="../dialogs/populatedialog.ui" line="84"/>
       <source>Database</source>
-      <translation type="unfinished">Database</translation>
+      <translation>Maǵlıwmatlar bazası</translation>
     </message>
     <message>
       <location filename="../dialogs/populatedialog.ui" line="102"/>
       <source>Table</source>
-      <translation type="unfinished">Table</translation>
+      <translation>Keste</translation>
     </message>
     <message>
       <location filename="../dialogs/populatedialog.ui" line="139"/>
       <source>Select All</source>
-      <translation type="unfinished">Select All</translation>
+      <translation>Bárlıǵın tańlaw</translation>
     </message>
     <message>
       <location filename="../dialogs/populatedialog.ui" line="152"/>
       <source>Deselect All</source>
-      <translation type="unfinished">Deselect All</translation>
+      <translation>Bárlıǵın tańlawdan alıw</translation>
     </message>
     <message>
       <location filename="../dialogs/populatedialog.ui" line="48"/>
       <source>Columns</source>
-      <translation type="unfinished">Columns</translation>
+      <translation>Baǵanalar</translation>
     </message>
     <message>
       <location filename="../dialogs/populatedialog.ui" line="20"/>
       <source>Number of rows to populate:</source>
-      <translation type="unfinished">Number of rows to populate:</translation>
+      <translation>Tolıtılatuǵın qatarlar sanı:</translation>
     </message>
     <message>
       <location filename="../dialogs/populatedialog.cpp" line="52"/>
       <source>Populate</source>
       <comment>populate dialog button</comment>
-      <translation type="unfinished">Populate</translation>
+      <translation>Tolıtıw</translation>
     </message>
     <message>
       <location filename="../dialogs/populatedialog.cpp" line="67"/>
       <source>Abort</source>
-      <translation type="unfinished">Abort</translation>
+      <translation>Toqtatıw</translation>
     </message>
     <message>
       <location filename="../dialogs/populatedialog.cpp" line="204"/>
       <source>Configure</source>
-      <translation type="unfinished">Configure</translation>
+      <translation>Sazlaw</translation>
     </message>
     <message>
       <location filename="../dialogs/populatedialog.cpp" line="311"/>
       <source>Populating configuration for this column is invalid or incomplete.</source>
-      <translation type="unfinished">Populating configuration for this column is invalid or incomplete.</translation>
+      <translation>Bul baǵana ushın toltırıw konfiguraciyası jaramsız yamasa tolıq emes.</translation>
     </message>
     <message>
       <location filename="../dialogs/populatedialog.cpp" line="342"/>
       <source>Select database with table to populate</source>
-      <translation type="unfinished">Select database with table to populate</translation>
+      <translation>Tolıtılatuǵın kestesi bar maǵlıwmatlar bazasın tańlań</translation>
     </message>
     <message>
       <location filename="../dialogs/populatedialog.cpp" line="343"/>
       <source>Select table to populate</source>
-      <translation type="unfinished">Select table to populate</translation>
+      <translation>Tolıtılatuǵın kesteni tańlań</translation>
     </message>
     <message>
       <location filename="../dialogs/populatedialog.cpp" line="344"/>
       <source>You have to select at least one column.</source>
-      <translation type="unfinished">You have to select at least one column.</translation>
+      <translation>Keminde bir baǵananı tańlawıńız kerek.</translation>
     </message>
   </context>
   <context>
@@ -5675,22 +5675,22 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../constraints/tableprimarykeypanel.ui" line="20"/>
       <source>Column</source>
-      <translation type="unfinished">Column</translation>
+      <translation>Baǵana</translation>
     </message>
     <message>
       <location filename="../constraints/tableprimarykeypanel.ui" line="49"/>
       <source>Autoincrement</source>
-      <translation type="unfinished">Autoincrement</translation>
+      <translation>Avtoarttırıw</translation>
     </message>
     <message>
       <location filename="../constraints/tableprimarykeypanel.ui" line="62"/>
       <source>Named constraint</source>
-      <translation type="unfinished">Named constraint</translation>
+      <translation>Atalǵan sheklew</translation>
     </message>
     <message>
       <location filename="../constraints/tableprimarykeypanel.ui" line="81"/>
       <source>On conflict</source>
-      <translation type="unfinished">On conflict</translation>
+      <translation>Konflikt bolǵanda</translation>
     </message>
   </context>
   <context>
@@ -5698,57 +5698,57 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="73"/>
       <source>Cannot edit columns that are result of an inline subquery.</source>
-      <translation type="unfinished">Cannot edit columns that are result of an inline subquery.</translation>
+      <translation>Inline ishki soraw nátiyjesi bolǵan baǵanalardı redaktorlaw múmkin emes.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="75"/>
       <source>Cannot edit columns that are result of compound %1 statements (one that includes %2, %3 or %4 keywords).</source>
-      <translation type="unfinished">Cannot edit columns that are result of compound %1 statements (one that includes %2, %3 or %4 keywords).</translation>
+      <translation>Quramalı %1 operatorları nátiyjesi bolǵan baǵanalardı redaktorlaw múmkin emes (onda %2, %3 yamasa %4 gilt sózleri bar).</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="78"/>
       <source>The query execution mechanism had problems with extracting ROWID&apos;s properly. This might be a bug in the application. You may want to report this.</source>
-      <translation type="unfinished">The query execution mechanism had problems with extracting ROWID&apos;s properly. This might be a bug in the application. You may want to report this.</translation>
+      <translation>Sorawdı orınlaw mexanizminde ROWID&apos;lerdi durıs shıǵarıwda mashqalalar boldı. Bul qosımshadaǵı qáte bolıwı múmkin. Bunı xabarlawıńız múmkin.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="80"/>
       <source>Requested column is a result of SQL expression, instead of a simple column selection. Such columns cannot be edited.</source>
-      <translation type="unfinished">Requested column is a result of SQL expression, instead of a simple column selection. Such columns cannot be edited.</translation>
+      <translation>Soralǵan baǵana ápiwayı baǵana tańlawınıń ornına SQL ańlatpasınıń nátiyjesi. Bunday baǵanalardı redaktorlaw múmkin emes.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="82"/>
       <source>Requested column belongs to restricted SQLite table. Those tables cannot be edited directly.</source>
-      <translation type="unfinished">Requested column belongs to restricted SQLite table. Those tables cannot be edited directly.</translation>
+      <translation>Soralǵan baǵana sheklengen SQLite kestesine tiyisli. Bul kestelerdi tikkeley redaktorlaw múmkin emes.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="84"/>
       <source>Cannot edit results of query other than %1.</source>
-      <translation type="unfinished">Cannot edit results of query other than %1.</translation>
+      <translation>%1 den basqa soraw nátiyjelerin redaktorlaw múmkin emes.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="86"/>
       <source>Cannot edit columns that are result of aggregated %1 statements.</source>
-      <translation type="unfinished">Cannot edit columns that are result of aggregated %1 statements.</translation>
+      <translation>Agregaciyalanǵan %1 operatorları nátiyjesi bolǵan baǵanalardı redaktorlaw múmkin emes.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="88"/>
       <source>Cannot edit columns that are result of %1 statement.</source>
-      <translation type="unfinished">Cannot edit columns that are result of %1 statement.</translation>
+      <translation>%1 operatorı nátiyjesi bolǵan baǵanalardı redaktorlaw múmkin emes.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="90"/>
       <source>Cannot edit columns that are result of common table expression statement (%1).</source>
-      <translation type="unfinished">Cannot edit columns that are result of common table expression statement (%1).</translation>
+      <translation>Ulıwma keste ańlatpası operatorı (%1) nátiyjesi bolǵan baǵanalardı redaktorlaw múmkin emes.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="92"/>
       <source>Cannot edit table generated columns.</source>
-      <translation type="unfinished">Cannot edit table generated columns.</translation>
+      <translation>Kesteniń generaciyalanǵan baǵanaların redaktorlaw múmkin emes.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="94"/>
       <source>Cannot edit columns that are result of a view if the executed query reads from any multilevel views (i.e. a view that queries another view).</source>
-      <translation type="unfinished">Cannot edit columns that are result of a view if the executed query reads from any multilevel views (i.e. a view that queries another view).</translation>
+      <translation>Eger orınlanǵan soraw hár qanday kóp dárejeli kórinislerden (yaǵnıy basqa kóriniske soraw jasaytuǵın kórinis) oqısa, kórinis nátiyjesi bolǵan baǵanalardı redaktorlaw múmkin emes.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="467"/>
@@ -5757,779 +5757,779 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
       <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="565"/>
       <source>on conflict: %1</source>
       <comment>data view tooltip</comment>
-      <translation type="unfinished">on conflict: %1</translation>
+      <translation>konflikt bolǵanda: %1</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="493"/>
       <source>references table %1</source>
       <comment>data view tooltip</comment>
-      <translation type="unfinished">references table %1</translation>
+      <translation>%1 kestesine silteydi</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="495"/>
       <source>references table %1, column %2</source>
       <comment>data view tooltip</comment>
-      <translation type="unfinished">references table %1, column %2</translation>
+      <translation>%1 kestesine, %2 baǵanasına silteydi</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="562"/>
       <source>condition: %1</source>
       <comment>data view tooltip</comment>
-      <translation type="unfinished">condition: %1</translation>
+      <translation>shárt: %1</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="582"/>
       <source>collation name: %1</source>
       <comment>data view tooltip</comment>
-      <translation type="unfinished">collation name: %1</translation>
+      <translation>sáykeslestiriw atı: %1</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.h" line="25"/>
       <source>Data grid view</source>
-      <translation type="unfinished">Data grid view</translation>
+      <translation>Maǵlıwmat torı kórinisi</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.h" line="26"/>
       <source>Edit current cell inline</source>
-      <translation type="unfinished">Edit current cell inline</translation>
+      <translation>Házirgi uyashanı ornında redaktorlaw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.h" line="27"/>
       <source>Cut cell(s) contents to clipboard</source>
-      <translation type="unfinished">Cut cell(s) contents to clipboard</translation>
+      <translation>Uyasha(lar) mazmunın almastırıw buferine kesip alıw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.h" line="28"/>
       <source>Copy cell(s) contents to clipboard</source>
-      <translation type="unfinished">Copy cell(s) contents to clipboard</translation>
+      <translation>Uyasha(lar) mazmunın almastırıw buferine kóshiriw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.h" line="29"/>
       <source>Copy cell(s) contents together with header to clipboard</source>
-      <translation type="unfinished">Copy cell(s) contents together with header to clipboard</translation>
+      <translation>Uyasha(lar) mazmunın baslıq penen birge almastırıw buferine kóshiriw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.h" line="31"/>
       <source>Paste cell(s) contents from clipboard</source>
-      <translation type="unfinished">Paste cell(s) contents from clipboard</translation>
+      <translation>Uyasha(lar) mazmunın almastırıw buferinen qoyıw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.h" line="33"/>
       <source>Set empty value to selected cell(s)</source>
-      <translation type="unfinished">Set empty value to selected cell(s)</translation>
+      <translation>Tańlanǵan uyasha(lar) ushın bos mánis ornatıw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.h" line="34"/>
       <source>Set NULL value to selected cell(s)</source>
-      <translation type="unfinished">Set NULL value to selected cell(s)</translation>
+      <translation>Tańlanǵan uyasha(lar) ushın NULL mánisin ornatıw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.h" line="35"/>
       <source>Commit changes to cell(s) contents</source>
-      <translation type="unfinished">Commit changes to cell(s) contents</translation>
+      <translation>Uyasha(lar) mazmunındaǵı ózgerislerdi tastıyıqlaw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.h" line="36"/>
       <source>Rollback changes to cell(s) contents</source>
-      <translation type="unfinished">Rollback changes to cell(s) contents</translation>
+      <translation>Uyasha(lar) mazmunındaǵı ózgerislerdi qaytarıw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.h" line="37"/>
       <source>Delete selected data row</source>
-      <translation type="unfinished">Delete selected data row</translation>
+      <translation>Tańlanǵan maǵlıwmat qatarın óshiriw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.h" line="38"/>
       <source>Insert new data row</source>
-      <translation type="unfinished">Insert new data row</translation>
+      <translation>Jańa maǵlıwmat qatarın kirgiziw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.h" line="39"/>
       <source>Open contents of selected cell in a separate editor</source>
-      <translation type="unfinished">Open contents of selected cell in a separate editor</translation>
+      <translation>Tańlanǵan uyasha mazmunın bólek redaktorda ashıw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.h" line="40"/>
       <source>Toggle the height adjustment of rows</source>
-      <translation type="unfinished">Toggle the height adjustment of rows</translation>
+      <translation>Qatarlar biyikligin sáykeslewdi almastırıw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.h" line="41"/>
       <source>Increase font size</source>
       <comment>data view</comment>
-      <translation type="unfinished">Increase font size</translation>
+      <translation>Shrift ólshemin úlkeytiw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.h" line="42"/>
       <source>Decrease font size</source>
       <comment>data view</comment>
-      <translation type="unfinished">Decrease font size</translation>
+      <translation>Shrift ólshemin kishireytiw</translation>
     </message>
     <message>
       <location filename="../dataview.h" line="32"/>
       <source>Data view (both grid and form)</source>
-      <translation type="unfinished">Data view (both grid and form)</translation>
+      <translation>Maǵlıwmat kórinisi (tor hám forma)</translation>
     </message>
     <message>
       <location filename="../dataview.h" line="33"/>
       <source>Refresh data</source>
-      <translation type="unfinished">Refresh data</translation>
+      <translation>Maǵlıwmattı jańalaw</translation>
     </message>
     <message>
       <location filename="../dataview.h" line="34"/>
       <source>Find in data</source>
-      <translation type="unfinished">Find in data</translation>
+      <translation>Maǵlıwmat ishinen tabıw</translation>
     </message>
     <message>
       <location filename="../dataview.h" line="35"/>
       <source>Switch to grid view of the data</source>
-      <translation type="unfinished">Switch to grid view of the data</translation>
+      <translation>Maǵlıwmattıń tor kórinisine ótiw</translation>
     </message>
     <message>
       <location filename="../dataview.h" line="36"/>
       <source>Switch to form view of the data</source>
-      <translation type="unfinished">Switch to form view of the data</translation>
+      <translation>Maǵlıwmattıń forma kórinisine ótiw</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.h" line="31"/>
       <source>Database list</source>
-      <translation type="unfinished">Database list</translation>
+      <translation>Maǵlıwmatlar bazaları dizimi</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.h" line="32"/>
       <source>Delete selected item</source>
-      <translation type="unfinished">Delete selected item</translation>
+      <translation>Tańlanǵan elementti óshiriw</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.h" line="33"/>
       <source>Clear filter contents</source>
-      <translation type="unfinished">Clear filter contents</translation>
+      <translation>Filtr mazmunın tazalaw</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.h" line="34"/>
       <source>Refresh schema</source>
-      <translation type="unfinished">Refresh schema</translation>
+      <translation>Sxemanı jańalaw</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.h" line="35"/>
       <source>Refresh all schemas</source>
-      <translation type="unfinished">Refresh all schemas</translation>
+      <translation>Barlıq sxemalardı jańalaw</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.h" line="36"/>
       <source>Create new database</source>
-      <translation type="unfinished">Create new database</translation>
+      <translation>Jańa maǵlıwmatlar bazasın jaratıw</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.h" line="37"/>
       <source>Open existing database or SQL file</source>
-      <translation type="unfinished">Open existing database or SQL file</translation>
+      <translation>Bar maǵlıwmatlar bazasın yamasa SQL faylın ashıw</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.h" line="38"/>
       <source>Edit selected database</source>
-      <translation type="unfinished">Edit selected database</translation>
+      <translation>Tańlanǵan maǵlıwmatlar bazasın redaktorlaw</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.h" line="39"/>
       <source>Rename selected database</source>
-      <translation type="unfinished">Rename selected database</translation>
+      <translation>Tańlanǵan maǵlıwmatlar bazasınıń atın ózgertiw</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.h" line="40"/>
       <source>Select all items</source>
-      <translation type="unfinished">Select all items</translation>
+      <translation>Barlıq elementlerdi tańlaw</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.h" line="41"/>
       <source>Copy selected item(s)</source>
-      <translation type="unfinished">Copy selected item(s)</translation>
+      <translation>Tańlanǵan element(ler) nusqasın alıw</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.h" line="42"/>
       <location filename="../multieditor/multieditortext.h" line="15"/>
       <location filename="../sqleditor.h" line="35"/>
       <source>Paste from clipboard</source>
-      <translation type="unfinished">Paste from clipboard</translation>
+      <translation>Almastırıw buferinen qoyıw</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.h" line="43"/>
       <source>Increase font size</source>
       <comment>database list</comment>
-      <translation type="unfinished">Increase font size</translation>
+      <translation>Shrift ólshemin úlkeytiw</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.h" line="44"/>
       <source>Decrease font size</source>
       <comment>database list</comment>
-      <translation type="unfinished">Decrease font size</translation>
+      <translation>Shrift ólshemin kishireytiw</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtreeitemfactory.cpp" line="53"/>
       <source>Tables</source>
-      <translation type="unfinished">Tables</translation>
+      <translation>Kesteler</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtreeitemfactory.cpp" line="58"/>
       <source>Indexes</source>
-      <translation type="unfinished">Indexes</translation>
+      <translation>Indeksler</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtreeitemfactory.cpp" line="63"/>
       <source>Triggers</source>
-      <translation type="unfinished">Triggers</translation>
+      <translation>Triggerler</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtreeitemfactory.cpp" line="68"/>
       <source>Views</source>
-      <translation type="unfinished">Views</translation>
+      <translation>Kórinisler</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtreeitemfactory.cpp" line="73"/>
       <source>Columns</source>
-      <translation type="unfinished">Columns</translation>
+      <translation>Baǵanalar</translation>
     </message>
     <message>
       <location filename="../formview.h" line="15"/>
       <source>Data form view</source>
-      <translation type="unfinished">Data form view</translation>
+      <translation>Maǵlıwmat forması kórinisi</translation>
     </message>
     <message>
       <location filename="../formview.h" line="16"/>
       <source>Commit changes for current row</source>
-      <translation type="unfinished">Commit changes for current row</translation>
+      <translation>Házirgi qatar ushın ózgerislerdi tastıyıqlaw</translation>
     </message>
     <message>
       <location filename="../formview.h" line="17"/>
       <source>Rollback changes for current row</source>
-      <translation type="unfinished">Rollback changes for current row</translation>
+      <translation>Házirgi qatar ushın ózgerislerdi qaytarıw</translation>
     </message>
     <message>
       <location filename="../dataview.h" line="37"/>
       <location filename="../formview.h" line="18"/>
       <source>Go to first row on current page</source>
-      <translation type="unfinished">Go to first row on current page</translation>
+      <translation>Házirgi bettegi birinshi qatarǵa ótiw</translation>
     </message>
     <message>
       <location filename="../dataview.h" line="39"/>
       <location filename="../formview.h" line="19"/>
       <source>Go to next row</source>
-      <translation type="unfinished">Go to next row</translation>
+      <translation>Keyingi qatarǵa ótiw</translation>
     </message>
     <message>
       <location filename="../dataview.h" line="38"/>
       <location filename="../formview.h" line="20"/>
       <source>Go to previous row</source>
-      <translation type="unfinished">Go to previous row</translation>
+      <translation>Aldınǵı qatarǵa ótiw</translation>
     </message>
     <message>
       <location filename="../dataview.h" line="40"/>
       <location filename="../formview.h" line="21"/>
       <source>Go to last row on current page</source>
-      <translation type="unfinished">Go to last row on current page</translation>
+      <translation>Házirgi bettegi sońǵı qatarǵa ótiw</translation>
     </message>
     <message>
       <location filename="../formview.h" line="22"/>
       <source>Insert new row</source>
-      <translation type="unfinished">Insert new row</translation>
+      <translation>Jańa qatar kirgiziw</translation>
     </message>
     <message>
       <location filename="../formview.h" line="23"/>
       <source>Delete current row</source>
-      <translation type="unfinished">Delete current row</translation>
+      <translation>Házirgi qatarı óshiriw</translation>
     </message>
     <message>
       <location filename="../mainwindow.h" line="60"/>
       <source>Main window</source>
-      <translation type="unfinished">Main window</translation>
+      <translation>Bas ayna</translation>
     </message>
     <message>
       <location filename="../mainwindow.h" line="61"/>
       <source>Open SQL editor</source>
-      <translation type="unfinished">Open SQL editor</translation>
+      <translation>SQL redaktorın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.h" line="65"/>
       <source>Open DDL history window</source>
-      <translation type="unfinished">Open DDL history window</translation>
+      <translation>DDL tarıyxı aynasın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.h" line="67"/>
       <source>Open snippets editor window</source>
-      <translation type="unfinished">Open snippets editor window</translation>
+      <translation>Úzindiler redaktorı aynasın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.h" line="66"/>
       <source>Open function editor window</source>
-      <translation type="unfinished">Open function editor window</translation>
+      <translation>Funkciya redaktorı aynasın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.h" line="62"/>
       <source>Restore recently closed window</source>
-      <translation type="unfinished">Restore recently closed window</translation>
+      <translation>Jańa jabılǵan aynanı qayta tiklew</translation>
     </message>
     <message>
       <location filename="../mainwindow.h" line="63"/>
       <source>Open Export Dialog</source>
-      <translation type="unfinished">Open Export Dialog</translation>
+      <translation>Eksport dialogın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.h" line="64"/>
       <source>Open Import Dialog</source>
-      <translation type="unfinished">Open Import Dialog</translation>
+      <translation>Import dialogın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.h" line="68"/>
       <source>Open collation editor window</source>
-      <translation type="unfinished">Open collation editor window</translation>
+      <translation>Sáykeslestiriw redaktorı aynasın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.h" line="69"/>
       <source>Open extension manager window</source>
-      <translation type="unfinished">Open extension manager window</translation>
+      <translation>Keńeytpe basqarıwshısı aynasın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.h" line="70"/>
       <source>Previous window</source>
-      <translation type="unfinished">Previous window</translation>
+      <translation>Aldınǵı ayna</translation>
     </message>
     <message>
       <location filename="../mainwindow.h" line="71"/>
       <source>Next window</source>
-      <translation type="unfinished">Next window</translation>
+      <translation>Keyingi ayna</translation>
     </message>
     <message>
       <location filename="../mainwindow.h" line="72"/>
       <source>Move window earlier</source>
-      <translation type="unfinished">Move window earlier</translation>
+      <translation>Aynanı aldınıraq jıljıtıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.h" line="73"/>
       <source>Move window later</source>
-      <translation type="unfinished">Move window later</translation>
+      <translation>Aynanı keyinirek jıljıtıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.h" line="74"/>
       <source>Hide status area</source>
-      <translation type="unfinished">Hide status area</translation>
+      <translation>Status aymaǵın jasırıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.h" line="75"/>
       <source>Open user manual</source>
-      <translation type="unfinished">Open user manual</translation>
+      <translation>Paydalanıwshı qollanbasın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.h" line="76"/>
       <source>Open configuration dialog</source>
-      <translation type="unfinished">Open configuration dialog</translation>
+      <translation>Konfiguraciya dialogın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.h" line="77"/>
       <source>Open Debug Console</source>
-      <translation type="unfinished">Open Debug Console</translation>
+      <translation>Debug konsolın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.h" line="78"/>
       <source>Open CSS Console</source>
-      <translation type="unfinished">Open CSS Console</translation>
+      <translation>CSS konsolın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.h" line="79"/>
       <source>Open Command Palette</source>
-      <translation type="unfinished">Open Command Palette</translation>
+      <translation>Buyrıqlar palitrasın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.h" line="80"/>
       <source>Open the About dialog</source>
-      <translation type="unfinished">Open the About dialog</translation>
+      <translation>Baǵdarlama haqqında dialogın ashıw</translation>
     </message>
     <message>
       <location filename="../mainwindow.h" line="81"/>
       <source>Quit the application</source>
-      <translation type="unfinished">Quit the application</translation>
+      <translation>Qosımshadan shıǵıw</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditortext.h" line="12"/>
       <source>Cell text value editor</source>
-      <translation type="unfinished">Cell text value editor</translation>
+      <translation>Uyashanıń tekst mánisi redaktorı</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditortext.h" line="13"/>
       <location filename="../sqleditor.h" line="33"/>
       <source>Cut selected text</source>
-      <translation type="unfinished">Cut selected text</translation>
+      <translation>Tańlanǵan tekstti kesip alıw</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditortext.h" line="14"/>
       <location filename="../sqleditor.h" line="34"/>
       <source>Copy selected text</source>
-      <translation type="unfinished">Copy selected text</translation>
+      <translation>Tańlanǵan tekstti kóshiriw</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditortext.h" line="16"/>
       <location filename="../sqleditor.h" line="36"/>
       <source>Delete selected text</source>
-      <translation type="unfinished">Delete selected text</translation>
+      <translation>Tańlanǵan tekstti óshiriw</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditortext.h" line="17"/>
       <location filename="../sqleditor.h" line="38"/>
       <source>Undo</source>
-      <translation type="unfinished">Undo</translation>
+      <translation>Biykar etiw</translation>
     </message>
     <message>
       <location filename="../multieditor/multieditortext.h" line="18"/>
       <location filename="../sqleditor.h" line="39"/>
       <source>Redo</source>
-      <translation type="unfinished">Redo</translation>
+      <translation>Qayta islew</translation>
     </message>
     <message>
       <location filename="../sqleditor.h" line="32"/>
       <source>SQL editor input field</source>
-      <translation type="unfinished">SQL editor input field</translation>
+      <translation>SQL redaktorı kiritiw maydanı</translation>
     </message>
     <message>
       <location filename="../sqleditor.h" line="37"/>
       <source>Select whole editor contents</source>
-      <translation type="unfinished">Select whole editor contents</translation>
+      <translation>Redaktordıń barlıq mazmunın tańlaw</translation>
     </message>
     <message>
       <location filename="../sqleditor.h" line="40"/>
       <source>Save contents into a file</source>
-      <translation type="unfinished">Save contents into a file</translation>
+      <translation>Mazmundı faylǵa saqlaw</translation>
     </message>
     <message>
       <location filename="../sqleditor.h" line="41"/>
       <source>Find in text</source>
-      <translation type="unfinished">Find in text</translation>
+      <translation>Tekst ishinen tabıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.h" line="42"/>
       <source>Find next</source>
-      <translation type="unfinished">Find next</translation>
+      <translation>Keyingisin tabıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.h" line="43"/>
       <source>Find previous</source>
-      <translation type="unfinished">Find previous</translation>
+      <translation>Aldınǵısın tabıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.h" line="44"/>
       <source>Replace in text</source>
-      <translation type="unfinished">Replace in text</translation>
+      <translation>Tekstte almastırıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.h" line="45"/>
       <source>Delete current line</source>
-      <translation type="unfinished">Delete current line</translation>
+      <translation>Házirgi qatardı óshiriw</translation>
     </message>
     <message>
       <location filename="../sqleditor.h" line="46"/>
       <source>Request code assistant</source>
-      <translation type="unfinished">Request code assistant</translation>
+      <translation>Kod járdemshisin shaqırıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.h" line="47"/>
       <source>Format contents</source>
-      <translation type="unfinished">Format contents</translation>
+      <translation>Mazmundı formatlaw</translation>
     </message>
     <message>
       <location filename="../sqleditor.h" line="48"/>
       <source>Open the object at current position</source>
-      <translation type="unfinished">Open the object at current position</translation>
+      <translation>Házirgi orındaǵı obyektti ashıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.h" line="49"/>
       <source>Move selected block of text one line down</source>
-      <translation type="unfinished">Move selected block of text one line down</translation>
+      <translation>Tańlanǵan tekst blogın bir qatar tómenge jıljıtıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.h" line="50"/>
       <source>Move selected block of text one line up</source>
-      <translation type="unfinished">Move selected block of text one line up</translation>
+      <translation>Tańlanǵan tekst blogın bir qatar joqarıǵa jıljıtıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.h" line="51"/>
       <source>Copy selected block of text and paste it a line below</source>
-      <translation type="unfinished">Copy selected block of text and paste it a line below</translation>
+      <translation>Tańlanǵan tekst blogın kóshirip, bir qatar tómenge qoyıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.h" line="52"/>
       <source>Copy selected block of text and paste it a line above</source>
-      <translation type="unfinished">Copy selected block of text and paste it a line above</translation>
+      <translation>Tańlanǵan tekst blogın kóshirip, bir qatar joqarıǵa qoyıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.h" line="53"/>
       <source>Toggle comment</source>
-      <translation type="unfinished">Toggle comment</translation>
+      <translation>Kommentariydi almastırıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.h" line="54"/>
       <source>Increase font size</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Increase font size</translation>
+      <translation>Shrift ólshemin úlkeytiw</translation>
     </message>
     <message>
       <location filename="../sqleditor.h" line="55"/>
       <source>Decrease font size</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Decrease font size</translation>
+      <translation>Shrift ólshemin kishireytiw</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="779"/>
       <source>All files</source>
-      <translation type="unfinished">All files</translation>
+      <translation>Barlıq fayllar</translation>
     </message>
     <message>
       <location filename="../uiutils.cpp" line="72"/>
       <source>Select database file</source>
-      <translation type="unfinished">Select database file</translation>
+      <translation>Maǵlıwmatlar bazası faylın tańlaw</translation>
     </message>
     <message>
       <location filename="../uiutils.cpp" line="72"/>
       <source>Select new database file</source>
-      <translation type="unfinished">Select new database file</translation>
+      <translation>Jańa maǵlıwmatlar bazası faylın tańlaw</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.cpp" line="778"/>
       <source>SQL files</source>
-      <translation type="unfinished">SQL files</translation>
+      <translation>SQL faylları</translation>
     </message>
     <message>
       <location filename="../uiutils.cpp" line="83"/>
       <location filename="../uiutils.cpp" line="96"/>
       <source>Select a file to open</source>
-      <translation type="unfinished">Select a file to open</translation>
+      <translation>Ashılatuǵın fayldı tańlaw</translation>
     </message>
     <message>
       <location filename="../uiutils.cpp" line="267"/>
       <source>Format SQL</source>
-      <translation type="unfinished">Format SQL</translation>
+      <translation>SQL formatlaw</translation>
     </message>
     <message>
       <location filename="../uiutils.cpp" line="56"/>
       <source>Select</source>
-      <translation type="unfinished">Select</translation>
+      <translation>Tańlaw</translation>
     </message>
     <message>
       <location filename="../uiutils.cpp" line="57"/>
       <source>File type</source>
-      <translation type="unfinished">File type</translation>
+      <translation>Fayl túri</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.h" line="30"/>
       <source>SQL editor window</source>
-      <translation type="unfinished">SQL editor window</translation>
+      <translation>SQL redaktorı aynası</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.h" line="31"/>
       <source>Execute query</source>
-      <translation type="unfinished">Execute query</translation>
+      <translation>Sorawdı orınlaw</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.h" line="32"/>
       <source>Execute single query under cursor</source>
-      <translation type="unfinished">Execute single query under cursor</translation>
+      <translation>Kursor astındaǵı jeke sorawdı orınlaw</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.h" line="33"/>
       <source>Execute all queries in editor</source>
-      <translation type="unfinished">Execute all queries in editor</translation>
+      <translation>Redaktordaǵı barlıq sorawlardı orınlaw</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.h" line="34"/>
       <source>Execute EXPLAIN query</source>
-      <translation type="unfinished">Execute EXPLAIN query</translation>
+      <translation>EXPLAIN sorawın orınlaw</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.h" line="35"/>
       <source>Export query results</source>
-      <translation type="unfinished">Export query results</translation>
+      <translation>Soraw nátiyjelerin eksportlaw</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.h" line="36"/>
       <source>Switch current working database to previous on the list</source>
-      <translation type="unfinished">Switch current working database to previous on the list</translation>
+      <translation>Házirgi jumıs maǵlıwmatlar bazasın dizimdegi aldınǵısına awıstırıw</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.h" line="37"/>
       <source>Switch current working database to next on the list</source>
-      <translation type="unfinished">Switch current working database to next on the list</translation>
+      <translation>Házirgi jumıs maǵlıwmatlar bazasın dizimdegi keyingisine awıstırıw</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.h" line="38"/>
       <source>Go to next editor tab</source>
-      <translation type="unfinished">Go to next editor tab</translation>
+      <translation>Keyingi redaktor betine ótiw</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.h" line="39"/>
       <source>Go to previous editor tab</source>
-      <translation type="unfinished">Go to previous editor tab</translation>
+      <translation>Aldınǵı redaktor betine ótiw</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.h" line="40"/>
       <source>Move keyboard input focus to the results view below</source>
-      <translation type="unfinished">Move keyboard input focus to the results view below</translation>
+      <translation>Klaviatura kiritiw fokusın tómendegi nátiyjeler kórinisine jıljıtıw</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.h" line="41"/>
       <source>Move keyboard input focus to the SQL editor above</source>
-      <translation type="unfinished">Move keyboard input focus to the SQL editor above</translation>
+      <translation>Klaviatura kiritiw fokusın joqarıdaǵı SQL redaktorına jıljıtıw</translation>
     </message>
     <message>
       <location filename="../windows/editorwindow.h" line="42"/>
       <source>Delete selected SQL history entries</source>
-      <translation type="unfinished">Delete selected SQL history entries</translation>
+      <translation>Tańlanǵan SQL tarıyxı jazıwların óshiriw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.h" line="32"/>
       <source>Table window</source>
-      <translation type="unfinished">Table window</translation>
+      <translation>Keste aynası</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.h" line="33"/>
       <source>Commit the table structure</source>
-      <translation type="unfinished">Commit the table structure</translation>
+      <translation>Keste strukturasın tastıyıqlaw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.h" line="34"/>
       <source>Rollback pending changes in the table structure</source>
-      <translation type="unfinished">Rollback pending changes in the table structure</translation>
+      <translation>Keste strukturasındaǵı kútip turǵan ózgerislerdi qaytarıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.h" line="35"/>
       <source>Refresh table structure</source>
-      <translation type="unfinished">Refresh table structure</translation>
+      <translation>Keste strukturasın jańalaw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.h" line="36"/>
       <source>Add new column</source>
-      <translation type="unfinished">Add new column</translation>
+      <translation>Jańa baǵana qosıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.h" line="37"/>
       <source>Edit selected column</source>
-      <translation type="unfinished">Edit selected column</translation>
+      <translation>Tańlanǵan baǵananı redaktorlaw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.h" line="38"/>
       <source>Delete selected column</source>
-      <translation type="unfinished">Delete selected column</translation>
+      <translation>Tańlanǵan baǵananı óshiriw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.h" line="39"/>
       <source>Export table data</source>
-      <translation type="unfinished">Export table data</translation>
+      <translation>Keste maǵlıwmatların eksportlaw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.h" line="40"/>
       <source>Import data to the table</source>
-      <translation type="unfinished">Import data to the table</translation>
+      <translation>Kestege maǵlıwmat importlaw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.h" line="41"/>
       <source>Add new table constraint</source>
-      <translation type="unfinished">Add new table constraint</translation>
+      <translation>Jańa keste sheklewin qosıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.h" line="42"/>
       <source>Edit selected table constraint</source>
-      <translation type="unfinished">Edit selected table constraint</translation>
+      <translation>Tańlanǵan keste sheklewin redaktorlaw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.h" line="43"/>
       <source>Delete selected table constraint</source>
-      <translation type="unfinished">Delete selected table constraint</translation>
+      <translation>Tańlanǵan keste sheklewin óshiriw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.h" line="44"/>
       <source>Refresh table index list</source>
-      <translation type="unfinished">Refresh table index list</translation>
+      <translation>Keste indeksleri dizimin jańalaw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.h" line="45"/>
       <source>Add new index</source>
-      <translation type="unfinished">Add new index</translation>
+      <translation>Jańa indeks qosıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.h" line="46"/>
       <source>Edit selected index</source>
-      <translation type="unfinished">Edit selected index</translation>
+      <translation>Tańlanǵan indeksti redaktorlaw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.h" line="47"/>
       <source>Delete selected index</source>
-      <translation type="unfinished">Delete selected index</translation>
+      <translation>Tańlanǵan indeksti óshiriw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.h" line="48"/>
       <source>Refresh table trigger list</source>
-      <translation type="unfinished">Refresh table trigger list</translation>
+      <translation>Keste triggerleri dizimin jańalaw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.h" line="49"/>
       <location filename="../windows/viewwindow.h" line="29"/>
       <source>Add new trigger</source>
-      <translation type="unfinished">Add new trigger</translation>
+      <translation>Jańa trigger qosıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.h" line="50"/>
       <location filename="../windows/viewwindow.h" line="30"/>
       <source>Edit selected trigger</source>
-      <translation type="unfinished">Edit selected trigger</translation>
+      <translation>Tańlanǵan triggerdi redaktorlaw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.h" line="51"/>
       <location filename="../windows/viewwindow.h" line="31"/>
       <source>Delete selected trigger</source>
-      <translation type="unfinished">Delete selected trigger</translation>
+      <translation>Tańlanǵan triggerdi óshiriw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.h" line="52"/>
       <location filename="../windows/viewwindow.h" line="32"/>
       <source>Go to next tab</source>
-      <translation type="unfinished">Go to next tab</translation>
+      <translation>Keyingi betke ótiw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.h" line="53"/>
       <location filename="../windows/viewwindow.h" line="33"/>
       <source>Go to previous tab</source>
-      <translation type="unfinished">Go to previous tab</translation>
+      <translation>Aldınǵı betke ótiw</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.h" line="23"/>
       <source>A view window</source>
-      <translation type="unfinished">A view window</translation>
+      <translation>Kórinis aynası</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.h" line="24"/>
       <source>Commit the view&apos;s query</source>
-      <translation type="unfinished">Commit the view&apos;s query</translation>
+      <translation>Kórinis sorawın bekitiw</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.h" line="25"/>
       <source>Rollback pending changes in the view&apos;s query</source>
-      <translation type="unfinished">Rollback pending changes in the view&apos;s query</translation>
+      <translation>Kórinis sorawındaǵı kútip turǵan ózgerislerdi qaytarıw</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.h" line="26"/>
       <source>Refresh view trigger list</source>
-      <translation type="unfinished">Refresh view trigger list</translation>
+      <translation>Kórinis triggerleri dizimin jańalaw</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.h" line="27"/>
       <source>Execute the view&apos;s query</source>
-      <translation type="unfinished">Execute the view&apos;s query</translation>
+      <translation>Kórinis sorawın orınlaw</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.h" line="28"/>
       <source>Export view data</source>
-      <translation type="unfinished">Export view data</translation>
+      <translation>Kórinis maǵlıwmatların eksportlaw</translation>
     </message>
     <message>
       <location filename="../windows/codesnippeteditor.h" line="17"/>
       <source>A code snippets editor window</source>
-      <translation type="unfinished">A code snippets editor window</translation>
+      <translation>Kod úzindileri redaktorı aynası</translation>
     </message>
     <message>
       <location filename="../windows/codesnippeteditor.h" line="18"/>
@@ -6537,7 +6537,7 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
       <location filename="../windows/functionseditor.h" line="25"/>
       <location filename="../windows/sqliteextensioneditor.h" line="22"/>
       <source>Commit the pending changes</source>
-      <translation type="unfinished">Commit the pending changes</translation>
+      <translation>Kútip turǵan ózgerislerdi tastıyıqlaw</translation>
     </message>
     <message>
       <location filename="../windows/codesnippeteditor.h" line="19"/>
@@ -6545,58 +6545,58 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
       <location filename="../windows/functionseditor.h" line="26"/>
       <location filename="../windows/sqliteextensioneditor.h" line="23"/>
       <source>Rollback the pending changes</source>
-      <translation type="unfinished">Rollback the pending changes</translation>
+      <translation>Kútip turǵan ózgerislerdi qaytarıw</translation>
     </message>
     <message>
       <location filename="../windows/collationseditor.h" line="21"/>
       <source>A collation editor window</source>
-      <translation type="unfinished">A collation editor window</translation>
+      <translation>Sáykeslestiriw redaktorı aynası</translation>
     </message>
     <message>
       <location filename="../windows/functionseditor.h" line="24"/>
       <source>A function editor window</source>
-      <translation type="unfinished">A function editor window</translation>
+      <translation>Funkciya redaktorı aynası</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.h" line="21"/>
       <source>A SQLite extension editor window</source>
-      <translation type="unfinished">A SQLite extension editor window</translation>
+      <translation>SQLite keńeytpe redaktorı aynası</translation>
     </message>
     <message>
       <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="38"/>
       <source>Edit database properties</source>
       <comment>command palette entry</comment>
-      <translation type="unfinished">Edit database properties</translation>
+      <translation>Maǵlıwmatlar bazası qásiyetlerin redaktorlaw</translation>
     </message>
     <message>
       <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="67"/>
       <source>Open table</source>
       <comment>command palette entry</comment>
-      <translation type="unfinished">Open table</translation>
+      <translation>Kesteni ashıw</translation>
     </message>
     <message>
       <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="68"/>
       <source>Edit index</source>
       <comment>command palette entry</comment>
-      <translation type="unfinished">Edit index</translation>
+      <translation>Indeksti redaktorlaw</translation>
     </message>
     <message>
       <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="69"/>
       <source>Edit trigger</source>
       <comment>command palette entry</comment>
-      <translation type="unfinished">Edit trigger</translation>
+      <translation>Trigerdi redaktorlaw</translation>
     </message>
     <message>
       <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="70"/>
       <source>Open view</source>
       <comment>command palette entry</comment>
-      <translation type="unfinished">Open view</translation>
+      <translation>Kórinisti ashıw</translation>
     </message>
     <message>
       <location filename="../commandpalette/cpmdiwindowsprovider.cpp" line="21"/>
       <source>Bring the window to front</source>
       <comment>command palette entry</comment>
-      <translation type="unfinished">Bring the window to front</translation>
+      <translation>Aynanı aldıńǵı qatarǵa shıǵarıw</translation>
     </message>
   </context>
   <context>
@@ -6604,12 +6604,12 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../dialogs/quitconfirmdialog.ui" line="14"/>
       <source>Uncommitted changes</source>
-      <translation type="unfinished">Uncommitted changes</translation>
+      <translation>Tastıyıqlanbaǵan ózgerisler</translation>
     </message>
     <message>
       <location filename="../dialogs/quitconfirmdialog.ui" line="20"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Are you sure you want to quit the application?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Following items are pending:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Are you sure you want to quit the application?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Following items are pending:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Qosımshadan shıǵıwǵa isenimińiz kámil me?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Tómendegi elementler kútip tur:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
   </context>
   <context>
@@ -6617,54 +6617,54 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
     <message>
       <location filename="../dialogs/searchtextdialog.ui" line="14"/>
       <source>Find or replace</source>
-      <translation type="unfinished">Find or replace</translation>
+      <translation>Tabıw yamasa almastırıw</translation>
     </message>
     <message>
       <location filename="../dialogs/searchtextdialog.ui" line="88"/>
       <source>Find:</source>
-      <translation type="unfinished">Find:</translation>
+      <translation>Tabıw:</translation>
     </message>
     <message>
       <location filename="../dialogs/searchtextdialog.ui" line="31"/>
       <source>Case sensitive</source>
-      <translation type="unfinished">Case sensitive</translation>
+      <translation>Úlken-kishiligin esapqa alıw</translation>
     </message>
     <message>
       <location filename="../dialogs/searchtextdialog.ui" line="38"/>
       <source>Search backwards</source>
-      <translation type="unfinished">Search backwards</translation>
+      <translation>Artqa qaray izlew</translation>
     </message>
     <message>
       <location filename="../dialogs/searchtextdialog.ui" line="45"/>
       <source>Regular expression matching</source>
-      <translation type="unfinished">Regular expression matching</translation>
+      <translation>Regulyar ańlatpa menen sáykeslestiriw</translation>
     </message>
     <message>
       <location filename="../dialogs/searchtextdialog.ui" line="113"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt;Reached the end of document.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt;Reached the end of document.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt;Hújjettiń aqırına jetildi.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../dialogs/searchtextdialog.ui" line="20"/>
       <source>Replace &amp;&amp;
 find next</source>
-      <translation type="unfinished">Replace &amp;&amp;
-find next</translation>
+      <translation>Almastırıw &amp;&amp;
+keyingisin tabıw</translation>
     </message>
     <message>
       <location filename="../dialogs/searchtextdialog.ui" line="65"/>
       <source>Replace with:</source>
-      <translation type="unfinished">Replace with:</translation>
+      <translation>Mınaǵa almastırıw:</translation>
     </message>
     <message>
       <location filename="../dialogs/searchtextdialog.ui" line="55"/>
       <source>Replace all</source>
-      <translation type="unfinished">Replace all</translation>
+      <translation>Bárlıǵın almastırıw</translation>
     </message>
     <message>
       <location filename="../dialogs/searchtextdialog.ui" line="75"/>
       <source>Find</source>
-      <translation type="unfinished">Find</translation>
+      <translation>Tabıw</translation>
     </message>
   </context>
   <context>
@@ -6672,44 +6672,44 @@ find next</translation>
     <message>
       <location filename="../dialogs/settingsexportdialog.ui" line="14"/>
       <source>Export configuration</source>
-      <translation type="unfinished">Export configuration</translation>
+      <translation>Konfiguraciyanı eksportlaw</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsexportdialog.ui" line="20"/>
       <location filename="../dialogs/settingsexportdialog.ui" line="32"/>
       <location filename="../dialogs/settingsexportdialog.cpp" line="24"/>
       <source>Output JSON file</source>
-      <translation type="unfinished">Output JSON file</translation>
+      <translation>Shıǵıs JSON faylı</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsexportdialog.ui" line="29"/>
       <source>JSON file (*.json);;All files (*)</source>
-      <translation type="unfinished">JSON file (*.json);;All files (*)</translation>
+      <translation>JSON faylı (*.json);;Barlıq fayllar (*)</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsexportdialog.ui" line="45"/>
       <source>What to export?</source>
-      <translation type="unfinished">What to export?</translation>
+      <translation>Neni eksportlaw kerek?</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsexportdialog.ui" line="51"/>
       <source>User-defined SQL functions</source>
-      <translation type="unfinished">User-defined SQL functions</translation>
+      <translation>Paydalanıwshı anıqlaǵan SQL funkciyaları</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsexportdialog.ui" line="65"/>
       <source>User-defined collation sequences</source>
-      <translation type="unfinished">User-defined collation sequences</translation>
+      <translation>Paydalanıwshı anıqlaǵan sáykeslestiriw izbe-izlikleri</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsexportdialog.ui" line="79"/>
       <source>User-defined code snippets</source>
-      <translation type="unfinished">User-defined code snippets</translation>
+      <translation>Paydalanıwshı anıqlaǵan kod úzindileri</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsexportdialog.ui" line="93"/>
       <source>Configured SQLite extensions</source>
-      <translation type="unfinished">Configured SQLite extensions</translation>
+      <translation>Sazlanǵan SQLite keńeytpeleri</translation>
     </message>
   </context>
   <context>
@@ -6717,94 +6717,94 @@ find next</translation>
     <message>
       <location filename="../dialogs/settingsimportdialog.ui" line="14"/>
       <source>Import configuration</source>
-      <translation type="unfinished">Import configuration</translation>
+      <translation>Konfiguraciyanı importlaw</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsimportdialog.ui" line="20"/>
       <location filename="../dialogs/settingsimportdialog.ui" line="29"/>
       <location filename="../dialogs/settingsimportdialog.cpp" line="31"/>
       <source>Input JSON file</source>
-      <translation type="unfinished">Input JSON file</translation>
+      <translation>Kiris JSON faylı</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsimportdialog.ui" line="26"/>
       <source>JSON file (*.json);;All files (*)</source>
-      <translation type="unfinished">JSON file (*.json);;All files (*)</translation>
+      <translation>JSON faylı (*.json);;Barlıq fayllar (*)</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsimportdialog.ui" line="39"/>
       <source>What to import?</source>
-      <translation type="unfinished">What to import?</translation>
+      <translation>Neni importlaw kerek?</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsimportdialog.ui" line="45"/>
       <source>User-defined SQL functions</source>
-      <translation type="unfinished">User-defined SQL functions</translation>
+      <translation>Paydalanıwshı anıqlaǵan SQL funkciyaları</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsimportdialog.ui" line="56"/>
       <source>User-defined collation sequences</source>
-      <translation type="unfinished">User-defined collation sequences</translation>
+      <translation>Paydalanıwshı anıqlaǵan sáykeslestiriw izbe-izlikleri</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsimportdialog.ui" line="67"/>
       <source>User-defined code snippets</source>
-      <translation type="unfinished">User-defined code snippets</translation>
+      <translation>Paydalanıwshı anıqlaǵan kod úzindileri</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsimportdialog.ui" line="78"/>
       <source>Configured SQLite extensions</source>
-      <translation type="unfinished">Configured SQLite extensions</translation>
+      <translation>Sazlanǵan SQLite keńeytpeleri</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsimportdialog.ui" line="92"/>
       <source>Import mode</source>
-      <translation type="unfinished">Import mode</translation>
+      <translation>Import rejimi</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsimportdialog.ui" line="98"/>
       <source>Imports selected items without modifying or removing ones existing in your current configuration.</source>
-      <translation type="unfinished">Imports selected items without modifying or removing ones existing in your current configuration.</translation>
+      <translation>Tańlanǵan elementlerdi házirgi konfiguraciyanızda bar elementlerdi ózgertpey yamasa óshirpey importlaydı.</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsimportdialog.ui" line="101"/>
       <source>Add to existing items</source>
-      <translation type="unfinished">Add to existing items</translation>
+      <translation>Bar elementlerge qosıw</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsimportdialog.ui" line="111"/>
       <source>Removes all existing items in the selected categories, then imports the new ones from the file. This action cannot be undone!</source>
-      <translation type="unfinished">Removes all existing items in the selected categories, then imports the new ones from the file. This action cannot be undone!</translation>
+      <translation>Tańlanǵan kategoriyalardaǵı barlıq bar elementlerdi óshiredi, keyin fayldan jańaların importlaydı. Bul ámeldi qaytarıp bolmaydı!</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsimportdialog.ui" line="114"/>
       <source>Replace existing items</source>
-      <translation type="unfinished">Replace existing items</translation>
+      <translation>Bar elementlerdi almastırıw</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsimportdialog.cpp" line="42"/>
       <source>Invalid input file to import: %1</source>
-      <translation type="unfinished">Invalid input file to import: %1</translation>
+      <translation>Importlaw ushın jaramsız kiris faylı: %1</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsimportdialog.cpp" line="53"/>
       <source>Selected file does not contain functions to import.</source>
-      <translation type="unfinished">Selected file does not contain functions to import.</translation>
+      <translation>Tańlanǵan faylda import etiletuǵın funkciyalar joq.</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsimportdialog.cpp" line="62"/>
       <source>Selected file does not contain collation sequences to import.</source>
-      <translation type="unfinished">Selected file does not contain collation sequences to import.</translation>
+      <translation>Tańlanǵan faylda import etiletuǵın salıstırıw izbe-izlikleri joq.</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsimportdialog.cpp" line="70"/>
       <source>Selected file does not contain code snippets to import.</source>
-      <translation type="unfinished">Selected file does not contain code snippets to import.</translation>
+      <translation>Tańlanǵan faylda import etiletuǵın kod úzindileri joq.</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsimportdialog.cpp" line="78"/>
       <source>Selected file does not contain SQLite extensions to import.</source>
-      <translation type="unfinished">Selected file does not contain SQLite extensions to import.</translation>
+      <translation>Tańlanǵan faylda import etiletuǵın SQLite keńeytmeleri joq.</translation>
     </message>
   </context>
   <context>
@@ -6812,34 +6812,34 @@ find next</translation>
     <message>
       <location filename="../dialogs/sortdialog.ui" line="14"/>
       <source>Sort by columns</source>
-      <translation type="unfinished">Sort by columns</translation>
+      <translation>Qatarlar boyınsha sortlaw</translation>
     </message>
     <message>
       <location filename="../dialogs/sortdialog.ui" line="45"/>
       <location filename="../dialogs/sortdialog.cpp" line="47"/>
       <source>Column</source>
-      <translation type="unfinished">Column</translation>
+      <translation>Qatar</translation>
     </message>
     <message>
       <location filename="../dialogs/sortdialog.ui" line="50"/>
       <location filename="../dialogs/sortdialog.cpp" line="47"/>
       <source>Order</source>
-      <translation type="unfinished">Order</translation>
+      <translation>Tártip</translation>
     </message>
     <message>
       <location filename="../dialogs/sortdialog.cpp" line="177"/>
       <source>Sort by: %1</source>
-      <translation type="unfinished">Sort by: %1</translation>
+      <translation>Sortlaw: %1</translation>
     </message>
     <message>
       <location filename="../dialogs/sortdialog.cpp" line="241"/>
       <source>Move column up</source>
-      <translation type="unfinished">Move column up</translation>
+      <translation>Qatardı joqarıǵa jıljıtıw</translation>
     </message>
     <message>
       <location filename="../dialogs/sortdialog.cpp" line="242"/>
       <source>Move column down</source>
-      <translation type="unfinished">Move column down</translation>
+      <translation>Qatardı tómenge jıljıtıw</translation>
     </message>
   </context>
   <context>
@@ -6847,12 +6847,12 @@ find next</translation>
     <message>
       <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="122"/>
       <source>Error while committing new row: %1</source>
-      <translation type="unfinished">Error while committing new row: %1</translation>
+      <translation>Jańa qatardı tastıyıqlaw waqtında qáte: %1</translation>
     </message>
     <message>
       <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="170"/>
       <source>Error while deleting row from %1: %2</source>
-      <translation type="unfinished">Error while deleting row from %1: %2</translation>
+      <translation>%1 ishinen qatardı óshiriw waqtında qáte: %2</translation>
     </message>
   </context>
   <context>
@@ -6861,207 +6861,207 @@ find next</translation>
       <location filename="../sqleditor.cpp" line="194"/>
       <source>Wrap words</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Wrap words</translation>
+      <translation>Sózlerdi tasıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="158"/>
       <source>Cut</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Cut</translation>
+      <translation>Kesip alıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="159"/>
       <source>Copy</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Copy</translation>
+      <translation>Kóshiriw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="160"/>
       <source>Paste</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Paste</translation>
+      <translation>Qoyıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="161"/>
       <source>Delete</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Delete</translation>
+      <translation>Óshiriw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="162"/>
       <source>Select all</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Select all</translation>
+      <translation>Hámmesin tańlaw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="163"/>
       <source>Undo</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Undo</translation>
+      <translation>Artqa qaytarıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="164"/>
       <source>Redo</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Redo</translation>
+      <translation>Qayta islew</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="166"/>
       <source>Complete</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Complete</translation>
+      <translation>Tolıqtırıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="167"/>
       <source>Format SQL</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Format SQL</translation>
+      <translation>SQL formatlaw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="168"/>
       <source>Save SQL to file</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Save SQL to file</translation>
+      <translation>SQL di faylǵa saqlaw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="169"/>
       <source>Select file to save SQL</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Select file to save SQL</translation>
+      <translation>SQL saqlaw ushın fayl tańlań</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="170"/>
       <source>Load SQL from file</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Load SQL from file</translation>
+      <translation>SQL di fayldan júklew</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="171"/>
       <source>Delete line</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Delete line</translation>
+      <translation>Joldı óshiriw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="172"/>
       <source>Move block down</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Move block down</translation>
+      <translation>Bloktı tómenge jıljıtıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="173"/>
       <source>Move block up</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Move block up</translation>
+      <translation>Bloktı joqarıǵa jıljıtıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="174"/>
       <source>Copy block down</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Copy block down</translation>
+      <translation>Bloktı tómenge kóshiriw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="175"/>
       <source>Copy up down</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Copy up down</translation>
+      <translation>Bloktı joqarıǵa kóshiriw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="176"/>
       <source>Find or replace</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Find or replace</translation>
+      <translation>Tabıw yamasa almastırıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="177"/>
       <source>Find next</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Find next</translation>
+      <translation>Keyingisin tabıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="178"/>
       <source>Find previous</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Find previous</translation>
+      <translation>Aldınǵısın tabıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="179"/>
       <source>Replace</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Replace</translation>
+      <translation>Almastırıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="180"/>
       <source>Toggle comment</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Toggle comment</translation>
+      <translation>Kommentariydi almastırıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="181"/>
       <source>Increase font size</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Increase font size</translation>
+      <translation>Shrift ólshemin úlkeytiw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="182"/>
       <source>Decrease font size</source>
       <comment>sql editor</comment>
-      <translation type="unfinished">Decrease font size</translation>
+      <translation>Shrift ólshemin kishireytiw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="297"/>
       <source>Could not open file &apos;%1&apos; for writing: %2</source>
-      <translation type="unfinished">Could not open file &apos;%1&apos; for writing: %2</translation>
+      <translation>&apos;%1&apos; faylın jazıw ushın ashıp bolmadı: %2</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="306"/>
       <source>Saved SQL contents to file: %1</source>
-      <translation type="unfinished">Saved SQL contents to file: %1</translation>
+      <translation>SQL mazmunı faylǵa saqlandı: %1</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="562"/>
       <source>Syntax completion can be used only when a valid database is set for the SQL editor.</source>
-      <translation type="unfinished">Syntax completion can be used only when a valid database is set for the SQL editor.</translation>
+      <translation>Sintaksisti tolıqtırıwdı tek SQL redaktorı ushın jararlı maǵlıwmatlar bazası ornatılǵanda paydalanıw múmkin.</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="1183"/>
       <source>Contents of the SQL editor are huge, so errors detecting and existing objects highlighting are temporarily disabled.</source>
-      <translation type="unfinished">Contents of the SQL editor are huge, so errors detecting and existing objects highlighting are temporarily disabled.</translation>
+      <translation>SQL redaktorınıń mazmunı júdá úlken, sonıń ushın qátelerdi anıqlaw hám bar obektlerdi bóleklip kórsetiw waqtınsha óshirilgen.</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="1212"/>
       <source>Save to file</source>
-      <translation type="unfinished">Save to file</translation>
+      <translation>Faylǵa saqlaw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="1227"/>
       <source>SQL scripts (*.sql);;All files (*)</source>
-      <translation type="unfinished">SQL scripts (*.sql);;All files (*)</translation>
+      <translation>SQL skriptleri (*.sql);;Barlıq fayllar (*)</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="1228"/>
       <location filename="../sqleditor.cpp" line="1259"/>
       <source>Open file</source>
-      <translation type="unfinished">Open file</translation>
+      <translation>Fayldı ashıw</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="1260"/>
       <source>This file is huge (over %1 MB). Are you sure you want to load it into SQL query editor?</source>
-      <translation type="unfinished">This file is huge (over %1 MB). Are you sure you want to load it into SQL query editor?</translation>
+      <translation>Bul fayl júdá úlken (%1 MB dan asadı). Onı SQL soraw redaktorına júklewdi qáleysiz be?</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="1274"/>
       <source>Could not open file &apos;%1&apos; for reading: %2</source>
-      <translation type="unfinished">Could not open file &apos;%1&apos; for reading: %2</translation>
+      <translation>&apos;%1&apos; faylın oqıw ushın ashıp bolmadı: %2</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="1468"/>
       <source>Reached the end of document. Hit the find again to restart the search.</source>
-      <translation type="unfinished">Reached the end of document. Hit the find again to restart the search.</translation>
+      <translation>Hújjet sońına jetildi. Izlewdi qaytadan baslaw ushın taǵı da tabıwdı basıń.</translation>
     </message>
     <message>
       <location filename="../sqleditor.cpp" line="1740"/>
       <source>Ctrl+click to open this table or view</source>
-      <translation type="unfinished">Ctrl+click to open this table or view</translation>
+      <translation>Bul keste yamasa kórinisti ashıw ushın Ctrl+basıń</translation>
     </message>
   </context>
   <context>
@@ -7070,31 +7070,31 @@ find next</translation>
       <location filename="../datagrid/sqlqueryitem.cpp" line="260"/>
       <source>Committing error:</source>
       <comment>data view tooltip</comment>
-      <translation type="unfinished">Committing error:</translation>
+      <translation>Bekitiw qátesi:</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryitem.cpp" line="264"/>
       <source>Column:</source>
       <comment>data view tooltip</comment>
-      <translation type="unfinished">Column:</translation>
+      <translation>Qatar:</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryitem.cpp" line="265"/>
       <source>Data type:</source>
       <comment>data view</comment>
-      <translation type="unfinished">Data type:</translation>
+      <translation>Maǵlıwmat túri:</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryitem.cpp" line="268"/>
       <source>Table:</source>
       <comment>data view tooltip</comment>
-      <translation type="unfinished">Table:</translation>
+      <translation>Keste:</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryitem.cpp" line="304"/>
       <source>Constraints:</source>
       <comment>data view tooltip</comment>
-      <translation type="unfinished">Constraints:</translation>
+      <translation>Sheklewler:</translation>
     </message>
   </context>
   <context>
@@ -7106,48 +7106,48 @@ find next</translation>
       <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="81"/>
       <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="317"/>
       <source>Cannot edit this cell. Details: %1</source>
-      <translation type="unfinished">Cannot edit this cell. Details: %1</translation>
+      <translation>Bul uyanı ózgertip bolmaydı. Tolıq maǵlıwmat: %1</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="63"/>
       <source>The row is marked for deletion.</source>
-      <translation type="unfinished">The row is marked for deletion.</translation>
+      <translation>Bul jol óshiriw ushın belgilenген.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
       <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="317"/>
       <source>Structure of this table has changed since last data was loaded. Reload the data to proceed.</source>
-      <translation type="unfinished">Structure of this table has changed since last data was loaded. Reload the data to proceed.</translation>
+      <translation>Bul kestenıń dúzilisi sońǵı maǵlıwmat júklengenнен beri ózgerdi. Dawam etiw ushın maǵlıwmatlardı qayta júkleń.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="81"/>
       <source>ROWID is not available for this cell.</source>
-      <translation type="unfinished">ROWID is not available for this cell.</translation>
+      <translation>Bul uya ushın ROWID qoljetimsiz.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="259"/>
       <source>Editing a huge contents in an inline cell editor is not a good idea. It can become slow and inconvenient. It&apos;s better to edit such big contents in a Form View, or in popup editor (available under right-click menu).</source>
-      <translation type="unfinished">Editing a huge contents in an inline cell editor is not a good idea. It can become slow and inconvenient. It&apos;s better to edit such big contents in a Form View, or in popup editor (available under right-click menu).</translation>
+      <translation>Úlken mazmundı qatar ishindegi uyasha redaktorında ózgertiw jaqsı pikir emes. Bul ásten hám qolaysız bolıwı múmkin. Bunday úlken mazmundı Forma kórinisinde yamasa qalqıma redaktorda (oń basıw menyusında bar) ózgertken jaqsı.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="284"/>
       <source>Reset to DEFAULT value</source>
-      <translation type="unfinished">Reset to DEFAULT value</translation>
+      <translation>DEFAULT mánisine qaytarıw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="286"/>
       <source>Reset to PRIMARY KEY AUTOINCREMENT value</source>
-      <translation type="unfinished">Reset to PRIMARY KEY AUTOINCREMENT value</translation>
+      <translation>PRIMARY KEY AUTOINCREMENT mánisine qaytarıw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="288"/>
       <source>Reset value</source>
-      <translation type="unfinished">Reset value</translation>
+      <translation>Mánisti qaytarıw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="309"/>
       <source>Foreign key for column %2 has more than %1 possible values. It&apos;s too much to display in drop down list. You need to edit value manually.</source>
-      <translation type="unfinished">Foreign key for column %2 has more than %1 possible values. It&apos;s too much to display in drop down list. You need to edit value manually.</translation>
+      <translation>%2 baǵanası ushın sırtqı gilttiń múmkin bolǵan mánisleri %1 den kóp. Ashılatuǵın dizimde kórsetiw ushın bul júdá kóp. Mánisti qol menen ózgertiw kerek.</translation>
     </message>
   </context>
   <context>
@@ -7156,116 +7156,116 @@ find next</translation>
       <location filename="../datagrid/sqlquerymodel.cpp" line="93"/>
       <location filename="../datagrid/sqlquerymodel.cpp" line="724"/>
       <source>Only one query can be executed simultaneously.</source>
-      <translation type="unfinished">Only one query can be executed simultaneously.</translation>
+      <translation>Bir waqıtta tek bir soraw orınlanıwı múmkin.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodel.cpp" line="111"/>
       <source>Cannot execute query on undefined or invalid database.</source>
-      <translation type="unfinished">Cannot execute query on undefined or invalid database.</translation>
+      <translation>Anıqlanbaǵan yamasa jararsız maǵlıwmatlar bazasında sorawdı orınlap bolmaydı.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodel.cpp" line="118"/>
       <source>Cannot execute empty query.</source>
-      <translation type="unfinished">Cannot execute empty query.</translation>
+      <translation>Bos sorawdı orınlap bolmaydı.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodel.cpp" line="126"/>
       <source>Uncommitted data</source>
-      <translation type="unfinished">Uncommitted data</translation>
+      <translation>Bekitilmegen maǵlıwmatlar</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodel.cpp" line="127"/>
       <source>There are uncommitted data changes. Do you want to proceed anyway? All uncommitted changes will be lost.</source>
-      <translation type="unfinished">There are uncommitted data changes. Do you want to proceed anyway? All uncommitted changes will be lost.</translation>
+      <translation>Maǵlıwmatlarda bekitilmegen ózgerisler bar. Báribir dawam etesiz be? Barlıq bekitilmegen ózgerisler joǵaladı.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodel.cpp" line="599"/>
       <source>Cannot commit the data for a cell that refers to the already closed database.</source>
-      <translation type="unfinished">Cannot commit the data for a cell that refers to the already closed database.</translation>
+      <translation>Álleqashan jabılǵan maǵlıwmatlar bazasına silteytuǵın uya ushın maǵlıwmattı bekitip bolmaydı.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodel.cpp" line="619"/>
       <source>Could not begin transaction on the database. Details: %1</source>
-      <translation type="unfinished">Could not begin transaction on the database. Details: %1</translation>
+      <translation>Maǵlıwmatlar bazasında tranzakciyanı baslap bolmadı. Tolıq maǵlıwmat: %1</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodel.cpp" line="652"/>
       <source>An error occurred while committing the transaction: %1</source>
-      <translation type="unfinished">An error occurred while committing the transaction: %1</translation>
+      <translation>Tranzakciyanı bekitiw waqtında qáte júz berdi: %1</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodel.cpp" line="685"/>
       <source>An error occurred while rolling back the transaction: %1</source>
-      <translation type="unfinished">An error occurred while rolling back the transaction: %1</translation>
+      <translation>Tranzakciyanı artqa qaytarıw waqtında qáte júz berdi: %1</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodel.cpp" line="897"/>
       <source>Tried to commit a cell which is not editable (yet modified and waiting for commit)! This is a bug. Please report it.</source>
-      <translation type="unfinished">Tried to commit a cell which is not editable (yet modified and waiting for commit)! This is a bug. Please report it.</translation>
+      <translation>Ózgertip bolmaytuǵın uyanı bekitip kóriwge háreket etildi (biraq ol ózgertilgen hám bekitiliwin kútip tur)! Bul qáte. Iltimas, bul haqqında xabar beriń.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodel.cpp" line="923"/>
       <source>An error occurred while committing the data: %1</source>
-      <translation type="unfinished">An error occurred while committing the data: %1</translation>
+      <translation>Maǵlıwmattı bekitiw waqtında qáte júz berdi: %1</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodel.cpp" line="1057"/>
       <source>Number of rows per page was decreased to %1 due to number of columns (%2) in the data view.</source>
-      <translation type="unfinished">Number of rows per page was decreased to %1 due to number of columns (%2) in the data view.</translation>
+      <translation>Maǵlıwmat kórinisindegi qatarlar sanı (%2) sebepli bettegi jollar sanı %1 ge shekem kemeytildi.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodel.cpp" line="1466"/>
       <location filename="../datagrid/sqlquerymodel.cpp" line="1482"/>
       <location filename="../datagrid/sqlquerymodel.cpp" line="1531"/>
       <source>Error while executing SQL query on database &apos;%1&apos;: %2</source>
-      <translation type="unfinished">Error while executing SQL query on database &apos;%1&apos;: %2</translation>
+      <translation>&apos;%1&apos; maǵlıwmatlar bazasında SQL sorawın orınlaw waqtında qáte: %2</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodel.cpp" line="1528"/>
       <source>Error while loading query results: %1</source>
-      <translation type="unfinished">Error while loading query results: %1</translation>
+      <translation>Soraw nátiyjelerin júklew waqtında qáte: %1</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodel.cpp" line="2022"/>
       <source>Insert multiple rows</source>
-      <translation type="unfinished">Insert multiple rows</translation>
+      <translation>Birneshe jol kirgiziw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodel.cpp" line="2022"/>
       <source>Number of rows to insert:</source>
-      <translation type="unfinished">Number of rows to insert:</translation>
+      <translation>Kirgiziletuǵın jollar sanı:</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodel.cpp" line="2079"/>
       <source>Delete rows</source>
-      <translation type="unfinished">Delete rows</translation>
+      <translation>Jollardı óshiriw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodel.cpp" line="2080"/>
       <source>You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
 Such deletion will be permanent. Are you sure you want to delete them?</source>
-      <translation type="unfinished">You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
-Such deletion will be permanent. Are you sure you want to delete them?</translation>
+      <translation>Siz ele bekitilmegen jańa kirgizilgen jollardı óshirmekshisiz. Jol nómirleri: %1
+Bunday óshiriw turaqlı boladı. Olardı óshiriwge isenimińiz kámil me?</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodel.cpp" line="2207"/>
       <source>Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</source>
-      <translation type="unfinished">Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</translation>
+      <translation>Bir márte basıw qatar boyınsha sortlaydı.&lt;br&gt;Alt+basıw qatardaǵı maǵlıwmatlardı tańlaydı.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodel.cpp" line="2209"/>
       <source>Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</source>
-      <translation type="unfinished">Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</translation>
+      <translation>Bir márte basıw qatardaǵı maǵlıwmatlardı tańlaydı.&lt;br&gt;Eki márte basıw qatar boyınsha sortlaydı.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodel.cpp" line="2214"/>
       <source>Middle-click resets sorting.</source>
-      <translation type="unfinished">Middle-click resets sorting.</translation>
+      <translation>Orta túyme menen basıw sortlawdı qaytaradı.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlquerymodel.cpp" line="2215"/>
       <source>More options are available in the context menu.</source>
-      <translation type="unfinished">More options are available in the context menu.</translation>
+      <translation>Kóbirek parametrler kontekst menyusında bar.</translation>
     </message>
   </context>
   <context>
@@ -7273,230 +7273,230 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="58"/>
       <source>Go to referenced row in...</source>
-      <translation type="unfinished">Go to referenced row in...</translation>
+      <translation>Silteme berilgen jolǵa ótiw...</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="147"/>
       <source>Cut</source>
-      <translation type="unfinished">Cut</translation>
+      <translation>Kesip alıw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="148"/>
       <source>Copy</source>
-      <translation type="unfinished">Copy</translation>
+      <translation>Kóshiriw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="149"/>
       <source>Copy with headers</source>
-      <translation type="unfinished">Copy with headers</translation>
+      <translation>Baslıqlar menen kóshiriw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="150"/>
       <source>Copy as...</source>
-      <translation type="unfinished">Copy as...</translation>
+      <translation>Sıpatında kóshiriw...</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="151"/>
       <source>Paste</source>
-      <translation type="unfinished">Paste</translation>
+      <translation>Qoyıw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="152"/>
       <source>Paste as...</source>
-      <translation type="unfinished">Paste as...</translation>
+      <translation>Sıpatında qoyıw...</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="153"/>
       <source>Set NULL value</source>
-      <translation type="unfinished">Set NULL value</translation>
+      <translation>NULL mánisin ornatıw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="154"/>
       <source>Erase value</source>
-      <translation type="unfinished">Erase value</translation>
+      <translation>Mánisti tazalaw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="155"/>
       <source>Reset value</source>
-      <translation type="unfinished">Reset value</translation>
+      <translation>Mánisti qaytarıw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="157"/>
       <source>Commit</source>
-      <translation type="unfinished">Commit</translation>
+      <translation>Bekitiw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="158"/>
       <source>Rollback</source>
-      <translation type="unfinished">Rollback</translation>
+      <translation>Artqa qaytarıw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="159"/>
       <source>Commit selected cells</source>
-      <translation type="unfinished">Commit selected cells</translation>
+      <translation>Tańlanǵan uyalardı bekitiw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="160"/>
       <source>Rollback selected cells</source>
-      <translation type="unfinished">Rollback selected cells</translation>
+      <translation>Tańlanǵan uyalardı artqa qaytarıw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="161"/>
       <source>Edit current cell inline</source>
-      <translation type="unfinished">Edit current cell inline</translation>
+      <translation>Házirgi uyanı ornında ózgertiw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="166"/>
       <source>Define columns to sort by</source>
-      <translation type="unfinished">Define columns to sort by</translation>
+      <translation>Sortlaw ushın qatarларды anıqlaw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="167"/>
       <source>Remove custom sorting (Middle click)</source>
-      <translation type="unfinished">Remove custom sorting (Middle click)</translation>
+      <translation>Ózgeshe sortlawdı alıp taslaw (orta basıw)</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="168"/>
       <source>Insert row</source>
-      <translation type="unfinished">Insert row</translation>
+      <translation>Jol kirgiziw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="169"/>
       <source>Insert multiple rows</source>
-      <translation type="unfinished">Insert multiple rows</translation>
+      <translation>Birneshe jol kirgiziw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="170"/>
       <source>Delete selected row</source>
-      <translation type="unfinished">Delete selected row</translation>
+      <translation>Tańlanǵan joldı óshiriw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="171"/>
       <source>Adjust height of rows</source>
-      <translation type="unfinished">Adjust height of rows</translation>
+      <translation>Jollar biyikligin sáykeslew</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="174"/>
       <source>Next row on Enter</source>
-      <translation type="unfinished">Next row on Enter</translation>
+      <translation>Enterde keyingi jol</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="178"/>
       <source>Increase font size</source>
       <comment>data view</comment>
-      <translation type="unfinished">Increase font size</translation>
+      <translation>Shrift ólshemin úlkeytiw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="179"/>
       <source>Decrease font size</source>
       <comment>data view</comment>
-      <translation type="unfinished">Decrease font size</translation>
+      <translation>Shrift ólshemin kishireytiw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="180"/>
       <source>Invert selection</source>
       <comment>data view</comment>
-      <translation type="unfinished">Invert selection</translation>
+      <translation>Tańlawdı kerisinshe etiw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="230"/>
       <source>Edit value in editor</source>
-      <translation type="unfinished">Edit value in editor</translation>
+      <translation>Mánisti redaktorda ózgertiw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="230"/>
       <source>Show value in a viewer</source>
-      <translation type="unfinished">Show value in a viewer</translation>
+      <translation>Mánisti kóriwshiде kórsetiw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="256"/>
       <source>Generate query for selected cells</source>
-      <translation type="unfinished">Generate query for selected cells</translation>
+      <translation>Tańlanǵan uyalardıń sorawın jaratıw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="622"/>
       <source>No items selected to paste clipboard contents to.</source>
-      <translation type="unfinished">No items selected to paste clipboard contents to.</translation>
+      <translation>Almaslaw buferi mazmunın qoyıw ushın elementler tańlanbaǵan.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="628"/>
       <source>Cannot paste data. Details: %1</source>
-      <translation type="unfinished">Cannot paste data. Details: %1</translation>
+      <translation>Maǵlıwmattı qoyıp bolmaydı. Tolıq maǵlıwmat: %1</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="628"/>
       <source>Structure of at least one table used has changed since last data was loaded. Reload the data to proceed.</source>
-      <translation type="unfinished">Structure of at least one table used has changed since last data was loaded. Reload the data to proceed.</translation>
+      <translation>Paydalanılǵan keminde bir kestenıń dúzilisi sońǵı maǵlıwmat júklengenнен beri ózgerdi. Dawam etiw ushın maǵlıwmatlardı qayta júkleń.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="698"/>
       <source>Cannot paste to a cell. Details: %1</source>
-      <translation type="unfinished">Cannot paste to a cell. Details: %1</translation>
+      <translation>Uyaǵa qoyıp bolmaydı. Tolıq maǵlıwmat: %1</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="698"/>
       <source>The row is marked for deletion.</source>
-      <translation type="unfinished">The row is marked for deletion.</translation>
+      <translation>Bul jol óshiriw ushın belgilenген.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="709"/>
       <source>Cannot paste to column %1. Details: %2</source>
-      <translation type="unfinished">Cannot paste to column %1. Details: %2</translation>
+      <translation>%1 qatarına qoyıp bolmaydı. Tolıq maǵlıwmat: %2</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="727"/>
       <source>Go to referenced row in table &apos;%1&apos;</source>
-      <translation type="unfinished">Go to referenced row in table &apos;%1&apos;</translation>
+      <translation>&apos;%1&apos; kestedegi silteme berilgen jolǵa ótiw</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="739"/>
       <source>table &apos;%1&apos;</source>
-      <translation type="unfinished">table &apos;%1&apos;</translation>
+      <translation>&apos;%1&apos; kestesi</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="762"/>
       <source>Referenced row (%1)</source>
-      <translation type="unfinished">Referenced row (%1)</translation>
+      <translation>Silteme berilgen jol (%1)</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="1192"/>
       <source>Pin column</source>
-      <translation type="unfinished">Pin column</translation>
+      <translation>Qatardı bekkemlew</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="1219"/>
       <source>Column renderer</source>
-      <translation type="unfinished">Column renderer</translation>
+      <translation>Qatar rendererı</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="1226"/>
       <source>Default</source>
-      <translation type="unfinished">Default</translation>
+      <translation>Ádepki</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="1382"/>
       <source>Trim pasted text?</source>
-      <translation type="unfinished">Trim pasted text?</translation>
+      <translation>Qoyılǵan tekst qısqartılsın ba?</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="1383"/>
       <source>The pasted text contains leading or trailing white space. Trim it automatically?</source>
-      <translation type="unfinished">The pasted text contains leading or trailing white space. Trim it automatically?</translation>
+      <translation>Qoyılǵan tekst basında yamasa sońında bos orın bar. Onı avtomatikalıq qısqartıw kerek pe?</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="1391"/>
       <source>Paste &quot;NULL&quot; as null value?</source>
-      <translation type="unfinished">Paste &quot;NULL&quot; as null value?</translation>
+      <translation>&quot;NULL&quot; di null mánis sıpatında qoyıw kerek pe?</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="1392"/>
       <source>The pasted text contains &quot;NULL&quot; literals. Do you want to consider them as NULL values?</source>
-      <translation type="unfinished">The pasted text contains &quot;NULL&quot; literals. Do you want to consider them as NULL values?</translation>
+      <translation>Qoyılǵan tekstte &quot;NULL&quot; literalları bar. Olardı NULL mánisleri dep esaplawdı qáleysiz be?</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlqueryview.cpp" line="1520"/>
       <source>Edit value</source>
-      <translation type="unfinished">Edit value</translation>
+      <translation>Mánisti ózgertiw</translation>
     </message>
   </context>
   <context>
@@ -7504,22 +7504,22 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
       <location filename="../datagrid/sqlviewmodel.cpp" line="127"/>
       <source>An error occurred while committing the data: %1</source>
-      <translation type="unfinished">An error occurred while committing the data: %1</translation>
+      <translation>Maǵlıwmatlardı tastıyıqlaw waqtında qáte júz berdi: %1</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlviewmodel.cpp" line="141"/>
       <source>Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</source>
-      <translation type="unfinished">Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</translation>
+      <translation>Qatar %1: INSTEAD OF UPDATE trigeri bir qatardan kóbirek qatarın ózgertti (%2). Kórinis ózgertilgen jazbanı anıq bir mánili anıqlamaydı.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlviewmodel.cpp" line="191"/>
       <source>Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</source>
-      <translation type="unfinished">Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</translation>
+      <translation>Qatar %1: INSTEAD OF DELETE trigeri bir qatardan kóbirek qatardı óshirdi (%2). Kórinis ózgertilgen jazbanı anıq bir mánili anıqlamaydı.</translation>
     </message>
     <message>
       <location filename="../datagrid/sqlviewmodel.cpp" line="216"/>
       <source>The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</source>
-      <translation type="unfinished">The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</translation>
+      <translation>Kóriniste redaktorlawdı basqaratuǵın INSTEAD OF triger(ler) bar. Bekitkennen keyin haqıyqıy ózgerislerdi kóriw ushın maǵlıwmatlardı jańalaw usınıladı, sebebi trigerler maǵlıwmatlardı kútilmegen túrde ózgertiwi múmkin.</translation>
     </message>
   </context>
   <context>
@@ -7527,122 +7527,122 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
       <location filename="../windows/sqliteextensioneditor.ui" line="84"/>
       <source>Filter extensions</source>
-      <translation type="unfinished">Filter extensions</translation>
+      <translation>Keńeytmelerdi súziw</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.ui" line="150"/>
       <source>Leave empty to use default function</source>
-      <translation type="unfinished">Leave empty to use default function</translation>
+      <translation>Ádepki funkciyanı paydalanıw ushın bos qaldırıń</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.ui" line="171"/>
       <source>Extension file</source>
-      <translation type="unfinished">Extension file</translation>
+      <translation>Keńeytme faylı</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.ui" line="178"/>
       <source>Initialization function</source>
-      <translation type="unfinished">Initialization function</translation>
+      <translation>Inicializaciya funkciyası</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.ui" line="194"/>
       <source>Databases</source>
-      <translation type="unfinished">Databases</translation>
+      <translation>Maǵlıwmatlar bazaları</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.ui" line="200"/>
       <source>Register in all databases</source>
-      <translation type="unfinished">Register in all databases</translation>
+      <translation>Barlıq maǵlıwmatlar bazalarında dizimnen ótkeriw</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.ui" line="207"/>
       <source>Register in following databases:</source>
-      <translation type="unfinished">Register in following databases:</translation>
+      <translation>Tómendegi maǵlıwmatlar bazalarında dizimnen ótkeriw:</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.cpp" line="47"/>
       <source>Extension manager window has uncommitted modifications.</source>
-      <translation type="unfinished">Extension manager window has uncommitted modifications.</translation>
+      <translation>Keńeytme basqarıw aynasında bekitilmegen ózgerisler bar.</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.cpp" line="68"/>
       <source>Extension manager</source>
-      <translation type="unfinished">Extension manager</translation>
+      <translation>Keńeytmeler basqarıwshısı</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.cpp" line="73"/>
       <source>Commit all extension changes</source>
-      <translation type="unfinished">Commit all extension changes</translation>
+      <translation>Barlıq keńeytme ózgerislerin bekitiw</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.cpp" line="74"/>
       <source>Rollback all extension changes</source>
-      <translation type="unfinished">Rollback all extension changes</translation>
+      <translation>Barlıq keńeytme ózgerislerin artqa qaytarıw</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.cpp" line="76"/>
       <source>Add new extension</source>
-      <translation type="unfinished">Add new extension</translation>
+      <translation>Jańa keńeytme qosıw</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.cpp" line="77"/>
       <source>Remove selected extension</source>
-      <translation type="unfinished">Remove selected extension</translation>
+      <translation>Tańlanǵan keńeytmeni alıp taslaw</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.cpp" line="79"/>
       <source>Import extension list from file</source>
-      <translation type="unfinished">Import extension list from file</translation>
+      <translation>Keńeytmeler dizimin fayldan import etiw</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.cpp" line="80"/>
       <source>Export extension list file</source>
-      <translation type="unfinished">Export extension list file</translation>
+      <translation>Keńeytmeler dizimi faylın eksport etiw</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.cpp" line="81"/>
       <source>Editing extensions manual</source>
-      <translation type="unfinished">Editing extensions manual</translation>
+      <translation>Keńeytmelerdi ózgertiw qollanbası</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.cpp" line="277"/>
       <source>File with given path does not exist or is not readable.</source>
-      <translation type="unfinished">File with given path does not exist or is not readable.</translation>
+      <translation>Berilgen jol boyınsha fayl joq yamasa oqıp bolmaydı.</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.cpp" line="283"/>
       <source>Unable to load extension: %1</source>
-      <translation type="unfinished">Unable to load extension: %1</translation>
+      <translation>Keńeytmeni júklew múmkin emes: %1</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.cpp" line="403"/>
       <source>Invalid initialization function name. Function name can contain only alpha-numeric characters and underscore.</source>
-      <translation type="unfinished">Invalid initialization function name. Function name can contain only alpha-numeric characters and underscore.</translation>
+      <translation>Inicializaciya funkciyası atı jaramsız. Funkciya atında tek hárip-san belgileri hám astın sızıw belgisi bolıwı múmkin.</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.cpp" line="472"/>
       <source>Dynamic link libraries (*.dll);;All files (*)</source>
-      <translation type="unfinished">Dynamic link libraries (*.dll);;All files (*)</translation>
+      <translation>Dinamikalıq baylanıs kitapxanaları (*.dll);;Barlıq fayllar (*)</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.cpp" line="474"/>
       <source>Shared objects (*.so);;All files (*)</source>
-      <translation type="unfinished">Shared objects (*.so);;All files (*)</translation>
+      <translation>Bólisilgen obektler (*.so);;Barlıq fayllar (*)</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.cpp" line="476"/>
       <source>Dynamic libraries (*.dylib);;All files (*)</source>
-      <translation type="unfinished">Dynamic libraries (*.dylib);;All files (*)</translation>
+      <translation>Dinamikalıq kitapxanalar (*.dylib);;Barlıq fayllar (*)</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.cpp" line="478"/>
       <source>All files (*)</source>
-      <translation type="unfinished">All files (*)</translation>
+      <translation>Barlıq fayllar (*)</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditor.cpp" line="480"/>
       <source>Open file</source>
-      <translation type="unfinished">Open file</translation>
+      <translation>Fayldı ashıw</translation>
     </message>
   </context>
   <context>
@@ -7650,27 +7650,27 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
       <location filename="../windows/sqliteextensioneditormodel.cpp" line="160"/>
       <source>all databases</source>
-      <translation type="unfinished">all databases</translation>
+      <translation>barlıq maǵlıwmatlar bazaları</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditormodel.cpp" line="164"/>
       <source>Extension:</source>
-      <translation type="unfinished">Extension:</translation>
+      <translation>Keńeytme:</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditormodel.cpp" line="165"/>
       <source>File:</source>
-      <translation type="unfinished">File:</translation>
+      <translation>Fayl:</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditormodel.cpp" line="166"/>
       <source>Init function:</source>
-      <translation type="unfinished">Init function:</translation>
+      <translation>Init funkciyası:</translation>
     </message>
     <message>
       <location filename="../windows/sqliteextensioneditormodel.cpp" line="167"/>
       <source>Registered in:</source>
-      <translation type="unfinished">Registered in:</translation>
+      <translation>Dizimnen ótkerilgen jeri:</translation>
     </message>
   </context>
   <context>
@@ -7678,17 +7678,17 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
       <location filename="../statusfield.ui" line="14"/>
       <source>Status</source>
-      <translation type="unfinished">Status</translation>
+      <translation>Jaǵday</translation>
     </message>
     <message>
       <location filename="../statusfield.cpp" line="191"/>
       <source>Copy</source>
-      <translation type="unfinished">Copy</translation>
+      <translation>Kóshiriw</translation>
     </message>
     <message>
       <location filename="../statusfield.cpp" line="198"/>
       <source>Clear</source>
-      <translation type="unfinished">Clear</translation>
+      <translation>Tazalaw</translation>
     </message>
   </context>
   <context>
@@ -7697,19 +7697,19 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
       <location filename="../windows/tableconstraintsmodel.cpp" line="74"/>
       <source>Type</source>
       <comment>table constraints</comment>
-      <translation type="unfinished">Type</translation>
+      <translation>Túri</translation>
     </message>
     <message>
       <location filename="../windows/tableconstraintsmodel.cpp" line="76"/>
       <source>Details</source>
       <comment>table constraints</comment>
-      <translation type="unfinished">Details</translation>
+      <translation>Tolıq maǵlıwmat</translation>
     </message>
     <message>
       <location filename="../windows/tableconstraintsmodel.cpp" line="78"/>
       <source>Name</source>
       <comment>table constraints</comment>
-      <translation type="unfinished">Name</translation>
+      <translation>Atı</translation>
     </message>
   </context>
   <context>
@@ -7717,83 +7717,83 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
       <location filename="../constraints/tableforeignkeypanel.ui" line="42"/>
       <source>Columns</source>
-      <translation type="unfinished">Columns</translation>
+      <translation>Qatarlar</translation>
     </message>
     <message>
       <location filename="../constraints/tableforeignkeypanel.ui" line="29"/>
       <source>Referenced table:</source>
-      <translation type="unfinished">Referenced table:</translation>
+      <translation>Silteme berilgen keste:</translation>
     </message>
     <message>
       <location filename="../constraints/tableforeignkeypanel.ui" line="56"/>
       <source>Referencing column</source>
-      <translation type="unfinished">Referencing column</translation>
+      <translation>Siltewshi qatar</translation>
     </message>
     <message>
       <location filename="../constraints/tableforeignkeypanel.ui" line="68"/>
       <source>Referenced column</source>
-      <translation type="unfinished">Referenced column</translation>
+      <translation>Silteme berilgen qatar</translation>
     </message>
     <message>
       <location filename="../constraints/tableforeignkeypanel.ui" line="104"/>
       <source>Reactions</source>
-      <translation type="unfinished">Reactions</translation>
+      <translation>Reakciyalar</translation>
     </message>
     <message>
       <location filename="../constraints/tableforeignkeypanel.ui" line="143"/>
       <source>Deferred foreign key</source>
-      <translation type="unfinished">Deferred foreign key</translation>
+      <translation>Keyinge qaldırılǵan sırtqı gilt</translation>
     </message>
     <message>
       <location filename="../constraints/tableforeignkeypanel.ui" line="161"/>
       <source>Named constraint</source>
-      <translation type="unfinished">Named constraint</translation>
+      <translation>At berilgen sheklew</translation>
     </message>
     <message>
       <location filename="../constraints/tableforeignkeypanel.ui" line="168"/>
       <source>Constraint name</source>
-      <translation type="unfinished">Constraint name</translation>
+      <translation>Sheklew atı</translation>
     </message>
     <message>
       <location filename="../constraints/tableforeignkeypanel.cpp" line="53"/>
       <source>Pick the foreign column.</source>
-      <translation type="unfinished">Pick the foreign column.</translation>
+      <translation>Sırtqı qatardı tańlań.</translation>
     </message>
     <message>
       <location filename="../constraints/tableforeignkeypanel.cpp" line="67"/>
       <source>Pick the foreign table.</source>
-      <translation type="unfinished">Pick the foreign table.</translation>
+      <translation>Sırtqı kesteni tańlań.</translation>
     </message>
     <message>
       <location filename="../constraints/tableforeignkeypanel.cpp" line="68"/>
       <source>Select at least one foreign column.</source>
-      <translation type="unfinished">Select at least one foreign column.</translation>
+      <translation>Keminde bir sırtqı qatardı tańlań.</translation>
     </message>
     <message>
       <location filename="../constraints/tableforeignkeypanel.cpp" line="69"/>
       <source>Enter a name of the constraint.</source>
-      <translation type="unfinished">Enter a name of the constraint.</translation>
+      <translation>Sheklew atın kirgiziń.</translation>
     </message>
     <message>
       <location filename="../constraints/tableforeignkeypanel.cpp" line="178"/>
       <source>Column with the same name</source>
-      <translation type="unfinished">Column with the same name</translation>
+      <translation>Atı birdey qatar</translation>
     </message>
     <message>
       <location filename="../constraints/tableforeignkeypanel.cpp" line="217"/>
       <source>Foreign column</source>
       <comment>table constraints</comment>
-      <translation type="unfinished">Foreign column</translation>
+      <translation>Sırtqı qatar</translation>
     </message>
     <message>
       <location filename="../constraints/tableforeignkeypanel.cpp" line="427"/>
       <source>Referenced column is not PRIMARY KEY or UNIQUE. It may cause issues while inserting or updating data.</source>
-      <translation type="unfinished">Referenced column is not PRIMARY KEY or UNIQUE. It may cause issues while inserting or updating data.</translation>
+      <translation>Silteme berilgen qatar PRIMARY KEY yamasa UNIQUE emes. Bul maǵlıwmattı kirgiziw yamasa jańalaw waqtında máseleler keltirip shıǵarıwı múmkin.</translation>
     </message>
     <message>
       <location filename="../constraints/tableforeignkeypanel.cpp" line="450"/>
       <source>Referenced column type (%1) is different than type declared for local column (%2). It may cause issues while inserting or updating data.</source>
-      <translation type="unfinished">Referenced column type (%1) is different than type declared for local column (%2). It may cause issues while inserting or updating data.</translation>
+      <translation>Silteme berilgen qatar túri (%1) jergilikli qatar ushın járiyalanǵan túrden (%2) basqa. Bul maǵlıwmattı kirgiziw yamasa jańalaw waqtında máseleler keltirip shıǵarıwı múmkin.</translation>
     </message>
   </context>
   <context>
@@ -7801,69 +7801,69 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
       <location filename="../constraints/tablepkanduniquepanel.ui" line="32"/>
       <source>Columns</source>
-      <translation type="unfinished">Columns</translation>
+      <translation>Qatarlar</translation>
     </message>
     <message>
       <location filename="../constraints/tablepkanduniquepanel.ui" line="59"/>
       <source>Column</source>
-      <translation type="unfinished">Column</translation>
+      <translation>Qatar</translation>
     </message>
     <message>
       <location filename="../constraints/tablepkanduniquepanel.ui" line="84"/>
       <source>Collation</source>
-      <translation type="unfinished">Collation</translation>
+      <translation>Salıstırıw</translation>
     </message>
     <message>
       <location filename="../constraints/tablepkanduniquepanel.ui" line="109"/>
       <source>Sort</source>
-      <translation type="unfinished">Sort</translation>
+      <translation>Sortlaw</translation>
     </message>
     <message>
       <location filename="../constraints/tablepkanduniquepanel.ui" line="142"/>
       <source>Valid only for a single column with INTEGER data type</source>
-      <translation type="unfinished">Valid only for a single column with INTEGER data type</translation>
+      <translation>Tek INTEGER maǵlıwmat túrindegi bir qatar ushın jararlı</translation>
     </message>
     <message>
       <location filename="../constraints/tablepkanduniquepanel.ui" line="145"/>
       <source>Autoincrement</source>
-      <translation type="unfinished">Autoincrement</translation>
+      <translation>Avtomatikalıq arttırıw</translation>
     </message>
     <message>
       <location filename="../constraints/tablepkanduniquepanel.ui" line="167"/>
       <source>Named constraint</source>
-      <translation type="unfinished">Named constraint</translation>
+      <translation>At berilgen sheklew</translation>
     </message>
     <message>
       <location filename="../constraints/tablepkanduniquepanel.ui" line="174"/>
       <source>Constraint name</source>
-      <translation type="unfinished">Constraint name</translation>
+      <translation>Sheklew atı</translation>
     </message>
     <message>
       <location filename="../constraints/tablepkanduniquepanel.ui" line="199"/>
       <source>On conflict</source>
-      <translation type="unfinished">On conflict</translation>
+      <translation>Konflikt bolǵanda</translation>
     </message>
     <message>
       <location filename="../constraints/tablepkanduniquepanel.cpp" line="87"/>
       <source>Collate</source>
       <comment>table constraints</comment>
-      <translation type="unfinished">Collate</translation>
+      <translation>Sarıplaw tártibi</translation>
     </message>
     <message>
       <location filename="../constraints/tablepkanduniquepanel.cpp" line="94"/>
       <source>Sort order</source>
       <comment>table constraints</comment>
-      <translation type="unfinished">Sort order</translation>
+      <translation>Sortlaw tártibi</translation>
     </message>
     <message>
       <location filename="../constraints/tablepkanduniquepanel.cpp" line="170"/>
       <source>Select at least one column.</source>
-      <translation type="unfinished">Select at least one column.</translation>
+      <translation>Keminde bir qatardı tańlań.</translation>
     </message>
     <message>
       <location filename="../constraints/tablepkanduniquepanel.cpp" line="171"/>
       <source>Enter a name of the constraint.</source>
-      <translation type="unfinished">Enter a name of the constraint.</translation>
+      <translation>Sheklew atın kirgiziń.</translation>
     </message>
   </context>
   <context>
@@ -7872,67 +7872,67 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
       <location filename="../windows/tablestructuremodel.cpp" line="322"/>
       <source>Name</source>
       <comment>table structure columns</comment>
-      <translation type="unfinished">Name</translation>
+      <translation>Atı</translation>
     </message>
     <message>
       <location filename="../windows/tablestructuremodel.cpp" line="324"/>
       <source>Data type</source>
       <comment>table structure columns</comment>
-      <translation type="unfinished">Data type</translation>
+      <translation>Maǵlıwmat túri</translation>
     </message>
     <message>
       <location filename="../windows/tablestructuremodel.cpp" line="326"/>
       <source>Primary
 Key</source>
       <comment>table structure columns</comment>
-      <translation type="unfinished">Primary
-Key</translation>
+      <translation>Baslı
+Gilt</translation>
     </message>
     <message>
       <location filename="../windows/tablestructuremodel.cpp" line="328"/>
       <source>Foreign
 Key</source>
       <comment>table structure columns</comment>
-      <translation type="unfinished">Foreign
-Key</translation>
+      <translation>Sırtqı
+Gilt</translation>
     </message>
     <message>
       <location filename="../windows/tablestructuremodel.cpp" line="330"/>
       <source>Unique</source>
       <comment>table structure columns</comment>
-      <translation type="unfinished">Unique</translation>
+      <translation>Unikal</translation>
     </message>
     <message>
       <location filename="../windows/tablestructuremodel.cpp" line="332"/>
       <source>Check</source>
       <comment>table structure columns</comment>
-      <translation type="unfinished">Check</translation>
+      <translation>Tekseriw</translation>
     </message>
     <message>
       <location filename="../windows/tablestructuremodel.cpp" line="334"/>
       <source>Not
 NULL</source>
       <comment>table structure columns</comment>
-      <translation type="unfinished">Not
-NULL</translation>
+      <translation>NULL
+Emes</translation>
     </message>
     <message>
       <location filename="../windows/tablestructuremodel.cpp" line="336"/>
       <source>Collate</source>
       <comment>table structure columns</comment>
-      <translation type="unfinished">Collate</translation>
+      <translation>Sarıplaw tártibi</translation>
     </message>
     <message>
       <location filename="../windows/tablestructuremodel.cpp" line="338"/>
       <source>Generated</source>
       <comment>table structure columns</comment>
-      <translation type="unfinished">Generated</translation>
+      <translation>Jaratılǵan</translation>
     </message>
     <message>
       <location filename="../windows/tablestructuremodel.cpp" line="340"/>
       <source>Default value</source>
       <comment>table structure columns</comment>
-      <translation type="unfinished">Default value</translation>
+      <translation>Ádepki mánis</translation>
     </message>
   </context>
   <context>
@@ -7940,470 +7940,470 @@ NULL</translation>
     <message>
       <location filename="../windows/tablewindow.ui" line="36"/>
       <source>Structure</source>
-      <translation type="unfinished">Structure</translation>
+      <translation>Dúzilis</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.ui" line="70"/>
       <source>Table name:</source>
-      <translation type="unfinished">Table name:</translation>
+      <translation>Keste atı:</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.ui" line="87"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disabled the WITHOUT ROWID clause on the table. Such table will no longer have the &amp;quot;rowid&amp;quot; hidden column. For such table an explicit PRIMARY KEY column is mandatory. You can read more details on this in SQLite official documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disabled the WITHOUT ROWID clause on the table. Such table will no longer have the &amp;quot;rowid&amp;quot; hidden column. For such table an explicit PRIMARY KEY column is mandatory. You can read more details on this in SQLite official documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Kestede WITHOUT ROWID klauzasın qosadı/óshiradi. Bunday kestede endi &amp;quot;rowid&amp;quot; jasırın qatarı bolmaydı. Bunday keste ushın anıq PRIMARY KEY qatarı májbúriy. Bul haqqında kóbirek maǵlıwmattı SQLite rásmiy hújjetlerinde oqıwıńız múmkin.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.ui" line="97"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disables the STRICT clause for the table. Such table makes strict verification of data stored in columns against declared data types for these columns. This is similar to how data types are usually enforced in most other database engines. Keep it disabled to use the classical SQLite bahavior (i.e. no data type enforcement). You can find more details in the official SQLite documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disables the STRICT clause for the table. Such table makes strict verification of data stored in columns against declared data types for these columns. This is similar to how data types are usually enforced in most other database engines. Keep it disabled to use the classical SQLite bahavior (i.e. no data type enforcement). You can find more details in the official SQLite documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Keste ushın STRICT klauzasın qosadı/óshiradi. Bunday keste qatarларда saqlanǵan maǵlıwmatlardı sol qatarlar ushın járiyalanǵan maǵlıwmat túrlerine qatań tekseredi. Bul kópshilik basqa maǵlıwmatlar bazası dvigatellerinde maǵlıwmat túrleri ádetте qanday májbúrleniwine uqsaydı. Klassikalıq SQLite háreketin paydalanıw ushın onı óshirilgen halda qaldırıń (yaǵnıy maǵlıwmat túrin májbúrlew joq). Kóbirek maǵlıwmattı SQLite rásmiy hújjetlerinen tabıwıńız múmkin.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.ui" line="213"/>
       <location filename="../windows/tablewindow.cpp" line="1778"/>
       <source>Data</source>
-      <translation type="unfinished">Data</translation>
+      <translation>Maǵlıwmat</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.ui" line="230"/>
       <source>Constraints</source>
-      <translation type="unfinished">Constraints</translation>
+      <translation>Sheklewler</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.ui" line="244"/>
       <source>Indexes</source>
-      <translation type="unfinished">Indexes</translation>
+      <translation>Indeksler</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.ui" line="276"/>
       <source>Triggers</source>
-      <translation type="unfinished">Triggers</translation>
+      <translation>Triggerler</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.ui" line="311"/>
       <source>DDL</source>
-      <translation type="unfinished">DDL</translation>
+      <translation>DDL</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="243"/>
       <source>Export table</source>
       <comment>table window</comment>
-      <translation type="unfinished">Export table</translation>
+      <translation>Kesteni eksport etiw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="244"/>
       <source>Populate table</source>
       <comment>table window</comment>
-      <translation type="unfinished">Populate table</translation>
+      <translation>Kesteni toltırıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="232"/>
       <source>Refresh structure</source>
       <comment>table window</comment>
-      <translation type="unfinished">Refresh structure</translation>
+      <translation>Dúzilisti jańalaw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="234"/>
       <source>Commit structure changes</source>
       <comment>table window</comment>
-      <translation type="unfinished">Commit structure changes</translation>
+      <translation>Dúzilis ózgerislerin bekitiw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="235"/>
       <source>Rollback structure changes</source>
       <comment>table window</comment>
-      <translation type="unfinished">Rollback structure changes</translation>
+      <translation>Dúzilis ózgerislerin artqa qaytarıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="236"/>
       <source>Add column</source>
       <comment>table window</comment>
-      <translation type="unfinished">Add column</translation>
+      <translation>Qatar qosıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="237"/>
       <source>Edit column</source>
       <comment>table window</comment>
-      <translation type="unfinished">Edit column</translation>
+      <translation>Qatardı ózgertiw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="238"/>
       <location filename="../windows/tablewindow.cpp" line="330"/>
       <source>Delete column</source>
       <comment>table window</comment>
-      <translation type="unfinished">Delete column</translation>
+      <translation>Qatardı óshiriw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="239"/>
       <source>Move column up</source>
       <comment>table window</comment>
-      <translation type="unfinished">Move column up</translation>
+      <translation>Qatardı joqarıǵa jıljıtıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="240"/>
       <source>Move column down</source>
       <comment>table window</comment>
-      <translation type="unfinished">Move column down</translation>
+      <translation>Qatardı tómenge jıljıtıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="246"/>
       <source>Create similar table</source>
       <comment>table window</comment>
-      <translation type="unfinished">Create similar table</translation>
+      <translation>Uqsas keste jaratıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="247"/>
       <source>Reset autoincrement value</source>
       <comment>table window</comment>
-      <translation type="unfinished">Reset autoincrement value</translation>
+      <translation>Avtomatikalıq arttırıw mánisin qaytarıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="250"/>
       <source>Add table constraint</source>
       <comment>table window</comment>
-      <translation type="unfinished">Add table constraint</translation>
+      <translation>Keste sheklewin qosıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="251"/>
       <source>Edit table constraint</source>
       <comment>table window</comment>
-      <translation type="unfinished">Edit table constraint</translation>
+      <translation>Keste sheklewin ózgertiw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="252"/>
       <source>Delete table constraint</source>
       <comment>table window</comment>
-      <translation type="unfinished">Delete table constraint</translation>
+      <translation>Keste sheklewin óshiriw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="253"/>
       <source>Move table constraint up</source>
       <comment>table window</comment>
-      <translation type="unfinished">Move table constraint up</translation>
+      <translation>Keste sheklewin joqarıǵa jıljıtıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="254"/>
       <source>Move table constraint down</source>
       <comment>table window</comment>
-      <translation type="unfinished">Move table constraint down</translation>
+      <translation>Keste sheklewin tómenge jıljıtıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="256"/>
       <source>Add table primary key</source>
       <comment>table window</comment>
-      <translation type="unfinished">Add table primary key</translation>
+      <translation>Keste baslı giltin qosıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="257"/>
       <source>Add table foreign key</source>
       <comment>table window</comment>
-      <translation type="unfinished">Add table foreign key</translation>
+      <translation>Keste sırtqı giltin qosıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="258"/>
       <source>Add table unique constraint</source>
       <comment>table window</comment>
-      <translation type="unfinished">Add table unique constraint</translation>
+      <translation>Keste unikal sheklewin qosıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="259"/>
       <source>Add table check constraint</source>
       <comment>table window</comment>
-      <translation type="unfinished">Add table check constraint</translation>
+      <translation>Keste tekseriw sheklewin qosıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="242"/>
       <source>Import data to the table</source>
       <comment>table window</comment>
-      <translation type="unfinished">Import data to the table</translation>
+      <translation>Kestege maǵlıwmat import etiw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="277"/>
       <source>Refresh index list</source>
       <comment>table window</comment>
-      <translation type="unfinished">Refresh index list</translation>
+      <translation>Indeksler dizimin jańalaw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="279"/>
       <source>Create index</source>
       <comment>table window</comment>
-      <translation type="unfinished">Create index</translation>
+      <translation>Indeks jaratıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="280"/>
       <source>Edit index</source>
       <comment>table window</comment>
-      <translation type="unfinished">Edit index</translation>
+      <translation>Indeksti ózgertiw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="281"/>
       <source>Delete index</source>
       <comment>table window</comment>
-      <translation type="unfinished">Delete index</translation>
+      <translation>Indeksti óshiriw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="287"/>
       <source>Refresh trigger list</source>
       <comment>table window</comment>
-      <translation type="unfinished">Refresh trigger list</translation>
+      <translation>Triggerler dizimin jańalaw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="289"/>
       <source>Create trigger</source>
       <comment>table window</comment>
-      <translation type="unfinished">Create trigger</translation>
+      <translation>Trigger jaratıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="290"/>
       <source>Edit trigger</source>
       <comment>table window</comment>
-      <translation type="unfinished">Edit trigger</translation>
+      <translation>Triggerdi ózgertiw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="291"/>
       <source>Delete trigger</source>
       <comment>table window</comment>
-      <translation type="unfinished">Delete trigger</translation>
+      <translation>Triggerdi óshiriw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="329"/>
       <source>Are you sure you want to delete column &apos;%1&apos;?</source>
       <comment>table window</comment>
-      <translation type="unfinished">Are you sure you want to delete column &apos;%1&apos;?</translation>
+      <translation>&apos;%1&apos; qatarın óshiriwge isenimińiz kámil me?</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="380"/>
       <source>Following problems will take place while modifying the table.
 Would you like to proceed?</source>
       <comment>table window</comment>
-      <translation type="unfinished">Following problems will take place while modifying the table.
-Would you like to proceed?</translation>
+      <translation>Kesteni ózgertiw waqtında tómendegi máseleler júz beredi.
+Dawam etiwdi qáleysiz be?</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="382"/>
       <source>Table modification</source>
       <comment>table window</comment>
-      <translation type="unfinished">Table modification</translation>
+      <translation>Kesteni ózgertiw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="507"/>
       <source>Could not load data for table %1. Error details: %2</source>
-      <translation type="unfinished">Could not load data for table %1. Error details: %2</translation>
+      <translation>%1 kestesi ushın maǵlıwmattı júklew múmkin bolmadı. Qáte tolıǵı: %2</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="655"/>
       <source>Could not process the %1 table correctly. Unable to open a table window.</source>
-      <translation type="unfinished">Could not process the %1 table correctly. Unable to open a table window.</translation>
+      <translation>%1 kestesin durıs qayta islew múmkin bolmadı. Keste aynasın ashıp bolmaydı.</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="679"/>
       <source>Database</source>
-      <translation type="unfinished">Database</translation>
+      <translation>Maǵlıwmatlar bazası</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="722"/>
       <source>Could not restore window %1, because no database or table was stored in session for this window.</source>
-      <translation type="unfinished">Could not restore window %1, because no database or table was stored in session for this window.</translation>
+      <translation>%1 aynasın qayta tiklep bolmadı, sebebi bul ayna ushın sessiyada maǵlıwmatlar bazası yamasa keste saqlanbaǵan.</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="728"/>
       <source>Could not restore window &apos;%1&apos;, because no database or table was stored in session for this window.</source>
-      <translation type="unfinished">Could not restore window &apos;%1&apos;, because no database or table was stored in session for this window.</translation>
+      <translation>&apos;%1&apos; aynasın qayta tiklep bolmadı, sebebi bul ayna ushın sessiyada maǵlıwmatlar bazası yamasa keste saqlanbaǵan.</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="735"/>
       <source>Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</source>
-      <translation type="unfinished">Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</translation>
+      <translation>&apos;%1&apos; aynasın qayta tiklep bolmadı, sebebi %2 maǵlıwmatlar bazasın anıqlap bolmadı.</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="744"/>
       <source>Could not restore window &apos;%1&apos;, because the table %2 doesn&apos;t exist in the database %3.</source>
-      <translation type="unfinished">Could not restore window &apos;%1&apos;, because the table %2 doesn&apos;t exist in the database %3.</translation>
+      <translation>&apos;%1&apos; aynasın qayta tiklep bolmadı, sebebi %2 kestesi %3 maǵlıwmatlar bazasında joq.</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="775"/>
       <location filename="../windows/tablewindow.cpp" line="777"/>
       <source>New table %1</source>
-      <translation type="unfinished">New table %1</translation>
+      <translation>Jańa keste %1</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="918"/>
       <source>Committed changes for table &apos;%1&apos; successfully.</source>
-      <translation type="unfinished">Committed changes for table &apos;%1&apos; successfully.</translation>
+      <translation>&apos;%1&apos; kestesi ushın ózgerisler sátti bekitildi.</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="922"/>
       <source>Committed changes for table &apos;%1&apos; (named before &apos;%2&apos;) successfully.</source>
-      <translation type="unfinished">Committed changes for table &apos;%1&apos; (named before &apos;%2&apos;) successfully.</translation>
+      <translation>&apos;%1&apos; kestesi ushın ózgerisler (aldın &apos;%2&apos; dep atalǵan) sátti bekitildi.</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="962"/>
       <source>Could not commit table structure. Error message: %1</source>
       <comment>table window</comment>
-      <translation type="unfinished">Could not commit table structure. Error message: %1</translation>
+      <translation>Keste dúzilisin bekitip bolmadı. Qáte xabarı: %1</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="988"/>
       <source>Reset autoincrement</source>
-      <translation type="unfinished">Reset autoincrement</translation>
+      <translation>Avtomatikalıq arttırıwdı qaytarıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="988"/>
       <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
-      <translation type="unfinished">Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</translation>
+      <translation>&apos;%1&apos; kestesi ushın avtomatikalıq arttırıw mánisin qaytarıwǵa isenimińiz kámil me?</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="995"/>
       <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
-      <translation type="unfinished">An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</translation>
+      <translation>&apos;%1&apos; kestesi ushın avtomatikalıq arttırıw mánisin qaytarıwǵa háreket etilgende qáte júz berdi: %2</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="997"/>
       <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
-      <translation type="unfinished">Autoincrement value for table &apos;%1&apos; has been reset successfully.</translation>
+      <translation>&apos;%1&apos; kestesi ushın avtomatikalıq arttırıw mánisi sátti qaytarıldı.</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1085"/>
       <source>Empty name</source>
-      <translation type="unfinished">Empty name</translation>
+      <translation>Bos at</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1085"/>
       <source>A blank name for the table is allowed in SQLite, but it is not recommended.
 Are you sure you want to create a table with blank name?</source>
-      <translation type="unfinished">A blank name for the table is allowed in SQLite, but it is not recommended.
-Are you sure you want to create a table with blank name?</translation>
+      <translation>SQLite ta keste ushın bos atqa ruqsat etiledi, biraq usınılmaydı.
+Bos atlı keste jaratıwǵa isenimińiz kámil me?</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1094"/>
       <source>Cannot create a table without at least one column.</source>
-      <translation type="unfinished">Cannot create a table without at least one column.</translation>
+      <translation>Keminde bir qatarı bolmaǵan keste jaratıp bolmaydı.</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1119"/>
       <source>Cannot create table %1, if it has no primary key defined. Either uncheck the %2, or define a primary key.</source>
-      <translation type="unfinished">Cannot create table %1, if it has no primary key defined. Either uncheck the %2, or define a primary key.</translation>
+      <translation>Baslı gilt anıqlanbaǵan bolsa, %1 kestesin jaratıp bolmaydı. %2 belgisин alıp taslań yamasa baslı gilt anıqlań.</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1126"/>
       <source>Cannot use autoincrement for primary key when %1 clause is used. Either uncheck the %2, or the autoincrement in a primary key.</source>
-      <translation type="unfinished">Cannot use autoincrement for primary key when %1 clause is used. Either uncheck the %2, or the autoincrement in a primary key.</translation>
+      <translation>%1 klauzası paydalanılǵanda baslı gilt ushın avtomatikalıq arttırıwdı paydalanıp bolmaydı. %2 belgisин alıp taslań yamasa baslı gilttegi avtomatikalıq arttırıwdı óshiriń.</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1145"/>
       <source>Following columns have non-strict data type: %1. Either disable strict mode of the table, or fix column data types. Valid strict data types are: %2</source>
-      <translation type="unfinished">Following columns have non-strict data type: %1. Either disable strict mode of the table, or fix column data types. Valid strict data types are: %2</translation>
+      <translation>Tómendegi qatarларда qatań emes maǵlıwmat túri bar: %1. Kesteniń qatań rejimin óshiriń yamasa qatar maǵlıwmat túrlerin dúzetiń. Jararlı qatań maǵlıwmat túrleri: %2</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1327"/>
       <source>Are you sure you want to delete table constraint &apos;%1&apos;?</source>
       <comment>table window</comment>
-      <translation type="unfinished">Are you sure you want to delete table constraint &apos;%1&apos;?</translation>
+      <translation>&apos;%1&apos; keste sheklewin óshiriwge isenimińiz kámil me?</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1328"/>
       <source>Delete constraint</source>
       <comment>table window</comment>
-      <translation type="unfinished">Delete constraint</translation>
+      <translation>Sheklewdi óshiriw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1383"/>
       <source>Cannot export, because no export plugin is loaded.</source>
-      <translation type="unfinished">Cannot export, because no export plugin is loaded.</translation>
+      <translation>Eksport etip bolmaydı, sebebi eksport plagini júklenbegen.</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1396"/>
       <source>Cannot import, because no import plugin is loaded.</source>
-      <translation type="unfinished">Cannot import, because no import plugin is loaded.</translation>
+      <translation>Import etip bolmaydı, sebebi import plagini júklenbegen.</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1430"/>
       <source>Uncommitted changes</source>
-      <translation type="unfinished">Uncommitted changes</translation>
+      <translation>Bekitilmegen ózgerisler</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1431"/>
       <source>There are uncommitted structure modifications.</source>
-      <translation type="unfinished">There are uncommitted structure modifications.</translation>
+      <translation>Bekitilmegen dúzilis ózgerisleri bar.</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1433"/>
       <source>You cannot browse or edit data until you have table structure settled.
 Do you want to commit the structure, or do you want to go back to the structure tab?</source>
-      <translation type="unfinished">You cannot browse or edit data until you have table structure settled.
-Do you want to commit the structure, or do you want to go back to the structure tab?</translation>
+      <translation>Keste dúzilisi ornına kelmeyinshe maǵlıwmatlardı kóre yamasa ózgertip bolmaydı.
+Dúzilisti bekitiwdi qáleysiz be, yamasa dúzilis betine qaytıwdı qáleysiz be?</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1437"/>
       <source>Commit modifications and browse data</source>
-      <translation type="unfinished">Commit modifications and browse data</translation>
+      <translation>Ózgerislerdi bekitiw hám maǵlıwmatlardı kóriw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1436"/>
       <source>Go back to structure tab</source>
-      <translation type="unfinished">Go back to structure tab</translation>
+      <translation>Dúzilis betine qaytıw</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1644"/>
       <source>Name</source>
       <comment>table window indexes</comment>
-      <translation type="unfinished">Name</translation>
+      <translation>Atı</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1645"/>
       <source>Unique</source>
       <comment>table window indexes</comment>
-      <translation type="unfinished">Unique</translation>
+      <translation>Unikal</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1646"/>
       <source>Columns</source>
       <comment>table window indexes</comment>
-      <translation type="unfinished">Columns</translation>
+      <translation>Qatarlar</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1647"/>
       <source>Partial index condition</source>
       <comment>table window indexes</comment>
-      <translation type="unfinished">Partial index condition</translation>
+      <translation>Bólek indeks shárti</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1703"/>
       <source>Name</source>
       <comment>table window triggers</comment>
-      <translation type="unfinished">Name</translation>
+      <translation>Atı</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1704"/>
       <source>Event</source>
       <comment>table window triggers</comment>
-      <translation type="unfinished">Event</translation>
+      <translation>Hádiysе</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1705"/>
       <source>Condition</source>
       <comment>table window triggers</comment>
-      <translation type="unfinished">Condition</translation>
+      <translation>Shárt</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1706"/>
       <source>Details</source>
       <comment>table window triggers</comment>
-      <translation type="unfinished">Details</translation>
+      <translation>Tolıq maǵlıwmat</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1820"/>
       <source>Table window &quot;%1&quot; has uncommitted structure modifications and data.</source>
-      <translation type="unfinished">Table window &quot;%1&quot; has uncommitted structure modifications and data.</translation>
+      <translation>&quot;%1&quot; keste aynasında bekitilmegen dúzilis ózgerisleri hám maǵlıwmat bar.</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1822"/>
       <source>Table window &quot;%1&quot; has uncommitted data.</source>
-      <translation type="unfinished">Table window &quot;%1&quot; has uncommitted data.</translation>
+      <translation>&quot;%1&quot; keste aynasında bekitilmegen maǵlıwmat bar.</translation>
     </message>
     <message>
       <location filename="../windows/tablewindow.cpp" line="1824"/>
       <source>Table window &quot;%1&quot; has uncommitted structure modifications.</source>
-      <translation type="unfinished">Table window &quot;%1&quot; has uncommitted structure modifications.</translation>
+      <translation>&quot;%1&quot; keste aynasında bekitilmegen dúzilis ózgerisleri bar.</translation>
     </message>
   </context>
   <context>
@@ -8411,22 +8411,22 @@ Do you want to commit the structure, or do you want to go back to the structure 
     <message>
       <location filename="../dialogs/triggercolumnsdialog.ui" line="14"/>
       <source>Trigger columns</source>
-      <translation type="unfinished">Trigger columns</translation>
+      <translation>Trigger qatarları</translation>
     </message>
     <message>
       <location filename="../dialogs/triggercolumnsdialog.ui" line="47"/>
       <source>Triggering columns:</source>
-      <translation type="unfinished">Triggering columns:</translation>
+      <translation>Triggerdi iske túsiretuǵın qatarлар:</translation>
     </message>
     <message>
       <location filename="../dialogs/triggercolumnsdialog.ui" line="115"/>
       <source>Select all</source>
-      <translation type="unfinished">Select all</translation>
+      <translation>Hámmesin tańlaw</translation>
     </message>
     <message>
       <location filename="../dialogs/triggercolumnsdialog.ui" line="128"/>
       <source>Deselect all</source>
-      <translation type="unfinished">Deselect all</translation>
+      <translation>Hámmesin tańlawdan shıǵarıw</translation>
     </message>
   </context>
   <context>
@@ -8435,100 +8435,100 @@ Do you want to commit the structure, or do you want to go back to the structure 
       <location filename="../dialogs/triggerdialog.ui" line="14"/>
       <location filename="../dialogs/triggerdialog.ui" line="24"/>
       <source>Trigger</source>
-      <translation type="unfinished">Trigger</translation>
+      <translation>Triger</translation>
     </message>
     <message>
       <location filename="../dialogs/triggerdialog.ui" line="30"/>
       <source>On table:</source>
-      <translation type="unfinished">On table:</translation>
+      <translation>Kestede:</translation>
     </message>
     <message>
       <location filename="../dialogs/triggerdialog.ui" line="40"/>
       <source>Action:</source>
-      <translation type="unfinished">Action:</translation>
+      <translation>Háreket:</translation>
     </message>
     <message>
       <location filename="../dialogs/triggerdialog.ui" line="56"/>
       <location filename="../dialogs/triggerdialog.ui" line="127"/>
       <source>&lt;p&gt;SQL condition that will be evaluated before the actual trigger code. In case the condition returns false, the trigger will not be fired for that row.&lt;/p&gt;</source>
-      <translation type="unfinished">&lt;p&gt;SQL condition that will be evaluated before the actual trigger code. In case the condition returns false, the trigger will not be fired for that row.&lt;/p&gt;</translation>
+      <translation>&lt;p&gt;Haqıyqıy trigger kodınan aldın bahalanatuǵın SQL shárti. Eger shárt false qaytarsa, bul jol ushın trigger iske túspeydi.&lt;/p&gt;</translation>
     </message>
     <message>
       <location filename="../dialogs/triggerdialog.ui" line="59"/>
       <source>Pre-condition:</source>
-      <translation type="unfinished">Pre-condition:</translation>
+      <translation>Aldınǵı shárt:</translation>
     </message>
     <message>
       <location filename="../dialogs/triggerdialog.ui" line="66"/>
       <source>The scope is still not fully supported by the SQLite database.</source>
-      <translation type="unfinished">The scope is still not fully supported by the SQLite database.</translation>
+      <translation>Qamtıw kólemi SQLite maǵlıwmatlar bazası tárepinen ele tolıq qollap-quwatlanbaydı.</translation>
     </message>
     <message>
       <location filename="../dialogs/triggerdialog.ui" line="73"/>
       <source>Trigger name:</source>
-      <translation type="unfinished">Trigger name:</translation>
+      <translation>Trigger atı:</translation>
     </message>
     <message>
       <location filename="../dialogs/triggerdialog.ui" line="80"/>
       <source>When:</source>
-      <translation type="unfinished">When:</translation>
+      <translation>Qashan:</translation>
     </message>
     <message>
       <location filename="../dialogs/triggerdialog.ui" line="87"/>
       <source>List of columns for UPDATE OF action.</source>
-      <translation type="unfinished">List of columns for UPDATE OF action.</translation>
+      <translation>UPDATE OF háreketi ushın qatarlar dizimi.</translation>
     </message>
     <message>
       <location filename="../dialogs/triggerdialog.ui" line="97"/>
       <source>Scope:</source>
-      <translation type="unfinished">Scope:</translation>
+      <translation>Qamtıw kólemi:</translation>
     </message>
     <message>
       <location filename="../dialogs/triggerdialog.ui" line="104"/>
       <source>Code:</source>
-      <translation type="unfinished">Code:</translation>
+      <translation>Kod:</translation>
     </message>
     <message>
       <location filename="../dialogs/triggerdialog.ui" line="111"/>
       <source>Trigger statements to be executed.</source>
-      <translation type="unfinished">Trigger statements to be executed.</translation>
+      <translation>Orınlanatuǵın trigger operatorları.</translation>
     </message>
     <message>
       <location filename="../dialogs/triggerdialog.ui" line="138"/>
       <source>DDL</source>
-      <translation type="unfinished">DDL</translation>
+      <translation>DDL</translation>
     </message>
     <message>
       <location filename="../dialogs/triggerdialog.cpp" line="154"/>
       <source>On view:</source>
-      <translation type="unfinished">On view:</translation>
+      <translation>Kóriniste:</translation>
     </message>
     <message>
       <location filename="../dialogs/triggerdialog.cpp" line="178"/>
       <source>Could not process trigger %1 correctly. Unable to open a trigger dialog.</source>
-      <translation type="unfinished">Could not process trigger %1 correctly. Unable to open a trigger dialog.</translation>
+      <translation>%1 triggerin durıs qayta islew múmkin bolmadı. Trigger dialogın ashıp bolmaydı.</translation>
     </message>
     <message>
       <location filename="../dialogs/triggerdialog.cpp" line="349"/>
       <source>Enter a valid condition.</source>
-      <translation type="unfinished">Enter a valid condition.</translation>
+      <translation>Jararlı shárt kirgiziń.</translation>
     </message>
     <message>
       <location filename="../dialogs/triggerdialog.cpp" line="350"/>
       <source>Enter a valid trigger code.</source>
-      <translation type="unfinished">Enter a valid trigger code.</translation>
+      <translation>Jararlı trigger kodın kirgiziń.</translation>
     </message>
     <message>
       <location filename="../dialogs/triggerdialog.cpp" line="428"/>
       <source>Error</source>
       <comment>trigger dialog</comment>
-      <translation type="unfinished">Error</translation>
+      <translation>Qáte</translation>
     </message>
     <message>
       <location filename="../dialogs/triggerdialog.cpp" line="428"/>
       <source>An error occurred while executing SQL statements:
 %1</source>
-      <translation type="unfinished">An error occurred while executing SQL statements:
+      <translation>SQL operatorların orınlaw waqtında qáte júz berdi:
 %1</translation>
     </message>
   </context>
@@ -8537,22 +8537,22 @@ Do you want to commit the structure, or do you want to go back to the structure 
     <message>
       <location filename="../dialogs/versionconvertsummarydialog.ui" line="14"/>
       <source>Database version convert</source>
-      <translation type="unfinished">Database version convert</translation>
+      <translation>Maǵlıwmatlar bazası versiyasın túrlendiriw</translation>
     </message>
     <message>
       <location filename="../dialogs/versionconvertsummarydialog.ui" line="20"/>
       <source>Following changes to the SQL statements will be made:</source>
-      <translation type="unfinished">Following changes to the SQL statements will be made:</translation>
+      <translation>SQL operatorlarına tómendegi ózgerisler kirgiziledi:</translation>
     </message>
     <message>
       <location filename="../dialogs/versionconvertsummarydialog.cpp" line="10"/>
       <source>Before</source>
-      <translation type="unfinished">Before</translation>
+      <translation>Aldın</translation>
     </message>
     <message>
       <location filename="../dialogs/versionconvertsummarydialog.cpp" line="11"/>
       <source>After</source>
-      <translation type="unfinished">After</translation>
+      <translation>Keyin</translation>
     </message>
   </context>
   <context>
@@ -8560,313 +8560,313 @@ Do you want to commit the structure, or do you want to go back to the structure 
     <message>
       <location filename="../windows/viewwindow.ui" line="36"/>
       <source>Query</source>
-      <translation type="unfinished">Query</translation>
+      <translation>Soraw</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.ui" line="70"/>
       <source>View name:</source>
-      <translation type="unfinished">View name:</translation>
+      <translation>Kórinis atı:</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.ui" line="123"/>
       <source>Output column names</source>
-      <translation type="unfinished">Output column names</translation>
+      <translation>Shıǵıw qatarlarınıń atları</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.ui" line="170"/>
       <location filename="../windows/viewwindow.cpp" line="939"/>
       <source>Data</source>
-      <translation type="unfinished">Data</translation>
+      <translation>Maǵlıwmat</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.ui" line="180"/>
       <source>Triggers</source>
-      <translation type="unfinished">Triggers</translation>
+      <translation>Triggerler</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.ui" line="215"/>
       <source>DDL</source>
-      <translation type="unfinished">DDL</translation>
+      <translation>DDL</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="110"/>
       <location filename="../windows/viewwindow.cpp" line="116"/>
       <source>Could not restore window &apos;%1&apos;, because no database or view was stored in session for this window.</source>
-      <translation type="unfinished">Could not restore window &apos;%1&apos;, because no database or view was stored in session for this window.</translation>
+      <translation>&apos;%1&apos; aynasın qayta tiklep bolmadı, sebebi bul ayna ushın sessiyada maǵlıwmatlar bazası yamasa kórinis saqlanbaǵan.</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="123"/>
       <source>Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</source>
-      <translation type="unfinished">Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</translation>
+      <translation>&apos;%1&apos; aynasın qayta tiklep bolmadı, sebebi %2 maǵlıwmatlar bazasın anıqlap bolmadı.</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="129"/>
       <source>Could not restore window &apos;%1&apos;, because database %2 could not be open.</source>
-      <translation type="unfinished">Could not restore window &apos;%1&apos;, because database %2 could not be open.</translation>
+      <translation>&apos;%1&apos; aynasın qayta tiklep bolmadı, sebebi %2 maǵlıwmatlar bazasın ashıp bolmadı.</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="138"/>
       <source>Could not restore window &apos;%1&apos;, because the view %2 doesn&apos;t exist in the database %3.</source>
-      <translation type="unfinished">Could not restore window &apos;%1&apos;, because the view %2 doesn&apos;t exist in the database %3.</translation>
+      <translation>&apos;%1&apos; aynasın qayta tiklep bolmadı, sebebi %2 kórinisi %3 maǵlıwmatlar bazasında joq.</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="169"/>
       <location filename="../windows/viewwindow.cpp" line="171"/>
       <source>New view %1</source>
-      <translation type="unfinished">New view %1</translation>
+      <translation>Jańa kórinis %1</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="294"/>
       <source>Database</source>
-      <translation type="unfinished">Database</translation>
+      <translation>Maǵlıwmatlar bazası</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="349"/>
       <source>Refresh the view</source>
       <comment>view window</comment>
-      <translation type="unfinished">Refresh the view</translation>
+      <translation>Kórinisti jańalaw</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="351"/>
       <source>Commit the view changes</source>
       <comment>view window</comment>
-      <translation type="unfinished">Commit the view changes</translation>
+      <translation>Kórinis ózgerislerin bekitiw</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="352"/>
       <source>Rollback the view changes</source>
       <comment>view window</comment>
-      <translation type="unfinished">Rollback the view changes</translation>
+      <translation>Kórinis ózgerislerin artqa qaytarıw</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="356"/>
       <source>Explicit column names</source>
-      <translation type="unfinished">Explicit column names</translation>
+      <translation>Anıq qatar atları</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="362"/>
       <source>Generate output column names automatically basing on result columns of the view.</source>
-      <translation type="unfinished">Generate output column names automatically basing on result columns of the view.</translation>
+      <translation>Kórinistiń nátiyje qatarlarına súyenip shıǵıw qatar atların avtomatikalıq jaratıw.</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="363"/>
       <source>Add column</source>
       <comment>view window</comment>
-      <translation type="unfinished">Add column</translation>
+      <translation>Qatar qosıw</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="364"/>
       <source>Edit column</source>
       <comment>view window</comment>
-      <translation type="unfinished">Edit column</translation>
+      <translation>Qatardı ózgertiw</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="365"/>
       <source>Delete column</source>
       <comment>view window</comment>
-      <translation type="unfinished">Delete column</translation>
+      <translation>Qatardı óshiriw</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="366"/>
       <source>Move column up</source>
       <comment>view window</comment>
-      <translation type="unfinished">Move column up</translation>
+      <translation>Qatardı joqarıǵa jıljıtıw</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="367"/>
       <source>Move column down</source>
       <comment>view window</comment>
-      <translation type="unfinished">Move column down</translation>
+      <translation>Qatardı tómenge jıljıtıw</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="369"/>
       <source>Export view</source>
       <comment>view window</comment>
-      <translation type="unfinished">Export view</translation>
+      <translation>Kórinisti eksport etiw</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="378"/>
       <source>Refresh trigger list</source>
       <comment>view window</comment>
-      <translation type="unfinished">Refresh trigger list</translation>
+      <translation>Triggerler dizimin jańalaw</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="380"/>
       <source>Create new trigger</source>
       <comment>view window</comment>
-      <translation type="unfinished">Create new trigger</translation>
+      <translation>Jańa trigger jaratıw</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="381"/>
       <source>Edit selected trigger</source>
       <comment>view window</comment>
-      <translation type="unfinished">Edit selected trigger</translation>
+      <translation>Tańlanǵan triggerdi ózgertiw</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="382"/>
       <source>Delete selected trigger</source>
       <comment>view window</comment>
-      <translation type="unfinished">Delete selected trigger</translation>
+      <translation>Tańlanǵan triggerdi óshiriw</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="403"/>
       <source>View window &quot;%1&quot; has uncommitted structure modifications and data.</source>
-      <translation type="unfinished">View window &quot;%1&quot; has uncommitted structure modifications and data.</translation>
+      <translation>&quot;%1&quot; kórinis aynasında bekitilmegen dúzilis ózgerisleri hám maǵlıwmat bar.</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="405"/>
       <source>View window &quot;%1&quot; has uncommitted data.</source>
-      <translation type="unfinished">View window &quot;%1&quot; has uncommitted data.</translation>
+      <translation>&quot;%1&quot; kórinis aynasında bekitilmegen maǵlıwmat bar.</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="407"/>
       <source>View window &quot;%1&quot; has uncommitted structure modifications.</source>
-      <translation type="unfinished">View window &quot;%1&quot; has uncommitted structure modifications.</translation>
+      <translation>&quot;%1&quot; kórinis aynasında bekitilmegen dúzilis ózgerisleri bar.</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="638"/>
       <source>Could not load data for view %1. Error details: %2</source>
-      <translation type="unfinished">Could not load data for view %1. Error details: %2</translation>
+      <translation>%1 kórinisi ushın maǵlıwmattı júklew múmkin bolmadı. Qáte tolıǵı: %2</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="650"/>
       <source>Uncommitted changes</source>
-      <translation type="unfinished">Uncommitted changes</translation>
+      <translation>Bekitilmegen ózgerisler</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="651"/>
       <source>There are uncommitted structure modifications.</source>
-      <translation type="unfinished">There are uncommitted structure modifications.</translation>
+      <translation>Bekitilmegen dúzilis ózgerisleri bar.</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="653"/>
       <source>You cannot browse or edit data until you have the view structure settled.
 Do you want to commit the structure, or do you want to go back to the structure tab?</source>
-      <translation type="unfinished">You cannot browse or edit data until you have the view structure settled.
-Do you want to commit the structure, or do you want to go back to the structure tab?</translation>
+      <translation>Kórinis dúzilisi ornına kelmeyinshe maǵlıwmatlardı kóre yamasa ózgertip bolmaydı.
+Dúzilisti bekitiwdi qáleysiz be, yamasa dúzilis betine qaytıwdı qáleysiz be?</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="657"/>
       <source>Commit modifications and browse data</source>
-      <translation type="unfinished">Commit modifications and browse data</translation>
+      <translation>Ózgerislerdi bekitiw hám maǵlıwmatlardı kóriw</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="1085"/>
       <source>The view could not be modified due to internal Letos error. Please report this!</source>
-      <translation type="unfinished">The view could not be modified due to internal Letos error. Please report this!</translation>
+      <translation>Ishki Letos qátesi sebepli kórinisti ózgertip bolmadı. Iltimas, bul haqqında xabar beriń!</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="1111"/>
       <source>The view code could not be parsed properly for execution. This is a Letos&apos;s bug. Please report it.</source>
-      <translation type="unfinished">The view code could not be parsed properly for execution. This is a Letos&apos;s bug. Please report it.</translation>
+      <translation>Kórinis kodın orınlaw ushın durıs taldap bolmadı. Bul Letos&apos; qátesi. Iltimas, bul haqqında xabar beriń.</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="656"/>
       <source>Go back to structure tab</source>
-      <translation type="unfinished">Go back to structure tab</translation>
+      <translation>Dúzilis betine qaytıw</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="709"/>
       <source>View &apos;%1&apos; was committed successfully.</source>
-      <translation type="unfinished">View &apos;%1&apos; was committed successfully.</translation>
+      <translation>&apos;%1&apos; kórinisi sátti bekitildi.</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="711"/>
       <source>Committed changes for view &apos;%1&apos; successfully.</source>
-      <translation type="unfinished">Committed changes for view &apos;%1&apos; successfully.</translation>
+      <translation>&apos;%1&apos; kórinisi ushın ózgerisler sátti bekitildi.</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="713"/>
       <source>Committed changes for view &apos;%1&apos; (named before &apos;%2&apos;) successfully.</source>
-      <translation type="unfinished">Committed changes for view &apos;%1&apos; (named before &apos;%2&apos;) successfully.</translation>
+      <translation>&apos;%1&apos; kórinisi ushın ózgerisler (aldın &apos;%2&apos; dep atalǵan) sátti bekitildi.</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="736"/>
       <source>Could not commit view changes. Error message: %1</source>
       <comment>view window</comment>
-      <translation type="unfinished">Could not commit view changes. Error message: %1</translation>
+      <translation>Kórinis ózgerislerin bekitip bolmadı. Qáte xabarı: %1</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="880"/>
       <source>Override columns</source>
-      <translation type="unfinished">Override columns</translation>
+      <translation>Qatarlardı ústinen jazıw</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="880"/>
       <source>Currently defined columns will be overriden. Do you want to continue?</source>
-      <translation type="unfinished">Currently defined columns will be overriden. Do you want to continue?</translation>
+      <translation>Házir anıqlanǵan qatarlar ústinen jazıladı. Dawam etiwdi qáleysiz be?</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="903"/>
       <source>Could not determinate columns returned from the view. The query is problably incomplete or contains errors.</source>
-      <translation type="unfinished">Could not determinate columns returned from the view. The query is problably incomplete or contains errors.</translation>
+      <translation>Kórinisten qaytarılatuǵın qatarларды anıqlap bolmadı. Soraw itimallı tolıq emes yamasa qátelerdi qamtıydı.</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="922"/>
       <source>Cannot export, because no export plugin is loaded.</source>
-      <translation type="unfinished">Cannot export, because no export plugin is loaded.</translation>
+      <translation>Eksport etip bolmaydı, sebebi eksport plagini júklenbegen.</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="971"/>
       <source>Name</source>
       <comment>view window triggers</comment>
-      <translation type="unfinished">Name</translation>
+      <translation>Atı</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="972"/>
       <source>Instead of</source>
       <comment>view window triggers</comment>
-      <translation type="unfinished">Instead of</translation>
+      <translation>Ornına</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="973"/>
       <source>Condition</source>
       <comment>view window triggers</comment>
-      <translation type="unfinished">Condition</translation>
+      <translation>Shárt</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="974"/>
       <source>Details</source>
       <comment>table window triggers</comment>
-      <translation type="unfinished">Details</translation>
+      <translation>Tolıq maǵlıwmat</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="1018"/>
       <source>Could not process the %1 view correctly. Unable to open a view window.</source>
-      <translation type="unfinished">Could not process the %1 view correctly. Unable to open a view window.</translation>
+      <translation>%1 kórinisin durıs qayta islew múmkin bolmadı. Kórinis aynasın ashıp bolmaydı.</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="1065"/>
       <source>Empty name</source>
-      <translation type="unfinished">Empty name</translation>
+      <translation>Bos at</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="1065"/>
       <source>A blank name for the view is allowed in SQLite, but it is not recommended.
 Are you sure you want to create a view with blank name?</source>
-      <translation type="unfinished">A blank name for the view is allowed in SQLite, but it is not recommended.
-Are you sure you want to create a view with blank name?</translation>
+      <translation>SQLite ta kórinis ushın bos atqa ruqsat etiledi, biraq usınılmaydı.
+Bos atlı kórinis jaratıwǵa isenimińiz kámil me?</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="1077"/>
       <source>The SELECT statement could not be parsed. Please correct the query and retry.
 Details: %1</source>
-      <translation type="unfinished">The SELECT statement could not be parsed. Please correct the query and retry.
-Details: %1</translation>
+      <translation>SELECT operatorın taldap bolmadı. Iltimas, sorawdı dúzetip qayta háreket etiń.
+Tolıq maǵlıwmat: %1</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="1123"/>
       <source>Following problems will take place while modifying the view.
 Would you like to proceed?</source>
       <comment>view window</comment>
-      <translation type="unfinished">Following problems will take place while modifying the view.
-Would you like to proceed?</translation>
+      <translation>Kórinisti ózgertiw waqtında tómendegi máseleler júz beredi.
+Dawam etiwdi qáleysiz be?</translation>
     </message>
     <message>
       <location filename="../windows/viewwindow.cpp" line="1125"/>
       <source>View modification</source>
       <comment>view window</comment>
-      <translation type="unfinished">View modification</translation>
+      <translation>Kórinisti ózgertiw</translation>
     </message>
   </context>
   <context>
@@ -8874,7 +8874,7 @@ Would you like to proceed?</translation>
     <message>
       <location filename="../common/widgetcover.cpp" line="242"/>
       <source>Interrupt</source>
-      <translation type="unfinished">Interrupt</translation>
+      <translation>Toqtatıw</translation>
     </message>
   </context>
 </TS>
