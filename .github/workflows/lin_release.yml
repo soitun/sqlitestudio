@@ -245,6 +245,15 @@ jobs:
                 sudo apt-get install libreadline-dev libncurses5-dev patchelf
                 echo "${{ github.workspace }}/../Qt/${{ env.QT_VERSION }}/gcc_64/bin" >> $GITHUB_PATH
 
+            - name: Checkout private Icons8 repo
+              uses: actions/checkout@v6
+              with:
+                repository: pawelsalawa/letos-icons8
+                ref: main
+                path: icons8
+                ssh-key: ${{ secrets.LETOS_ICONS8_DEPLOY_KEY }}
+                persist-credentials: false
+
             - name: Prepare output dir
               run: mkdir output output/build output/build-plugins
 
@@ -257,7 +266,8 @@ jobs:
                     -DCMAKE_INSTALL_PREFIX=../Letos \
                     -DWITH_PORTABLE=1 \
                     -DWITH_UPDATER=1 \
-                    -DBUILD_TESTING=0
+                    -DBUILD_TESTING=0 \
+                    -DQRC_EXTRA_ICONSETS=../../icons8/icons8.qrc
                 cmake --build . --verbose
                 cmake --install . --verbose
 
