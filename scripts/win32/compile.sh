@@ -31,6 +31,7 @@ done
 
 SQLITE_DIR="$(realpath -m "$(pwd)/../sqlite")"
 EXT_DIR="$(realpath -m "$(pwd)/../ext")"
+ICONS8_DIR="$(realpath -m "$(pwd)/icons8")"
 
 if [[ ! -d "$SQLITE_DIR" ]]; then
     echo "Error: directory $SQLITE_DIR does not exist. You should have this directory and sqlite3.dll in it."
@@ -43,6 +44,12 @@ if [[ ! -f "$SQLITE_DIR/sqlite3.dll" ]]; then
 	echo "You can use sqlite3.dll from official https://sqlite.org, or you can use Letos-dedicated compilation from https://github.com/pawelsalawa/sqlite3-letos/releases"
 	echo "You can use compile_sqlite_and_ext.sh to do it for you."
     exit 1
+fi
+
+if [[ -d "$ICONS8_DIR" ]]; then
+    ICONS8="$ICONS8_DIR/icons8.qrc"
+else
+    ICONS8=""
 fi
 
 if [[ ! -f "$SQLITE_DIR/sqlite3.def" ]]; then
@@ -69,7 +76,8 @@ cmake ../../Letos/ -G Ninja \
     -DWITH_PORTABLE=1 \
     -DWITH_UPDATER=1 \
     -DBUILD_TESTING=0 \
-    -DCUSTOM_SQLITE3="$SQLITE_DIR"
+    -DCUSTOM_SQLITE3="$SQLITE_DIR" \
+    -DQRC_EXTRA_ICONSETS="$ICONS8"
 cmake --build .
 cmake --install .
 

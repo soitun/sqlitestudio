@@ -308,6 +308,15 @@ jobs:
                    ../lib
                 cp $TCL_ROOT_DIR/lib/libtcl*.dylib ../lib
 
+            - name: Checkout private Icons8 repo
+              uses: actions/checkout@v6
+              with:
+                repository: pawelsalawa/letos-icons8
+                ref: main
+                path: icons8
+                token: ${{ secrets.LETOS_ICONS8_PAT }}
+                persist-credentials: false
+
             - name: Prepare output dir
               run: mkdir output output/build output/build-plugins
 
@@ -323,9 +332,11 @@ jobs:
                     -DCUSTOM_SQLITE3=$GITHUB_WORKSPACE/../sqlite \
                     -DWITH_PORTABLE=1 \
                     -DWITH_UPDATER=1 \
-                    -DBUILD_TESTING=0
+                    -DBUILD_TESTING=0 \
+                    -DQRC_EXTRA_ICONSETS=../../icons8/icons8.qrc
                 cmake --build . --verbose
                 cmake --install . --verbose
+                rm -rf ../../icons8
 
             - name: Compile Plugins
               working-directory: output/build-plugins
@@ -454,7 +465,9 @@ jobs:
                     github.repository_owner == 'pawelsalawa'
                     && (inputs.debug_ssh || (failure() && inputs.debug_on_failure))
                 }}
-              run: brew install mc
+              run: |
+                rm -rf icons8
+                brew install mc
 
             - name: Setup debugging SSH
               if: >
