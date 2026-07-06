@@ -44,7 +44,7 @@
 
 DEFINE_SINGLETON(Letos)
 
-static const int letosVersion = 40000;
+static const int letosVersion = 40001;
 
 Letos::Letos()
 {
