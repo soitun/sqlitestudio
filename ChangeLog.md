@@ -1,7 +1,8 @@
 # ChangeLog
 
 ### 4.0.2
-- BIGFIX: #5755 Grid View column header separator is now easier to grab or double-click.
+- BUGFIX: #5755 Grid View column header separator is now easier to grab or double-click.
+- BUGFIX: #5744 Fixed cmd+c in Grid View for macOS with russian keyboard input.
 
 ### 4.0.1
 - ADDED: #5402 User Interface scaling can be now configured for whole application from the configuration dialog (Look & Feel page).
