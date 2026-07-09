@@ -1105,10 +1105,7 @@ void SqlQueryView::keyPressEvent(QKeyEvent *e)
     const QString txt = e->text();
     bool shouldOpenEditor = false;
     if (!txt.isEmpty() && txt.at(0).isPrint() &&
-        !(
-            (e->modifiers() & (Qt::ControlModifier|Qt::MetaModifier)) &&
-            (txt == "c" || txt == "x" || txt == "v")
-        ) &&
+        !(e->modifiers() & (Qt::ControlModifier|Qt::MetaModifier)) &&
         state() != QAbstractItemView::EditingState)
     {
         shouldOpenEditor = true;
