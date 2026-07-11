@@ -1104,12 +1104,8 @@ void SqlQueryView::keyPressEvent(QKeyEvent *e)
     // Default implementation caused problem with Polish characters under Windows (#5364)
     const QString txt = e->text();
     bool shouldOpenEditor = false;
-    if (!txt.isEmpty() && txt.at(0).isPrint() &&
-        !(e->modifiers() & (Qt::ControlModifier|Qt::MetaModifier)) &&
-        state() != QAbstractItemView::EditingState)
-    {
+    if (!txt.isEmpty() && txt.at(0).isPrint() && state() != QAbstractItemView::EditingState)
         shouldOpenEditor = true;
-    }
 
     QTableView::keyPressEvent(e);
 
