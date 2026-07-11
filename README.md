@@ -2,7 +2,7 @@
 A free, open source, multi-platform SQLite database manager written in C++, with use of Qt framework.
 
 ### Formerly SQLiteStudio
-This project was previously known as SQLiteStudio. The name was changed to avoid confusion with the official SQLite project, as Letos is an independent application not affiliated with the SQLite authors.
+This project was previously known as SQLiteStudio. The name was changed to avoid confusion with the official SQLite project, as Letos is an independent application not affiliated with the SQLite authors. More details [here](https://github.com/pawelsalawa/letos/wiki/FAQ#why-did-the-project-change-name-to-letos).
 
 # Download
 
